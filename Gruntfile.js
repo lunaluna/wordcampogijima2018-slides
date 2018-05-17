@@ -132,7 +132,7 @@ module.exports = function(grunt) {
 				tasks: 'css-themes'
 			},
 			css: {
-				files: [ 'css/reveal.scss' ],
+				files: [ 'css/*.scss' ],
 				tasks: 'css-core'
 			},
 			html: {
@@ -164,7 +164,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-retire' );
 	grunt.loadNpmTasks( 'grunt-sass' );
 	grunt.loadNpmTasks( 'grunt-zip' );
-	
+
 	// Default task
 	grunt.registerTask( 'default', [ 'css', 'js' ] );
 
