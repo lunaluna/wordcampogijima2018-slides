@@ -1,6 +1,50 @@
-/* Include theme-specific fonts
+@charset "UTF-8";
+/****************************************************
+/*
+/* slide config
+/*
+****************************************************/
+/* slide common style
 ****************************************************/
 @import url(../../lib/font/noto-sans-cjk-jp/NotoSansCJKjp.css);
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+ul, ol {
+  padding: 0;
+  margin: 0; }
+
+embed, iframe, object {
+  max-width: 100%; }
+
+/****************************************************
+/*
+/* slide style
+/*
+****************************************************/
+/* Custom classes
+****************************************************/
+/* clearfix ************************************/
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+/* Custom mixins
+****************************************************/
+/* 文字サイズ出力 ************************************/
+/* 上下左右中央レイアウト ************************************/
+/* mediaQuery ************************************/
+/* iframe responsive ************************************/
+/* Include theme-specific fonts
+****************************************************/
 /* override black.css
 ****************************************************/
 .reveal {
@@ -10,11 +54,68 @@
     font-weight: 700;
     line-height: 1.25; }
   .reveal h1 {
-    font-size: 1.8em; }
+    font-size: 1.5em;
+    line-height: 1.35; }
+    .reveal h1 span {
+      display: block;
+      width: 100%;
+      font-size: .75em;
+      text-align: left;
+      padding: 0 10%;
+      margin-bottom: .5em; }
+  .reveal h2 {
+    font-size: 1.25em;
+    font-weight: 500; }
 
+.reveal .slidepage {
+  position: relative;
+  padding-bottom: 72px; }
+  .reveal .slidepage .pagecaption {
+    position: absolute;
+    height: 72px; }
+
+/****************************************************
+/*
+/* page style
+/*
+****************************************************/
 /* slide page
 ****************************************************/
+.reveal section:not(.front-page) .pagecaption {
+  speak: none; }
+  .reveal section:not(.front-page) .pagecaption .left {
+    font-size: .5em; }
+
+.reveal .front-page .front-WCOtitle {
+  font-size: 1em;
+  font-weight: normal;
+  text-transform: capitalize; }
+
 /* slide common content
 ****************************************************/
 .reveal .pagecaption {
-  overflow: hidden; }
+  width: 100%;
+  display: flex; }
+  .reveal .pagecaption .left,
+  .reveal .pagecaption .right {
+    margin: 0; }
+  .reveal .pagecaption .left {
+    display: inline-block;
+    text-align: left;
+    margin-right: auto; }
+  .reveal .pagecaption .right {
+    display: inline-block;
+    text-align: right; }
+  .reveal .pagecaption .front-logo img,
+  .reveal .pagecaption .slide-wapuu img,
+  .reveal .pagecaption .slide-logo img {
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin: 0; }
+  .reveal .pagecaption .front-logo img {
+    width: 10%; }
+  .reveal .pagecaption .slide-wapuu img {
+    width: 100%; }
+  .reveal .pagecaption .slide-logo img {
+    width: 15%; }

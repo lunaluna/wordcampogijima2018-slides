@@ -1,0 +1,63 @@
+/* 文字サイズ出力 ************************************/
+// font-size
+// $size : 文字サイズ
+@mixin fontsize($size: $font-size) {
+  font-size: ($size / $font-size) * 1rem;
+}
+
+// レスポンシブな文字サイズ
+// $fontsize : デザイン上の文字サイズ
+// $designwidth : デザインのウィンドウ幅
+@mixin vwfont( $fontsize, $designwidth:768px ) {
+  font-size: ( $fontsize / $designwidth ) * 100vw;
+}
+
+/* 上下左右中央レイアウト ************************************/
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* mediaQuery ************************************/
+@mixin media($size) {
+  @if $size == xs {
+    @media ( min-width: 0 ) {
+      @content;
+    }
+  } @else if $size == sm {
+    @media ( min-width: 576px ) {
+      @content;
+    }
+  } @else if $size == md {
+    @media ( min-width: 768px ) {
+      @content;
+    }
+  } @else if $size == lg {
+    @media ( min-width: 992px ) {
+      @content;
+    }
+  } @else if $size == xl {
+    @media ( min-width: 1200px ) {
+      @content;
+    }
+  } @else {
+    @media ( min-width: $size ) {
+      @content;
+    }
+  }
+}
+
+/* iframe responsive ************************************/
+@mixin iframe {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
