@@ -118,11 +118,35 @@ embed, iframe, object {
       text-transform: capitalize;
     }
   }
+  .page01 {
+    .slide-link {
+      font-size: 1.8em;
+      padding: 120px 0;
+    }
+  }
+  .page02 {
+    a {
+      display: block;
+    }
+    .artist-image {
+      display: block;
+      width: 50%;
+      margin: 0 auto 10px;
+      figcaption {
+        font-size: .75em;
+      }
+    }
+  }
 }
 
 /* slide common content
 ****************************************************/
 .reveal {
+  .pagenum {
+    font-size: .5em;
+    text-align: right;
+    padding: 0 50px;
+  }
   .pagecaption {
     width: 100%;
     display: flex;
