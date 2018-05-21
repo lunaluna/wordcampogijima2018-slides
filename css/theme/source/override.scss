@@ -54,7 +54,7 @@ embed, iframe, object {
 ****************************************************/
 @import url(../../lib/font/noto-sans-cjk-jp/NotoSansCJKjp.css);
 
-/* override black.css
+/* override white.css
 ****************************************************/
 .reveal {
   font-family: 'NotoSansCJKjp', sans-serif;
@@ -80,16 +80,39 @@ embed, iframe, object {
     font-size: 1.25em;
     font-weight: 500;
   }
+  section {
+    img {
+      border: none;
+    }
+  }
+  a {
+    text-decoration: underline;
+    img {
+      border: none;
+    }
+  }
 }
 
+/* slide common content
+****************************************************/
 .reveal {
+  .page-title {
+      text-transform: normal;
+    }
   .slidepage {
     position: relative;
     padding-bottom: 72px;
     .pagecaption {
       position: absolute;
-      height: 72px;
+      height: 60px;
     }
+  }
+  .nombre {
+    position: absolute;
+    right: 10px;
+    bottom: 60px;
+    font-size: .5em;
+    text-align: right;
   }
 }
 
@@ -100,19 +123,74 @@ embed, iframe, object {
 /*
 ****************************************************/
 
-/* slide page
+/* slide common page
 ****************************************************/
 .reveal {
-  .start-page01,.start-page02,.start-page03,.front-page, .page01, .page02 {
+  .slidepage {
     position: relative;
     padding-bottom: 76px;
     .pagecaption {
       position: absolute;
       bottom: 0;
+      width: 100%;
+      display: flex;
       padding: 0 20px;
       speak: none;
+      .left,
+      .right {
+        margin: 0;
+      }
       .left {
+        display: inline-block;
+        text-align: left;
         font-size: .5em;
+        margin-right: auto;
+      }
+      .right {
+        display: inline-block;
+        text-align: right;
+      }
+      .front-logo,
+      .slide-wapuu,
+      .slide-logo {
+        img {
+          background: none;
+          border: none;
+          box-shadow: none;
+          margin: 0;
+        }
+      }
+      .front-logo {
+        img {
+          width: 10%;
+        }
+      }
+      .slide-wapuu {
+        img {
+          width: 43%;
+        }
+      }
+      .slide-logo {
+        img {
+          width: 15%;
+        }
+      }
+    }
+  }
+}
+
+/* slide page
+****************************************************/
+.reveal {
+  .start-page01,
+  .start-page02,
+  .start-page03,
+  .front-page {
+    .pagecaption {
+      .slide-wapuu {
+        img {
+          width: 25%;
+        }
       }
     }
   }
@@ -122,7 +200,6 @@ embed, iframe, object {
       padding: 10px 220px 280px;
       img {
         width: 50%;
-        border: none;
       }
     }
   }
@@ -141,7 +218,7 @@ embed, iframe, object {
   .start-page03 {
     .slide-link {
       font-size: 1.8em;
-      padding: 181px 0;
+      padding: 117px 0 180px;
     }
   }
   .front-page {
@@ -152,80 +229,83 @@ embed, iframe, object {
       margin-bottom: 97px;
     }
   }
-  .page01 {
+  .page01,
+  .page02 {
     h2 {
+      font-size: 1em;
       text-align: left;
     }
     a {
       display: block;
     }
+  }
+  .page01 {
+    .page-item {
+      margin-bottom: 57px;
+    }
     .artist-image {
       display: block;
-      width: 50%;
+      width: 52%;
       margin: 0 auto 10px;
       figcaption {
         font-size: .75em;
       }
     }
   }
-}
-
-/* slide common content
-****************************************************/
-.reveal {
-  .nombre {
-    font-size: .5em;
-    text-align: right;
-    padding: 0 50px;
-  }
-  .pagecaption {
-    width: 100%;
-    display: flex;
-    .left,
-    .right {
-      margin: 0;
+  .page02 {
+    .page-item {
+      margin-bottom: 54px;
     }
-    .left {
-      display: inline-block;
-      text-align: left;
-      margin-right: auto;
-    }
-    .right {
-      display: inline-block;
-      text-align: right;
-    }
-    .front-logo,
-    .slide-wapuu,
-    .slide-logo {
-      img {
-        background: none;
-        border: none;
-        box-shadow: none;
-        margin: 0;
-      }
-    }
-    .front-logo {
-      img {
-        width: 10%;
-      }
-    }
-    .slide-wapuu {
-      img {
-        width: %;
-      }
-    }
-    .slide-logo {
-      img {
-        width: 15%;
+    .screen-shot {
+      display: block;
+      width: 60%;
+      margin: 0 auto 10px;
+      figcaption {
+        font-size: .75em;
       }
     }
   }
-}
-
-/* slide common content
-****************************************************/
-.reveal {
-  .page-title {
-    text-transform: normal;
+  .page03 {
+    .page-item {
+      padding-top: 70px;
+      margin-bottom: 237px;
+    }
+  }
+  .page04,
+  .page07 {
+    .page-item {
+      padding-top: 50px;
+      margin-bottom: 163px;
+      p {
+        display: inline-block;
+        text-align: left;
+      }
+    }
+  }
+  .page05,
+  .page06 {
+    .page-item {
+      padding-top: 60px;
+      margin-bottom: 227px;
+    }
+  }
+  .page08 {
+    .page-item {
+      padding-top: 20px;
+      margin-bottom: 139px;
+      p {
+        display: inline-block;
+        text-align: left;
+      }
+    }
+  }
+  .page09 {
+    .page-item {
+      margin-bottom: 105px;
+      p {
+        display: inline-block;
+        text-align: left;
+      }
+    }
   }
 }

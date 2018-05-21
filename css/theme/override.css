@@ -45,7 +45,7 @@ embed, iframe, object {
 /* iframe responsive ************************************/
 /* Include theme-specific fonts
 ****************************************************/
-/* override black.css
+/* override white.css
 ****************************************************/
 .reveal {
   font-family: 'NotoSansCJKjp', sans-serif; }
@@ -67,38 +67,87 @@ embed, iframe, object {
   .reveal h2 {
     font-size: 1.25em;
     font-weight: 500; }
+  .reveal section img {
+    border: none; }
+  .reveal a {
+    text-decoration: underline; }
+    .reveal a img {
+      border: none; }
+
+/* slide common content
+****************************************************/
+.reveal .page-title {
+  text-transform: normal; }
 
 .reveal .slidepage {
   position: relative;
   padding-bottom: 72px; }
   .reveal .slidepage .pagecaption {
     position: absolute;
-    height: 72px; }
+    height: 60px; }
+
+.reveal .nombre {
+  position: absolute;
+  right: 10px;
+  bottom: 60px;
+  font-size: .5em;
+  text-align: right; }
 
 /****************************************************
 /*
 /* page style
 /*
 ****************************************************/
-/* slide page
+/* slide common page
 ****************************************************/
-.reveal .start-page01, .reveal .start-page02, .reveal .start-page03, .reveal .front-page, .reveal .page01, .reveal .page02 {
+.reveal .slidepage {
   position: relative;
   padding-bottom: 76px; }
-  .reveal .start-page01 .pagecaption, .reveal .start-page02 .pagecaption, .reveal .start-page03 .pagecaption, .reveal .front-page .pagecaption, .reveal .page01 .pagecaption, .reveal .page02 .pagecaption {
+  .reveal .slidepage .pagecaption {
     position: absolute;
     bottom: 0;
+    width: 100%;
+    display: flex;
     padding: 0 20px;
     speak: none; }
-    .reveal .start-page01 .pagecaption .left, .reveal .start-page02 .pagecaption .left, .reveal .start-page03 .pagecaption .left, .reveal .front-page .pagecaption .left, .reveal .page01 .pagecaption .left, .reveal .page02 .pagecaption .left {
-      font-size: .5em; }
+    .reveal .slidepage .pagecaption .left,
+    .reveal .slidepage .pagecaption .right {
+      margin: 0; }
+    .reveal .slidepage .pagecaption .left {
+      display: inline-block;
+      text-align: left;
+      font-size: .5em;
+      margin-right: auto; }
+    .reveal .slidepage .pagecaption .right {
+      display: inline-block;
+      text-align: right; }
+    .reveal .slidepage .pagecaption .front-logo img,
+    .reveal .slidepage .pagecaption .slide-wapuu img,
+    .reveal .slidepage .pagecaption .slide-logo img {
+      background: none;
+      border: none;
+      box-shadow: none;
+      margin: 0; }
+    .reveal .slidepage .pagecaption .front-logo img {
+      width: 10%; }
+    .reveal .slidepage .pagecaption .slide-wapuu img {
+      width: 43%; }
+    .reveal .slidepage .pagecaption .slide-logo img {
+      width: 15%; }
+
+/* slide page
+****************************************************/
+.reveal .start-page01 .pagecaption .slide-wapuu img,
+.reveal .start-page02 .pagecaption .slide-wapuu img,
+.reveal .start-page03 .pagecaption .slide-wapuu img,
+.reveal .front-page .pagecaption .slide-wapuu img {
+  width: 25%; }
 
 .reveal .start-page01 .pagetitle {
   text-align: left;
   padding: 10px 220px 280px; }
   .reveal .start-page01 .pagetitle img {
-    width: 50%;
-    border: none; }
+    width: 50%; }
 
 .reveal section.start-page01 {
   background-image: url(../../img/cropped-main-visual2.png);
@@ -112,7 +161,7 @@ embed, iframe, object {
 
 .reveal .start-page03 .slide-link {
   font-size: 1.8em;
-  padding: 181px 0; }
+  padding: 117px 0 180px; }
 
 .reveal .front-page .front-WCOtitle {
   font-size: 1em;
@@ -120,54 +169,62 @@ embed, iframe, object {
   text-transform: capitalize;
   margin-bottom: 97px; }
 
-.reveal .page01 h2 {
+.reveal .page01 h2,
+.reveal .page02 h2 {
+  font-size: 1em;
   text-align: left; }
 
-.reveal .page01 a {
+.reveal .page01 a,
+.reveal .page02 a {
   display: block; }
+
+.reveal .page01 .page-item {
+  margin-bottom: 57px; }
 
 .reveal .page01 .artist-image {
   display: block;
-  width: 50%;
+  width: 52%;
   margin: 0 auto 10px; }
   .reveal .page01 .artist-image figcaption {
     font-size: .75em; }
 
-/* slide common content
-****************************************************/
-.reveal .nombre {
-  font-size: .5em;
-  text-align: right;
-  padding: 0 50px; }
+.reveal .page02 .page-item {
+  margin-bottom: 54px; }
 
-.reveal .pagecaption {
-  width: 100%;
-  display: flex; }
-  .reveal .pagecaption .left,
-  .reveal .pagecaption .right {
-    margin: 0; }
-  .reveal .pagecaption .left {
-    display: inline-block;
-    text-align: left;
-    margin-right: auto; }
-  .reveal .pagecaption .right {
-    display: inline-block;
-    text-align: right; }
-  .reveal .pagecaption .front-logo img,
-  .reveal .pagecaption .slide-wapuu img,
-  .reveal .pagecaption .slide-logo img {
-    background: none;
-    border: none;
-    box-shadow: none;
-    margin: 0; }
-  .reveal .pagecaption .front-logo img {
-    width: 10%; }
-  .reveal .pagecaption .slide-wapuu img {
-    width: %; }
-  .reveal .pagecaption .slide-logo img {
-    width: 15%; }
+.reveal .page02 .screen-shot {
+  display: block;
+  width: 60%;
+  margin: 0 auto 10px; }
+  .reveal .page02 .screen-shot figcaption {
+    font-size: .75em; }
 
-/* slide common content
-****************************************************/
-.reveal .page-title {
-  text-transform: normal; }
+.reveal .page03 .page-item {
+  padding-top: 70px;
+  margin-bottom: 237px; }
+
+.reveal .page04 .page-item,
+.reveal .page07 .page-item {
+  padding-top: 50px;
+  margin-bottom: 163px; }
+  .reveal .page04 .page-item p,
+  .reveal .page07 .page-item p {
+    display: inline-block;
+    text-align: left; }
+
+.reveal .page05 .page-item,
+.reveal .page06 .page-item {
+  padding-top: 60px;
+  margin-bottom: 227px; }
+
+.reveal .page08 .page-item {
+  padding-top: 20px;
+  margin-bottom: 139px; }
+  .reveal .page08 .page-item p {
+    display: inline-block;
+    text-align: left; }
+
+.reveal .page09 .page-item {
+  margin-bottom: 105px; }
+  .reveal .page09 .page-item p {
+    display: inline-block;
+    text-align: left; }
