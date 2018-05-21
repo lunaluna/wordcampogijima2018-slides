@@ -267,8 +267,8 @@ embed, iframe, object {
   }
   .page03 {
     .page-item {
-      padding-top: 70px;
-      margin-bottom: 237px;
+      padding-top: 45px;
+      margin-bottom: 208px;
     }
   }
   .page04,
@@ -299,9 +299,20 @@ embed, iframe, object {
       }
     }
   }
-  .page09 {
+  .page09,
+  .page10 {
     .page-item {
       margin-bottom: 105px;
+      p {
+        display: inline-block;
+        text-align: left;
+      }
+    }
+  }
+  .page11 {
+    .page-item {
+      padding-top: 60px;
+      margin-bottom: 227px;
       p {
         display: inline-block;
         text-align: left;

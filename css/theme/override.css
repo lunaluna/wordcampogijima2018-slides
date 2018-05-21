@@ -199,8 +199,8 @@ embed, iframe, object {
     font-size: .75em; }
 
 .reveal .page03 .page-item {
-  padding-top: 70px;
-  margin-bottom: 237px; }
+  padding-top: 45px;
+  margin-bottom: 208px; }
 
 .reveal .page04 .page-item,
 .reveal .page07 .page-item {
@@ -223,8 +223,17 @@ embed, iframe, object {
     display: inline-block;
     text-align: left; }
 
-.reveal .page09 .page-item {
+.reveal .page09 .page-item,
+.reveal .page10 .page-item {
   margin-bottom: 105px; }
-  .reveal .page09 .page-item p {
+  .reveal .page09 .page-item p,
+  .reveal .page10 .page-item p {
+    display: inline-block;
+    text-align: left; }
+
+.reveal .page11 .page-item {
+  padding-top: 60px;
+  margin-bottom: 227px; }
+  .reveal .page11 .page-item p {
     display: inline-block;
     text-align: left; }
