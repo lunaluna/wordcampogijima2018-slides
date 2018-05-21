@@ -52,7 +52,8 @@ embed, iframe, object {
   .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
     font-family: 'NotoSansCJKjp', sans-serif;
     font-weight: 700;
-    line-height: 1.25; }
+    line-height: 1.25;
+    text-transform: normal !important; }
   .reveal h1 {
     font-size: 1.5em;
     line-height: 1.35; }
@@ -107,7 +108,7 @@ embed, iframe, object {
 
 /* slide common content
 ****************************************************/
-.reveal .pagenum {
+.reveal .nombre {
   font-size: .5em;
   text-align: right;
   padding: 0 50px; }
@@ -138,3 +139,8 @@ embed, iframe, object {
     width: 100%; }
   .reveal .pagecaption .slide-logo img {
     width: 15%; }
+
+/* slide common content
+****************************************************/
+.reveal .page-title {
+  text-transform: normal; }
