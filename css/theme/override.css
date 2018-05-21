@@ -55,7 +55,7 @@ embed, iframe, object {
     line-height: 1.25;
     text-transform: none; }
   .reveal h1 {
-    font-size: 1.5em;
+    font-size: 1.45em;
     line-height: 1.35; }
     .reveal h1 span {
       display: block;
@@ -82,14 +82,20 @@ embed, iframe, object {
 ****************************************************/
 /* slide page
 ****************************************************/
-.reveal section:not(.front-page) .pagecaption {
-  speak: none; }
-  .reveal section:not(.front-page) .pagecaption .left {
-    font-size: .5em; }
+.reveal .start-page01, .reveal .start-page02, .reveal .start-page03, .reveal .front-page, .reveal .page01, .reveal .page02 {
+  position: relative;
+  padding-bottom: 76px; }
+  .reveal .start-page01 .pagecaption, .reveal .start-page02 .pagecaption, .reveal .start-page03 .pagecaption, .reveal .front-page .pagecaption, .reveal .page01 .pagecaption, .reveal .page02 .pagecaption {
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+    speak: none; }
+    .reveal .start-page01 .pagecaption .left, .reveal .start-page02 .pagecaption .left, .reveal .start-page03 .pagecaption .left, .reveal .front-page .pagecaption .left, .reveal .page01 .pagecaption .left, .reveal .page02 .pagecaption .left {
+      font-size: .5em; }
 
 .reveal .start-page01 .pagetitle {
   text-align: left;
-  padding: 0 220px 200px; }
+  padding: 10px 220px 280px; }
   .reveal .start-page01 .pagetitle img {
     width: 50%;
     border: none; }
@@ -102,16 +108,17 @@ embed, iframe, object {
 
 .reveal .start-page02 .pagetitile {
   font-size: 1.8em;
-  padding: 100px 0; }
+  padding: 145px 0 146px; }
 
 .reveal .start-page03 .slide-link {
   font-size: 1.8em;
-  padding: 148px 0; }
+  padding: 181px 0; }
 
 .reveal .front-page .front-WCOtitle {
   font-size: 1em;
   font-weight: normal;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  margin-bottom: 97px; }
 
 .reveal .page01 h2 {
   text-align: left; }

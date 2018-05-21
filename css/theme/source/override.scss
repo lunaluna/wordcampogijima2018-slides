@@ -65,7 +65,7 @@ embed, iframe, object {
     text-transform: none;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.45em;
     line-height: 1.35;
     span {
       display: block;
@@ -103,9 +103,13 @@ embed, iframe, object {
 /* slide page
 ****************************************************/
 .reveal {
-  .front-page, .page01, .page02 {}
-  section:not(.front-page) {
+  .start-page01,.start-page02,.start-page03,.front-page, .page01, .page02 {
+    position: relative;
+    padding-bottom: 76px;
     .pagecaption {
+      position: absolute;
+      bottom: 0;
+      padding: 0 20px;
       speak: none;
       .left {
         font-size: .5em;
@@ -115,7 +119,7 @@ embed, iframe, object {
   .start-page01 {
     .pagetitle {
       text-align: left;
-      padding: 0 220px 200px;
+      padding: 10px 220px 280px;
       img {
         width: 50%;
         border: none;
@@ -131,13 +135,13 @@ embed, iframe, object {
   .start-page02 {
     .pagetitile {
       font-size: 1.8em;
-      padding: 100px 0;
+      padding: 145px 0 146px;
     }
   }
   .start-page03 {
     .slide-link {
       font-size: 1.8em;
-      padding: 148px 0;
+      padding: 181px 0;
     }
   }
   .front-page {
@@ -145,6 +149,7 @@ embed, iframe, object {
       font-size: 1em;
       font-weight: normal;
       text-transform: capitalize;
+      margin-bottom: 97px;
     }
   }
   .page01 {
