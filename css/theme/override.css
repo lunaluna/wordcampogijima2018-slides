@@ -53,7 +53,7 @@ embed, iframe, object {
     font-family: 'NotoSansCJKjp', sans-serif;
     font-weight: 700;
     line-height: 1.25;
-    text-transform: normal !important; }
+    text-transform: none; }
   .reveal h1 {
     font-size: 1.5em;
     line-height: 1.35; }
@@ -87,23 +87,43 @@ embed, iframe, object {
   .reveal section:not(.front-page) .pagecaption .left {
     font-size: .5em; }
 
+.reveal .start-page01 .pagetitle {
+  text-align: left;
+  padding: 0 220px 200px; }
+  .reveal .start-page01 .pagetitle img {
+    width: 50%;
+    border: none; }
+
+.reveal section.start-page01 {
+  background-image: url(../../img/cropped-main-visual2.png);
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover; }
+
+.reveal .start-page02 .pagetitile {
+  font-size: 1.8em;
+  padding: 100px 0; }
+
+.reveal .start-page03 .slide-link {
+  font-size: 1.8em;
+  padding: 148px 0; }
+
 .reveal .front-page .front-WCOtitle {
   font-size: 1em;
   font-weight: normal;
   text-transform: capitalize; }
 
-.reveal .page01 .slide-link {
-  font-size: 1.8em;
-  padding: 120px 0; }
+.reveal .page01 h2 {
+  text-align: left; }
 
-.reveal .page02 a {
+.reveal .page01 a {
   display: block; }
 
-.reveal .page02 .artist-image {
+.reveal .page01 .artist-image {
   display: block;
   width: 50%;
   margin: 0 auto 10px; }
-  .reveal .page02 .artist-image figcaption {
+  .reveal .page01 .artist-image figcaption {
     font-size: .75em; }
 
 /* slide common content
@@ -136,7 +156,7 @@ embed, iframe, object {
   .reveal .pagecaption .front-logo img {
     width: 10%; }
   .reveal .pagecaption .slide-wapuu img {
-    width: 100%; }
+    width: %; }
   .reveal .pagecaption .slide-logo img {
     width: 15%; }
 

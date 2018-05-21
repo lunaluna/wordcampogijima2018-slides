@@ -62,7 +62,7 @@ embed, iframe, object {
     font-family: 'NotoSansCJKjp', sans-serif;
     font-weight: 700;
     line-height: 1.25;
-    text-transform: normal !important;
+    text-transform: none;
   }
   h1 {
     font-size: 1.5em;
@@ -112,6 +112,34 @@ embed, iframe, object {
       }
     }
   }
+  .start-page01 {
+    .pagetitle {
+      text-align: left;
+      padding: 0 220px 200px;
+      img {
+        width: 50%;
+        border: none;
+      }
+    }
+  }
+  section.start-page01  {
+    background-image: url(../../img/cropped-main-visual2.png);
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+  }
+  .start-page02 {
+    .pagetitile {
+      font-size: 1.8em;
+      padding: 100px 0;
+    }
+  }
+  .start-page03 {
+    .slide-link {
+      font-size: 1.8em;
+      padding: 148px 0;
+    }
+  }
   .front-page {
     .front-WCOtitle {
       font-size: 1em;
@@ -120,12 +148,9 @@ embed, iframe, object {
     }
   }
   .page01 {
-    .slide-link {
-      font-size: 1.8em;
-      padding: 120px 0;
+    h2 {
+      text-align: left;
     }
-  }
-  .page02 {
     a {
       display: block;
     }
@@ -181,7 +206,7 @@ embed, iframe, object {
     }
     .slide-wapuu {
       img {
-        width: 100%;
+        width: %;
       }
     }
     .slide-logo {
