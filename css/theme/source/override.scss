@@ -404,44 +404,6 @@ embed, iframe, object {
       }
     }
   }
-  // .page19,
-  // .page21 {
-  //   .page-title {
-  //     font-size: 1em;
-  //   }
-  //   .page-item {
-  //     font-size: .75em;
-  //     .unordered-list {
-  //       font-size: .75em;
-  //       list-style-type: none;
-  //     }
-  //     .link-list {
-  //       font-size: .75em;
-  //       margin: 0 200px;
-  //     }
-  //   }
-  // }
-  // .page19 {
-  //   .page-item {
-  //     margin-bottom: 58px;
-  //     .unordered-list {
-  //       margin: 20px 250px 0;
-  //     }
-  //   }
-  // }
-  // .page21 {
-  //   .page-item {
-  //     margin-bottom: 62px;
-  //     .definition-list {
-  //       dd {
-  //         font-size: 0.9em;
-  //       }
-  //     }
-  //     .unordered-list {
-  //       margin: 20px 150px 0;
-  //     }
-  //   }
-  // }
   .page19 {
     .page-item {
       margin-bottom: 253px;
@@ -487,6 +449,80 @@ embed, iframe, object {
         margin: 0 30px;
       }
 
+    }
+  }
+  .page23 {
+    .page-item {
+      margin-bottom: 106px;
+    }
+  }
+  .page24 {
+    .page-item {
+      padding-top: 25px;
+      margin-bottom: 208px;
+      ol {
+        margin: 0 120px;
+      }
+    }
+  }
+  .page25,
+  .page27,
+  .page28 {
+    .page-item {
+      padding-top: 25px;
+      margin-bottom: 134px;
+    }
+  }
+  .page26 {
+    .page-item {
+      padding-top: 50px;
+      margin-bottom: 130px;
+      p {
+        font-size: 1.8em;
+      }
+    }
+  }
+  .page29 {
+    .page-item {
+      margin-bottom: 50px;
+    }
+  }
+  .page30 {
+    .page-item {
+      padding-top: 25px;
+      margin-bottom: 90px;
+    }
+  }
+  .page31 {
+    .page-item {
+      padding-top: 25px;
+      margin-bottom: 80px;
+      .item-page31 {
+        display: inline-block;
+        width: calc(49% - 60px);
+        padding: 0 10px;
+        + .item-page31 {
+          width: 49%;
+          border-left: 1px solid;
+        }
+      }
+      h3 {
+        font-size: .7em;
+        text-align: left;
+      }
+      ul {
+        width: 100%;
+        margin: 0 70px 10px;
+        li {
+          font-size: .6em;
+        }
+      }
+    }
+  }
+  .page32 {
+    .page-item {
+      padding-top: 25px;
+      margin-bottom: 80px;
     }
   }
 }
