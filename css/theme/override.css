@@ -73,6 +73,8 @@ embed, iframe, object {
     text-decoration: underline; }
     .reveal a img {
       border: none; }
+  .reveal .page-item li {
+    margin-bottom: 10px; }
 
 /* slide common content
 ****************************************************/
@@ -200,7 +202,7 @@ embed, iframe, object {
 
 .reveal .page03 .page-item {
   padding-top: 45px;
-  margin-bottom: 208px; }
+  margin-bottom: 177px; }
 
 .reveal .page04 .page-item,
 .reveal .page07 .page-item {
@@ -216,17 +218,28 @@ embed, iframe, object {
   padding-top: 60px;
   margin-bottom: 227px; }
 
+.reveal .page06 .page-item p {
+  display: inline-block;
+  text-align: left; }
+
 .reveal .page08 .page-item {
   padding-top: 20px;
-  margin-bottom: 139px; }
+  margin-bottom: 118px; }
   .reveal .page08 .page-item p {
     display: inline-block;
     text-align: left; }
 
-.reveal .page09 .page-item,
-.reveal .page10 .page-item {
+.reveal .page09 .page-item {
   margin-bottom: 105px; }
-  .reveal .page09 .page-item p,
+  .reveal .page09 .page-item p {
+    display: inline-block;
+    text-align: left; }
+
+.reveal .page10 .page-title {
+  margin-bottom: 0; }
+
+.reveal .page10 .page-item {
+  margin-bottom: 59px; }
   .reveal .page10 .page-item p {
     display: inline-block;
     text-align: left; }

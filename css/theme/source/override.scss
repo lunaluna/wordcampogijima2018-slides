@@ -91,6 +91,11 @@ embed, iframe, object {
       border: none;
     }
   }
+  .page-item {
+    li {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 /* slide common content
@@ -268,7 +273,7 @@ embed, iframe, object {
   .page03 {
     .page-item {
       padding-top: 45px;
-      margin-bottom: 208px;
+      margin-bottom: 177px;
     }
   }
   .page04,
@@ -289,20 +294,39 @@ embed, iframe, object {
       margin-bottom: 227px;
     }
   }
-  .page08 {
+  .page06 {
     .page-item {
-      padding-top: 20px;
-      margin-bottom: 139px;
       p {
         display: inline-block;
         text-align: left;
       }
     }
   }
-  .page09,
-  .page10 {
+  .page08 {
+    .page-item {
+      padding-top: 20px;
+      margin-bottom: 118px;
+      p {
+        display: inline-block;
+        text-align: left;
+      }
+    }
+  }
+  .page09 {
     .page-item {
       margin-bottom: 105px;
+      p {
+        display: inline-block;
+        text-align: left;
+      }
+    }
+  }
+  .page10 {
+    .page-title {
+      margin-bottom: 0;
+    }
+    .page-item {
+      margin-bottom: 59px;
       p {
         display: inline-block;
         text-align: left;
