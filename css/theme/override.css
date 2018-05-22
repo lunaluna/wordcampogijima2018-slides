@@ -37,6 +37,10 @@ embed, iframe, object {
 .cf:after {
   clear: both; }
 
+.ib-left {
+  display: inline-block;
+  text-align: left; }
+
 /* Custom mixins
 ****************************************************/
 /* 文字サイズ出力 ************************************/
@@ -71,10 +75,20 @@ embed, iframe, object {
     border: none; }
   .reveal a {
     text-decoration: underline; }
+    .reveal a:hover {
+      text-decoration: none; }
     .reveal a img {
       border: none; }
+    .reveal a.in-page {
+      color: #f80; }
   .reveal .page-item li {
     margin-bottom: 10px; }
+  .reveal p.text-right {
+    text-align: right;
+    padding: 0 150px;
+    margin: 0; }
+  .reveal strong {
+    color: #3eb746; }
 
 /* slide common content
 ****************************************************/
@@ -208,45 +222,36 @@ embed, iframe, object {
 .reveal .page07 .page-item {
   padding-top: 50px;
   margin-bottom: 163px; }
-  .reveal .page04 .page-item p,
-  .reveal .page07 .page-item p {
-    display: inline-block;
-    text-align: left; }
 
-.reveal .page05 .page-item,
-.reveal .page06 .page-item {
+.reveal .page05 .page-item {
   padding-top: 60px;
   margin-bottom: 227px; }
 
-.reveal .page06 .page-item p {
-  display: inline-block;
-  text-align: left; }
-
 .reveal .page08 .page-item {
-  padding-top: 20px;
-  margin-bottom: 118px; }
-  .reveal .page08 .page-item p {
-    display: inline-block;
-    text-align: left; }
+  margin-bottom: 139px; }
 
 .reveal .page09 .page-item {
-  margin-bottom: 105px; }
-  .reveal .page09 .page-item p {
-    display: inline-block;
-    text-align: left; }
+  margin-bottom: 95px; }
+  .reveal .page09 .page-item .ib-left {
+    margin-top: 0; }
 
 .reveal .page10 .page-title {
   margin-bottom: 0; }
 
 .reveal .page10 .page-item {
-  margin-bottom: 59px; }
-  .reveal .page10 .page-item p {
-    display: inline-block;
-    text-align: left; }
+  margin-bottom: 39px; }
 
+.reveal .page06 .page-item,
 .reveal .page11 .page-item {
   padding-top: 60px;
-  margin-bottom: 227px; }
-  .reveal .page11 .page-item p {
-    display: inline-block;
-    text-align: left; }
+  margin-bottom: 207px; }
+
+.reveal .page12 .page-item {
+  padding-top: 25px;
+  margin-bottom: 134px; }
+
+.reveal .page13 .page-title {
+  margin-bottom: 0; }
+
+.reveal .page13 .page-item {
+  margin-bottom: 30px; }

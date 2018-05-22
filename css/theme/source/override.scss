@@ -46,6 +46,11 @@ embed, iframe, object {
   clear: both;
 }
 
+.ib-left {
+  display: inline-block;
+  text-align: left;
+}
+
 /* Custom mixins
 ****************************************************/
 @import "../template/additional-mixins";
@@ -87,14 +92,28 @@ embed, iframe, object {
   }
   a {
     text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
     img {
       border: none;
+    }
+    &.in-page {
+      color: #f80;
     }
   }
   .page-item {
     li {
       margin-bottom: 10px;
     }
+  }
+  p.text-right {
+    text-align: right;
+    padding: 0 150px;
+    margin: 0;
+  }
+  strong {
+    color: #3eb746;
   }
 }
 
@@ -281,43 +300,24 @@ embed, iframe, object {
     .page-item {
       padding-top: 50px;
       margin-bottom: 163px;
-      p {
-        display: inline-block;
-        text-align: left;
-      }
     }
   }
-  .page05,
-  .page06 {
+  .page05 {
     .page-item {
       padding-top: 60px;
       margin-bottom: 227px;
     }
   }
-  .page06 {
-    .page-item {
-      p {
-        display: inline-block;
-        text-align: left;
-      }
-    }
-  }
   .page08 {
     .page-item {
-      padding-top: 20px;
-      margin-bottom: 118px;
-      p {
-        display: inline-block;
-        text-align: left;
-      }
+      margin-bottom: 139px;
     }
   }
   .page09 {
     .page-item {
-      margin-bottom: 105px;
-      p {
-        display: inline-block;
-        text-align: left;
+      margin-bottom: 95px;
+      .ib-left {
+        margin-top: 0;
       }
     }
   }
@@ -326,21 +326,28 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 59px;
-      p {
-        display: inline-block;
-        text-align: left;
-      }
+      margin-bottom: 39px;
     }
   }
+  .page06,
   .page11 {
     .page-item {
       padding-top: 60px;
-      margin-bottom: 227px;
-      p {
-        display: inline-block;
-        text-align: left;
-      }
+      margin-bottom: 207px;
+    }
+  }
+  .page12 {
+    .page-item {
+      padding-top: 25px;
+      margin-bottom: 134px;
+    }
+  }
+  .page13 {
+    .page-title {
+      margin-bottom: 0;
+    }
+    .page-item {
+      margin-bottom: 30px;
     }
   }
 }
