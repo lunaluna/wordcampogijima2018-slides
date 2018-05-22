@@ -115,6 +115,9 @@ embed, iframe, object {
 .reveal .inline-block {
   display: inline-block; }
 
+.reveal .unordered-list {
+  list-style-type: none; }
+
 /****************************************************
 /*
 /* page style
@@ -292,30 +295,31 @@ embed, iframe, object {
     .reveal .page18 .page-item li ul {
       margin-top: 10px; }
 
-.reveal .page19 .page-title,
-.reveal .page20 .page-title {
-  font-size: 1em; }
-
-.reveal .page19 .page-item,
-.reveal .page20 .page-item {
-  font-size: .75em; }
-  .reveal .page19 .page-item .unordered-list,
-  .reveal .page20 .page-item .unordered-list {
-    font-size: .75em;
-    list-style-type: none; }
-  .reveal .page19 .page-item .link-list,
-  .reveal .page20 .page-item .link-list {
-    font-size: .75em;
+.reveal .page19 .page-item {
+  margin-bottom: 253px; }
+  .reveal .page19 .page-item .definition-list,
+  .reveal .page19 .page-item ul {
     margin: 0 200px; }
 
-.reveal .page19 .page-item {
-  margin-bottom: 58px; }
-  .reveal .page19 .page-item .unordered-list {
-    margin: 20px 250px 0; }
+.reveal .page20 .page-item,
+.reveal .page22 .page-item {
+  margin-bottom: 43px; }
+  .reveal .page20 .page-item .definition-list,
+  .reveal .page20 .page-item ul,
+  .reveal .page22 .page-item .definition-list,
+  .reveal .page22 .page-item ul {
+    font-size: .95em; }
 
-.reveal .page20 .page-item {
-  margin-bottom: 62px; }
-  .reveal .page20 .page-item .definition-list dd {
-    font-size: 0.9em; }
-  .reveal .page20 .page-item .unordered-list {
-    margin: 20px 150px 0; }
+.reveal .page20 .page-item .definition-list,
+.reveal .page20 .page-item ul {
+  margin: 0 120px; }
+
+.reveal .page21 .page-item {
+  margin-bottom: 199px; }
+  .reveal .page21 .page-item .definition-list,
+  .reveal .page21 .page-item ul {
+    margin: 0 40px; }
+
+.reveal .page22 .page-item .definition-list,
+.reveal .page22 .page-item ul {
+  margin: 0 30px; }
