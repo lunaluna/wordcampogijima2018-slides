@@ -396,3 +396,9 @@ embed, iframe, object {
 
 .reveal .last-page02 h2 img {
   width: 32.8%; }
+
+.reveal .last-page03 .page-item {
+  padding-top: 175px;
+  margin-bottom: 240px; }
+  .reveal .last-page03 .page-item .gratitude {
+    font-size: 1.2em; }

@@ -561,7 +561,12 @@ embed, iframe, object {
     }
   }
   .last-page03 {
-    .gratitude {
+    .page-item {
+      padding-top: 175px;
+      margin-bottom: 240px;
+      .gratitude {
+        font-size: 1.2em;
+      }
     }
   }
 }
