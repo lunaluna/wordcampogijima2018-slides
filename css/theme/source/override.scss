@@ -302,11 +302,10 @@ embed, iframe, object {
   .page03 {
     .page-item {
       padding-top: 45px;
-      margin-bottom: 188px;
+      margin-bottom: 178px;
     }
   }
-  .page04,
-  .page07 {
+  .page04 {
     .page-item {
       padding-top: 50px;
       margin-bottom: 163px;
@@ -315,7 +314,19 @@ embed, iframe, object {
   .page05 {
     .page-item {
       padding-top: 60px;
-      margin-bottom: 227px;
+      margin-bottom: 183px;
+      strong {
+        font-size: 1.8em;
+      }
+    }
+  }
+  .page07 {
+    .page-item {
+      padding-top: 25px;
+      margin-bottom: 160px;
+      strong {
+        font-size: 1.5em;
+      }
     }
   }
   .page08 {
@@ -523,6 +534,34 @@ embed, iframe, object {
     .page-item {
       padding-top: 25px;
       margin-bottom: 80px;
+    }
+  }
+  .last-page01 {
+    .appendix {
+      display: inline-block;
+      width: 49%;
+      padding: 25px 10px 0;
+      margin: 0 0 50px;
+      + .appendix {
+        border-left: 1px solid;
+      }
+      h3 {
+        font-size: .5em;
+      }
+      li {
+        font-size: .5em;
+      }
+    }
+  }
+  .last-page02 {
+    h2 {
+      img {
+        width: 32.8%;
+      }
+    }
+  }
+  .last-page03 {
+    .gratitude {
     }
   }
 }
