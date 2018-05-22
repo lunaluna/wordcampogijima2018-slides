@@ -14,7 +14,7 @@ img {
   max-width: 100%;
   height: auto; }
 
-ul, ol {
+ul, ol, dl {
   padding: 0;
   margin: 0; }
 
@@ -85,15 +85,18 @@ embed, iframe, object {
     margin-bottom: 10px; }
   .reveal p.text-right {
     text-align: right;
+    font-size: .6em;
     padding: 0 150px;
     margin: 0; }
   .reveal strong {
     color: #3eb746; }
+  .reveal ul, .reveal ol, .reveal dl {
+    display: block; }
 
 /* slide common content
 ****************************************************/
 .reveal .page-title {
-  text-transform: normal; }
+  text-transform: none; }
 
 .reveal .slidepage {
   position: relative;
@@ -108,6 +111,9 @@ embed, iframe, object {
   bottom: 60px;
   font-size: .5em;
   text-align: right; }
+
+.reveal .inline-block {
+  display: inline-block; }
 
 /****************************************************
 /*
@@ -216,7 +222,7 @@ embed, iframe, object {
 
 .reveal .page03 .page-item {
   padding-top: 45px;
-  margin-bottom: 177px; }
+  margin-bottom: 188px; }
 
 .reveal .page04 .page-item,
 .reveal .page07 .page-item {
@@ -231,7 +237,7 @@ embed, iframe, object {
   margin-bottom: 139px; }
 
 .reveal .page09 .page-item {
-  margin-bottom: 95px; }
+  margin-bottom: 105px; }
   .reveal .page09 .page-item .ib-left {
     margin-top: 0; }
 
@@ -239,7 +245,7 @@ embed, iframe, object {
   margin-bottom: 0; }
 
 .reveal .page10 .page-item {
-  margin-bottom: 39px; }
+  margin-bottom: 61px; }
 
 .reveal .page06 .page-item,
 .reveal .page11 .page-item {
@@ -254,4 +260,62 @@ embed, iframe, object {
   margin-bottom: 0; }
 
 .reveal .page13 .page-item {
-  margin-bottom: 30px; }
+  margin-bottom: 52px; }
+
+.reveal .page14 .page-title {
+  margin-bottom: 0; }
+
+.reveal .page14 .page-item {
+  margin-bottom: 52px; }
+  .reveal .page14 .page-item a .screen-shot img {
+    width: 70%; }
+
+.reveal .page15 .page-title,
+.reveal .page16 .page-title {
+  margin-bottom: 0; }
+
+.reveal .page15 .page-item,
+.reveal .page16 .page-item {
+  margin-bottom: 158px; }
+
+.reveal .page17 .page-title {
+  margin-bottom: 0; }
+
+.reveal .page17 .page-item {
+  margin-bottom: 130px; }
+
+.reveal .page18 .page-item {
+  font-size: .8em;
+  margin-bottom: 91px; }
+  .reveal .page18 .page-item li {
+    font-size: .8em; }
+    .reveal .page18 .page-item li ul {
+      margin-top: 10px; }
+
+.reveal .page19 .page-title,
+.reveal .page20 .page-title {
+  font-size: 1em; }
+
+.reveal .page19 .page-item,
+.reveal .page20 .page-item {
+  font-size: .75em; }
+  .reveal .page19 .page-item .unordered-list,
+  .reveal .page20 .page-item .unordered-list {
+    font-size: .75em;
+    list-style-type: none; }
+  .reveal .page19 .page-item .link-list,
+  .reveal .page20 .page-item .link-list {
+    font-size: .75em;
+    margin: 0 200px; }
+
+.reveal .page19 .page-item {
+  margin-bottom: 58px; }
+  .reveal .page19 .page-item .unordered-list {
+    margin: 20px 250px 0; }
+
+.reveal .page20 .page-item {
+  margin-bottom: 62px; }
+  .reveal .page20 .page-item .definition-list dd {
+    font-size: 0.9em; }
+  .reveal .page20 .page-item .unordered-list {
+    margin: 20px 150px 0; }

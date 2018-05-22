@@ -15,7 +15,7 @@ img {
   height: auto;
 }
 
-ul, ol {
+ul, ol, dl {
   // list-style-type: none;
   padding: 0;
   margin: 0;
@@ -109,11 +109,15 @@ embed, iframe, object {
   }
   p.text-right {
     text-align: right;
+    font-size: .6em;
     padding: 0 150px;
     margin: 0;
   }
   strong {
     color: #3eb746;
+  }
+  ul, ol, dl {
+    display: block;
   }
 }
 
@@ -121,7 +125,7 @@ embed, iframe, object {
 ****************************************************/
 .reveal {
   .page-title {
-      text-transform: normal;
+      text-transform: none;
     }
   .slidepage {
     position: relative;
@@ -137,6 +141,9 @@ embed, iframe, object {
     bottom: 60px;
     font-size: .5em;
     text-align: right;
+  }
+  .inline-block {
+    display: inline-block;
   }
 }
 
@@ -292,7 +299,7 @@ embed, iframe, object {
   .page03 {
     .page-item {
       padding-top: 45px;
-      margin-bottom: 177px;
+      margin-bottom: 188px;
     }
   }
   .page04,
@@ -315,7 +322,7 @@ embed, iframe, object {
   }
   .page09 {
     .page-item {
-      margin-bottom: 95px;
+      margin-bottom: 105px;
       .ib-left {
         margin-top: 0;
       }
@@ -326,7 +333,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 39px;
+      margin-bottom: 61px;
     }
   }
   .page06,
@@ -347,7 +354,89 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 30px;
+      margin-bottom: 52px;
+    }
+  }
+  .page14 {
+    .page-title {
+      margin-bottom: 0;
+    }
+    .page-item {
+      margin-bottom: 52px;
+      a {
+        .screen-shot {
+          img {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+  .page15,
+  .page16 {
+    .page-title {
+      margin-bottom: 0;
+    }
+    .page-item {
+      margin-bottom: 158px;
+    }
+  }
+  .page17 {
+    .page-title {
+      margin-bottom: 0;
+    }
+    .page-item {
+      margin-bottom: 130px;
+    }
+  }
+  .page18 {
+    .page-item {
+      font-size: .8em;
+      margin-bottom: 91px;
+      li {
+        font-size: .8em;
+        ul {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  .page19,
+  .page20 {
+    .page-title {
+      font-size: 1em;
+    }
+    .page-item {
+      font-size: .75em;
+      .unordered-list {
+        font-size: .75em;
+        list-style-type: none;
+      }
+      .link-list {
+        font-size: .75em;
+        margin: 0 200px;
+      }
+    }
+  }
+  .page19 {
+    .page-item {
+      margin-bottom: 58px;
+      .unordered-list {
+        margin: 20px 250px 0;
+      }
+    }
+  }
+  .page20 {
+    .page-item {
+      margin-bottom: 62px;
+      .definition-list {
+        dd {
+          font-size: 0.9em;
+        }
+      }
+      .unordered-list {
+        margin: 20px 150px 0;
+      }
     }
   }
 }
