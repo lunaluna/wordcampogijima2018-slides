@@ -348,9 +348,9 @@ embed, iframe, object {
 
 .reveal .page26 .page-item {
   padding-top: 50px;
-  margin-bottom: 130px; }
+  margin-bottom: 173px; }
   .reveal .page26 .page-item p {
-    font-size: 1.8em; }
+    font-size: 1.4em; }
 
 .reveal .page29 .page-item {
   margin-bottom: 50px; }
@@ -387,8 +387,6 @@ embed, iframe, object {
   width: 49%;
   padding: 25px 10px 0;
   margin: 0 0 50px; }
-  .reveal .last-page01 .appendix + .appendix {
-    border-left: 1px solid; }
   .reveal .last-page01 .appendix h3 {
     font-size: .5em; }
   .reveal .last-page01 .appendix li {
