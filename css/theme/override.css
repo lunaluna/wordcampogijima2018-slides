@@ -160,7 +160,7 @@ embed, iframe, object {
     .reveal .slidepage .pagecaption .slide-logo img {
       width: 15%; }
 
-/* slide page
+/* slide page - startpage
 ****************************************************/
 .reveal .start-page01 .pagecaption .slide-wapuu img,
 .reveal .start-page02 .pagecaption .slide-wapuu img,
@@ -194,6 +194,8 @@ embed, iframe, object {
   text-transform: capitalize;
   margin-bottom: 97px; }
 
+/* slide page -contentpage
+****************************************************/
 .reveal .page01 h2,
 .reveal .page02 h2 {
   font-size: 1em;
@@ -227,161 +229,168 @@ embed, iframe, object {
   padding-top: 45px;
   margin-bottom: 178px; }
 
-.reveal .page04 .page-item {
+.reveal .page04 header,
+.reveal .page34 header {
+  padding-top: 150px;
+  margin-bottom: 285px; }
+
+.reveal .page05 .page-item {
   padding-top: 50px;
   margin-bottom: 163px; }
 
-.reveal .page05 .page-item {
+.reveal .page06 .page-item {
   padding-top: 60px;
   margin-bottom: 183px; }
-  .reveal .page05 .page-item strong {
+  .reveal .page06 .page-item strong {
     font-size: 1.8em; }
 
-.reveal .page07 .page-item {
+.reveal .page08 .page-item {
   padding-top: 25px;
   margin-bottom: 160px; }
-  .reveal .page07 .page-item strong {
+  .reveal .page08 .page-item strong {
     font-size: 1.5em; }
 
-.reveal .page08 .page-item {
+.reveal .page09 .page-item {
   margin-bottom: 139px; }
 
-.reveal .page09 .page-item {
+.reveal .page10 .page-item {
   margin-bottom: 105px; }
-  .reveal .page09 .page-item .ib-left {
+  .reveal .page10 .page-item .ib-left {
     margin-top: 0; }
 
-.reveal .page10 .page-title {
+.reveal .page11 .page-title {
   margin-bottom: 0; }
 
-.reveal .page10 .page-item {
+.reveal .page11 .page-item {
   margin-bottom: 61px; }
 
-.reveal .page06 .page-item,
-.reveal .page11 .page-item {
+.reveal .page07 .page-item,
+.reveal .page12 .page-item {
   padding-top: 60px;
   margin-bottom: 207px; }
 
-.reveal .page12 .page-item {
+.reveal .page13 .page-item {
   padding-top: 25px;
   margin-bottom: 134px; }
-
-.reveal .page13 .page-title {
-  margin-bottom: 0; }
-
-.reveal .page13 .page-item {
-  margin-bottom: 52px; }
 
 .reveal .page14 .page-title {
   margin-bottom: 0; }
 
 .reveal .page14 .page-item {
   margin-bottom: 52px; }
-  .reveal .page14 .page-item a .screen-shot img {
-    width: 70%; }
 
-.reveal .page15 .page-title,
-.reveal .page16 .page-title {
+.reveal .page15 .page-title {
   margin-bottom: 0; }
 
-.reveal .page15 .page-item,
-.reveal .page16 .page-item {
-  margin-bottom: 158px; }
+.reveal .page15 .page-item {
+  margin-bottom: 52px; }
+  .reveal .page15 .page-item a .screen-shot img {
+    width: 70%; }
 
+.reveal .page16 .page-title,
 .reveal .page17 .page-title {
   margin-bottom: 0; }
 
+.reveal .page16 .page-item,
 .reveal .page17 .page-item {
-  margin-bottom: 130px; }
+  margin-bottom: 158px; }
+
+.reveal .page18 .page-title {
+  margin-bottom: 0; }
 
 .reveal .page18 .page-item {
-  font-size: .8em;
-  margin-bottom: 91px; }
-  .reveal .page18 .page-item li {
-    font-size: .8em; }
-    .reveal .page18 .page-item li ul {
-      margin-top: 10px; }
+  margin-bottom: 130px; }
 
 .reveal .page19 .page-item {
+  font-size: .8em;
+  margin-bottom: 91px; }
+  .reveal .page19 .page-item li {
+    font-size: .8em; }
+    .reveal .page19 .page-item li ul {
+      margin-top: 10px; }
+
+.reveal .page20 .page-item {
   margin-bottom: 253px; }
-  .reveal .page19 .page-item .definition-list,
-  .reveal .page19 .page-item ul {
+  .reveal .page20 .page-item .definition-list,
+  .reveal .page20 .page-item ul {
     margin: 0 200px; }
 
-.reveal .page20 .page-item,
-.reveal .page22 .page-item {
+.reveal .page21 .page-item,
+.reveal .page23 .page-item {
   margin-bottom: 43px; }
-  .reveal .page20 .page-item .definition-list,
-  .reveal .page20 .page-item ul,
-  .reveal .page22 .page-item .definition-list,
-  .reveal .page22 .page-item ul {
+  .reveal .page21 .page-item .definition-list,
+  .reveal .page21 .page-item ul,
+  .reveal .page23 .page-item .definition-list,
+  .reveal .page23 .page-item ul {
     font-size: .95em; }
 
-.reveal .page20 .page-item .definition-list,
-.reveal .page20 .page-item ul {
+.reveal .page21 .page-item .definition-list,
+.reveal .page21 .page-item ul {
   margin: 0 120px; }
 
-.reveal .page21 .page-item {
+.reveal .page22 .page-item {
   margin-bottom: 199px; }
-  .reveal .page21 .page-item .definition-list,
-  .reveal .page21 .page-item ul {
+  .reveal .page22 .page-item .definition-list,
+  .reveal .page22 .page-item ul {
     margin: 0 40px; }
 
-.reveal .page22 .page-item .definition-list,
-.reveal .page22 .page-item ul {
+.reveal .page23 .page-item .definition-list,
+.reveal .page23 .page-item ul {
   margin: 0 30px; }
 
-.reveal .page23 .page-item {
+.reveal .page24 .page-item {
   margin-bottom: 106px; }
 
-.reveal .page24 .page-item {
+.reveal .page25 .page-item {
   padding-top: 25px;
   margin-bottom: 208px; }
-  .reveal .page24 .page-item ol {
+  .reveal .page25 .page-item ol {
     margin: 0 120px; }
 
-.reveal .page25 .page-item,
-.reveal .page27 .page-item,
-.reveal .page28 .page-item {
+.reveal .page26 .page-item,
+.reveal .page28 .page-item,
+.reveal .page29 .page-item {
   padding-top: 25px;
   margin-bottom: 134px; }
 
-.reveal .page26 .page-item {
+.reveal .page27 .page-item {
   padding-top: 50px;
   margin-bottom: 173px; }
-  .reveal .page26 .page-item p {
+  .reveal .page27 .page-item p {
     font-size: 1.4em; }
 
-.reveal .page29 .page-item {
-  margin-bottom: 50px; }
-
 .reveal .page30 .page-item {
-  padding-top: 25px;
-  margin-bottom: 90px; }
+  margin-bottom: 50px; }
 
 .reveal .page31 .page-item {
   padding-top: 25px;
-  margin-bottom: 80px; }
-  .reveal .page31 .page-item .item-page31 {
-    display: inline-block;
-    width: calc(49% - 60px);
-    padding: 0 10px; }
-    .reveal .page31 .page-item .item-page31 + .item-page31 {
-      width: 49%;
-      border-left: 1px solid; }
-  .reveal .page31 .page-item h3 {
-    font-size: .7em;
-    text-align: left; }
-  .reveal .page31 .page-item ul {
-    width: 100%;
-    margin: 0 70px 10px; }
-    .reveal .page31 .page-item ul li {
-      font-size: .6em; }
+  margin-bottom: 90px; }
 
 .reveal .page32 .page-item {
   padding-top: 25px;
   margin-bottom: 80px; }
+  .reveal .page32 .page-item .item-page31 {
+    display: inline-block;
+    width: calc(49% - 60px);
+    padding: 0 10px; }
+    .reveal .page32 .page-item .item-page31 + .item-page31 {
+      width: 49%;
+      border-left: 1px solid; }
+  .reveal .page32 .page-item h3 {
+    font-size: .7em;
+    text-align: left; }
+  .reveal .page32 .page-item ul {
+    width: 100%;
+    margin: 0 70px 10px; }
+    .reveal .page32 .page-item ul li {
+      font-size: .6em; }
 
+.reveal .page33 .page-item {
+  padding-top: 25px;
+  margin-bottom: 80px; }
+
+/* slide page - lastpage
+****************************************************/
 .reveal .last-page01 .appendix {
   display: inline-block;
   width: 49%;

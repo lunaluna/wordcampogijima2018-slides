@@ -213,7 +213,7 @@ embed, iframe, object {
   }
 }
 
-/* slide page
+/* slide page - startpage
 ****************************************************/
 .reveal {
   .start-page01,
@@ -263,6 +263,11 @@ embed, iframe, object {
       margin-bottom: 97px;
     }
   }
+}
+
+/* slide page -contentpage
+****************************************************/
+.reveal {
   .page01,
   .page02 {
     h2 {
@@ -305,13 +310,20 @@ embed, iframe, object {
       margin-bottom: 178px;
     }
   }
-  .page04 {
+  .page04,
+  .page34 {
+    header {
+      padding-top: 150px;
+      margin-bottom: 285px;
+    }
+  }
+  .page05 {
     .page-item {
       padding-top: 50px;
       margin-bottom: 163px;
     }
   }
-  .page05 {
+  .page06 {
     .page-item {
       padding-top: 60px;
       margin-bottom: 183px;
@@ -320,7 +332,7 @@ embed, iframe, object {
       }
     }
   }
-  .page07 {
+  .page08 {
     .page-item {
       padding-top: 25px;
       margin-bottom: 160px;
@@ -329,12 +341,12 @@ embed, iframe, object {
       }
     }
   }
-  .page08 {
+  .page09 {
     .page-item {
       margin-bottom: 139px;
     }
   }
-  .page09 {
+  .page10 {
     .page-item {
       margin-bottom: 105px;
       .ib-left {
@@ -342,7 +354,7 @@ embed, iframe, object {
       }
     }
   }
-  .page10 {
+  .page11 {
     .page-title {
       margin-bottom: 0;
     }
@@ -350,20 +362,20 @@ embed, iframe, object {
       margin-bottom: 61px;
     }
   }
-  .page06,
-  .page11 {
+  .page07,
+  .page12 {
     .page-item {
       padding-top: 60px;
       margin-bottom: 207px;
     }
   }
-  .page12 {
+  .page13 {
     .page-item {
       padding-top: 25px;
       margin-bottom: 134px;
     }
   }
-  .page13 {
+  .page14 {
     .page-title {
       margin-bottom: 0;
     }
@@ -371,7 +383,7 @@ embed, iframe, object {
       margin-bottom: 52px;
     }
   }
-  .page14 {
+  .page15 {
     .page-title {
       margin-bottom: 0;
     }
@@ -386,8 +398,8 @@ embed, iframe, object {
       }
     }
   }
-  .page15,
-  .page16 {
+  .page16,
+  .page17 {
     .page-title {
       margin-bottom: 0;
     }
@@ -395,7 +407,7 @@ embed, iframe, object {
       margin-bottom: 158px;
     }
   }
-  .page17 {
+  .page18 {
     .page-title {
       margin-bottom: 0;
     }
@@ -403,7 +415,7 @@ embed, iframe, object {
       margin-bottom: 130px;
     }
   }
-  .page18 {
+  .page19 {
     .page-item {
       font-size: .8em;
       margin-bottom: 91px;
@@ -415,7 +427,7 @@ embed, iframe, object {
       }
     }
   }
-  .page19 {
+  .page20 {
     .page-item {
       margin-bottom: 253px;
       .definition-list,
@@ -424,8 +436,8 @@ embed, iframe, object {
       }
     }
   }
-  .page20,
-  .page22 {
+  .page21,
+  .page23 {
     .page-item {
       margin-bottom: 43px;
       .definition-list,
@@ -435,7 +447,7 @@ embed, iframe, object {
 
     }
   }
-  .page20 {
+  .page21 {
     .page-item {
       .definition-list,
       ul {
@@ -444,7 +456,7 @@ embed, iframe, object {
 
     }
   }
-  .page21 {
+  .page22 {
     .page-item {
       margin-bottom: 199px;
       .definition-list,
@@ -453,7 +465,7 @@ embed, iframe, object {
       }
     }
   }
-  .page22 {
+  .page23 {
     .page-item {
       .definition-list,
       ul {
@@ -462,12 +474,12 @@ embed, iframe, object {
 
     }
   }
-  .page23 {
+  .page24 {
     .page-item {
       margin-bottom: 106px;
     }
   }
-  .page24 {
+  .page25 {
     .page-item {
       padding-top: 25px;
       margin-bottom: 208px;
@@ -476,15 +488,15 @@ embed, iframe, object {
       }
     }
   }
-  .page25,
-  .page27,
-  .page28 {
+  .page26,
+  .page28,
+  .page29 {
     .page-item {
       padding-top: 25px;
       margin-bottom: 134px;
     }
   }
-  .page26 {
+  .page27 {
     .page-item {
       padding-top: 50px;
       margin-bottom: 173px;
@@ -493,18 +505,18 @@ embed, iframe, object {
       }
     }
   }
-  .page29 {
+  .page30 {
     .page-item {
       margin-bottom: 50px;
     }
   }
-  .page30 {
+  .page31 {
     .page-item {
       padding-top: 25px;
       margin-bottom: 90px;
     }
   }
-  .page31 {
+  .page32 {
     .page-item {
       padding-top: 25px;
       margin-bottom: 80px;
@@ -530,12 +542,17 @@ embed, iframe, object {
       }
     }
   }
-  .page32 {
+  .page33 {
     .page-item {
       padding-top: 25px;
       margin-bottom: 80px;
     }
   }
+}
+
+/* slide page - lastpage
+****************************************************/
+.reveal {
   .last-page01 {
     .appendix {
       display: inline-block;
