@@ -240,7 +240,7 @@ embed, iframe, object {
 
 .reveal .page06 .page-item {
   padding-top: 60px;
-  margin-bottom: 183px; }
+  margin-bottom: 237px; }
   .reveal .page06 .page-item strong {
     font-size: 1.8em; }
 
@@ -369,11 +369,11 @@ embed, iframe, object {
 .reveal .page32 .page-item {
   padding-top: 25px;
   margin-bottom: 80px; }
-  .reveal .page32 .page-item .item-page31 {
+  .reveal .page32 .page-item .item-page32 {
     display: inline-block;
     width: calc(49% - 60px);
     padding: 0 10px; }
-    .reveal .page32 .page-item .item-page31 + .item-page31 {
+    .reveal .page32 .page-item .item-page32 + .item-page32 {
       width: 49%;
       border-left: 1px solid; }
   .reveal .page32 .page-item h3 {
@@ -401,11 +401,8 @@ embed, iframe, object {
   .reveal .last-page01 .appendix li {
     font-size: .5em; }
 
-.reveal .last-page02 h2 img {
-  width: 32.8%; }
-
-.reveal .last-page03 .page-item {
+.reveal .last-page02 .page-item {
   padding-top: 175px;
   margin-bottom: 240px; }
-  .reveal .last-page03 .page-item .gratitude {
+  .reveal .last-page02 .page-item .gratitude {
     font-size: 1.2em; }
