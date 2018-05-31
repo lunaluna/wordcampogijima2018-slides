@@ -395,13 +395,25 @@ embed, iframe, object {
       a {
         .screen-shot {
           img {
-            width: 70%;
+            width: 68%;
           }
         }
       }
     }
   }
-  .page16,
+  .page16 {
+    .page-title {
+      margin-bottom: 0;
+    }
+    .page-item {
+      margin-bottom: 52px;
+      .screen-shot {
+        img {
+          width: 59.25%;
+        }
+      }
+    }
+  }
   .page17 {
     .page-title {
       margin-bottom: 0;
@@ -415,7 +427,12 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 130px;
+      margin-bottom: 52px;
+      .screen-shot {
+        img {
+          width: 80.6%;
+        }
+      }
     }
   }
   .page19 {

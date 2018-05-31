@@ -287,13 +287,19 @@ embed, iframe, object {
 .reveal .page15 .page-item {
   margin-bottom: 52px; }
   .reveal .page15 .page-item a .screen-shot img {
-    width: 70%; }
+    width: 68%; }
 
-.reveal .page16 .page-title,
+.reveal .page16 .page-title {
+  margin-bottom: 0; }
+
+.reveal .page16 .page-item {
+  margin-bottom: 52px; }
+  .reveal .page16 .page-item .screen-shot img {
+    width: 59.25%; }
+
 .reveal .page17 .page-title {
   margin-bottom: 0; }
 
-.reveal .page16 .page-item,
 .reveal .page17 .page-item {
   margin-bottom: 158px; }
 
@@ -301,7 +307,9 @@ embed, iframe, object {
   margin-bottom: 0; }
 
 .reveal .page18 .page-item {
-  margin-bottom: 130px; }
+  margin-bottom: 52px; }
+  .reveal .page18 .page-item .screen-shot img {
+    width: 80.6%; }
 
 .reveal .page19 .page-item {
   font-size: .8em;
