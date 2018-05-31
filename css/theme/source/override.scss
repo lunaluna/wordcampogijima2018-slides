@@ -177,7 +177,7 @@ embed, iframe, object {
       .left {
         display: inline-block;
         text-align: left;
-        font-size: .5em;
+        font-size: .4em;
         margin-right: auto;
       }
       .right {
@@ -311,7 +311,7 @@ embed, iframe, object {
     }
   }
   .page04,
-  .page34 {
+  .page35 {
     header {
       padding-top: 150px;
       margin-bottom: 285px;
@@ -373,6 +373,9 @@ embed, iframe, object {
     .page-item {
       padding-top: 25px;
       margin-bottom: 134px;
+      li {
+        font-size: .99em;
+      }
     }
   }
   .page14 {
@@ -481,6 +484,11 @@ embed, iframe, object {
   }
   .page25 {
     .page-item {
+      margin-bottom: 106px;
+    }
+  }
+  .page26 {
+    .page-item {
       padding-top: 25px;
       margin-bottom: 208px;
       ol {
@@ -488,15 +496,15 @@ embed, iframe, object {
       }
     }
   }
-  .page26,
-  .page28,
-  .page29 {
+  .page27,
+  .page29,
+  .page30 {
     .page-item {
       padding-top: 25px;
       margin-bottom: 134px;
     }
   }
-  .page27 {
+  .page28 {
     .page-item {
       padding-top: 50px;
       margin-bottom: 173px;
@@ -505,26 +513,26 @@ embed, iframe, object {
       }
     }
   }
-  .page30 {
-    .page-item {
-      margin-bottom: 50px;
-    }
-  }
   .page31 {
     .page-item {
-      padding-top: 25px;
-      margin-bottom: 90px;
+      margin-bottom: 50px;
     }
   }
   .page32 {
     .page-item {
       padding-top: 25px;
+      margin-bottom: 90px;
+    }
+  }
+  .page33 {
+    .page-item {
+      padding-top: 25px;
       margin-bottom: 80px;
-      .item-page32 {
+      .item-page33 {
         display: inline-block;
         width: calc(49% - 60px);
         padding: 0 10px;
-        + .item-page32 {
+        + .item-page33 {
           width: 49%;
           border-left: 1px solid;
         }
@@ -542,7 +550,7 @@ embed, iframe, object {
       }
     }
   }
-  .page33 {
+  .page34 {
     .page-item {
       padding-top: 25px;
       margin-bottom: 80px;

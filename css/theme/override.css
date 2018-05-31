@@ -141,7 +141,7 @@ embed, iframe, object {
     .reveal .slidepage .pagecaption .left {
       display: inline-block;
       text-align: left;
-      font-size: .5em;
+      font-size: .4em;
       margin-right: auto; }
     .reveal .slidepage .pagecaption .right {
       display: inline-block;
@@ -230,7 +230,7 @@ embed, iframe, object {
   margin-bottom: 178px; }
 
 .reveal .page04 header,
-.reveal .page34 header {
+.reveal .page35 header {
   padding-top: 150px;
   margin-bottom: 285px; }
 
@@ -272,6 +272,8 @@ embed, iframe, object {
 .reveal .page13 .page-item {
   padding-top: 25px;
   margin-bottom: 134px; }
+  .reveal .page13 .page-item li {
+    font-size: .99em; }
 
 .reveal .page14 .page-title {
   margin-bottom: 0; }
@@ -342,50 +344,53 @@ embed, iframe, object {
   margin-bottom: 106px; }
 
 .reveal .page25 .page-item {
+  margin-bottom: 106px; }
+
+.reveal .page26 .page-item {
   padding-top: 25px;
   margin-bottom: 208px; }
-  .reveal .page25 .page-item ol {
+  .reveal .page26 .page-item ol {
     margin: 0 120px; }
 
-.reveal .page26 .page-item,
-.reveal .page28 .page-item,
-.reveal .page29 .page-item {
+.reveal .page27 .page-item,
+.reveal .page29 .page-item,
+.reveal .page30 .page-item {
   padding-top: 25px;
   margin-bottom: 134px; }
 
-.reveal .page27 .page-item {
+.reveal .page28 .page-item {
   padding-top: 50px;
   margin-bottom: 173px; }
-  .reveal .page27 .page-item p {
+  .reveal .page28 .page-item p {
     font-size: 1.4em; }
 
-.reveal .page30 .page-item {
-  margin-bottom: 50px; }
-
 .reveal .page31 .page-item {
-  padding-top: 25px;
-  margin-bottom: 90px; }
+  margin-bottom: 50px; }
 
 .reveal .page32 .page-item {
   padding-top: 25px;
+  margin-bottom: 90px; }
+
+.reveal .page33 .page-item {
+  padding-top: 25px;
   margin-bottom: 80px; }
-  .reveal .page32 .page-item .item-page32 {
+  .reveal .page33 .page-item .item-page33 {
     display: inline-block;
     width: calc(49% - 60px);
     padding: 0 10px; }
-    .reveal .page32 .page-item .item-page32 + .item-page32 {
+    .reveal .page33 .page-item .item-page33 + .item-page33 {
       width: 49%;
       border-left: 1px solid; }
-  .reveal .page32 .page-item h3 {
+  .reveal .page33 .page-item h3 {
     font-size: .7em;
     text-align: left; }
-  .reveal .page32 .page-item ul {
+  .reveal .page33 .page-item ul {
     width: 100%;
     margin: 0 70px 10px; }
-    .reveal .page32 .page-item ul li {
+    .reveal .page33 .page-item ul li {
       font-size: .6em; }
 
-.reveal .page33 .page-item {
+.reveal .page34 .page-item {
   padding-top: 25px;
   margin-bottom: 80px; }
 
