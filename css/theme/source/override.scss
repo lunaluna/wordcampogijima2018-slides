@@ -219,6 +219,8 @@ embed, iframe, object {
   .start-page01,
   .start-page02,
   .start-page03,
+  .start-page04,
+  .start-page05,
   .front-page {
     .pagecaption {
       .slide-wapuu {
@@ -228,7 +230,8 @@ embed, iframe, object {
       }
     }
   }
-  .start-page01 {
+  .start-page01,
+  .start-page03 {
     .pagetitle {
       text-align: left;
       padding: 10px 220px 280px;
@@ -237,19 +240,39 @@ embed, iframe, object {
       }
     }
   }
-  section.start-page01  {
+  section.start-page01,
+  section.start-page03  {
     background-image: url(../../img/cropped-main-visual2.png);
     background-position: center center;
     background-repeat: none;
     background-size: cover;
   }
   .start-page02 {
+    .page-item {
+      display: flex;
+      padding-top: 50px;
+      margin-bottom: 94px;
+      > ul {
+        width: 50%;
+        font-size: .5em;
+        ul {
+          font-size: 1em;
+          line-height: 1.25;
+          margin-top: 15px;
+        }
+      }
+      li {
+        line-height: 1.1;
+      }
+    }
+  }
+  .start-page04 {
     .pagetitile {
       font-size: 1.8em;
       padding: 145px 0 146px;
     }
   }
-  .start-page03 {
+  .start-page05 {
     .slide-link {
       font-size: 1.8em;
       padding: 117px 0 180px;

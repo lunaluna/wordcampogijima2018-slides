@@ -165,26 +165,45 @@ embed, iframe, object {
 .reveal .start-page01 .pagecaption .slide-wapuu img,
 .reveal .start-page02 .pagecaption .slide-wapuu img,
 .reveal .start-page03 .pagecaption .slide-wapuu img,
+.reveal .start-page04 .pagecaption .slide-wapuu img,
+.reveal .start-page05 .pagecaption .slide-wapuu img,
 .reveal .front-page .pagecaption .slide-wapuu img {
   width: 25%; }
 
-.reveal .start-page01 .pagetitle {
+.reveal .start-page01 .pagetitle,
+.reveal .start-page03 .pagetitle {
   text-align: left;
   padding: 10px 220px 280px; }
-  .reveal .start-page01 .pagetitle img {
+  .reveal .start-page01 .pagetitle img,
+  .reveal .start-page03 .pagetitle img {
     width: 50%; }
 
-.reveal section.start-page01 {
+.reveal section.start-page01,
+.reveal section.start-page03 {
   background-image: url(../../img/cropped-main-visual2.png);
   background-position: center center;
   background-repeat: none;
   background-size: cover; }
 
-.reveal .start-page02 .pagetitile {
+.reveal .start-page02 .page-item {
+  display: flex;
+  padding-top: 50px;
+  margin-bottom: 94px; }
+  .reveal .start-page02 .page-item > ul {
+    width: 50%;
+    font-size: .5em; }
+    .reveal .start-page02 .page-item > ul ul {
+      font-size: 1em;
+      line-height: 1.25;
+      margin-top: 15px; }
+  .reveal .start-page02 .page-item li {
+    line-height: 1.1; }
+
+.reveal .start-page04 .pagetitile {
   font-size: 1.8em;
   padding: 145px 0 146px; }
 
-.reveal .start-page03 .slide-link {
+.reveal .start-page05 .slide-link {
   font-size: 1.8em;
   padding: 117px 0 180px; }
 
