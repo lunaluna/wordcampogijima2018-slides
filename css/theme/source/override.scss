@@ -240,8 +240,7 @@ embed, iframe, object {
       }
     }
   }
-  section.start-page01,
-  section.start-page03  {
+  section.start-page01  {
     background-image: url(../../img/cropped-main-visual2.png);
     background-position: center center;
     background-repeat: none;
@@ -249,30 +248,32 @@ embed, iframe, object {
   }
   .start-page02 {
     .page-item {
-      display: flex;
-      padding-top: 50px;
-      margin-bottom: 94px;
-      > ul {
-        width: 50%;
-        font-size: .5em;
-        ul {
-          font-size: 1em;
-          line-height: 1.25;
-          margin-top: 15px;
+      nav {
+        display: flex;
+        padding-top: 50px;
+        margin-bottom: 94px;
+        > ul {
+          width: 50%;
+          font-size: .5em;
+          ul {
+            font-size: 1em;
+            line-height: 1.25;
+            margin-top: 15px;
+          }
         }
-      }
-      li {
-        line-height: 1.1;
+        li {
+          line-height: 1.1;
+        }
       }
     }
   }
-  .start-page04 {
+  .start-page03 {
     .pagetitile {
       font-size: 1.8em;
       padding: 145px 0 146px;
     }
   }
-  .start-page05 {
+  .start-page04 {
     .slide-link {
       font-size: 1.8em;
       padding: 117px 0 180px;
@@ -368,8 +369,11 @@ embed, iframe, object {
   }
   .page09 {
     .page-item {
-      padding-top: 50px;
-      margin-bottom: 163px;
+      padding-top: 45px;
+      margin-bottom: 154px;
+      p {
+        line-height: 1.4;
+      }
     }
   }
   .page10 {
@@ -541,8 +545,11 @@ embed, iframe, object {
   }
   .page32 {
     .page-item {
-      padding-top: 25px;
-      margin-bottom: 90px;
+      padding-top: 30px;
+      margin-bottom: 97px;
+      li {
+        font-size: .95em;
+      }
     }
   }
   .page33 {
@@ -592,14 +599,14 @@ embed, iframe, object {
   .last-page01 {
     .appendix {
       display: inline-block;
-      width: 49%;
-      padding: 25px 10px 0;
+      width: 75%;
+      padding: 95px 10px 133px;
       margin: 0 0 50px;
       h3 {
-        font-size: .5em;
+        font-size: .75em;
       }
       li {
-        font-size: .5em;
+        font-size: .75em;
       }
     }
   }

@@ -178,32 +178,31 @@ embed, iframe, object {
   .reveal .start-page03 .pagetitle img {
     width: 50%; }
 
-.reveal section.start-page01,
-.reveal section.start-page03 {
+.reveal section.start-page01 {
   background-image: url(../../img/cropped-main-visual2.png);
   background-position: center center;
   background-repeat: none;
   background-size: cover; }
 
-.reveal .start-page02 .page-item {
+.reveal .start-page02 .page-item nav {
   display: flex;
   padding-top: 50px;
   margin-bottom: 94px; }
-  .reveal .start-page02 .page-item > ul {
+  .reveal .start-page02 .page-item nav > ul {
     width: 50%;
     font-size: .5em; }
-    .reveal .start-page02 .page-item > ul ul {
+    .reveal .start-page02 .page-item nav > ul ul {
       font-size: 1em;
       line-height: 1.25;
       margin-top: 15px; }
-  .reveal .start-page02 .page-item li {
+  .reveal .start-page02 .page-item nav li {
     line-height: 1.1; }
 
-.reveal .start-page04 .pagetitile {
+.reveal .start-page03 .pagetitile {
   font-size: 1.8em;
   padding: 145px 0 146px; }
 
-.reveal .start-page05 .slide-link {
+.reveal .start-page04 .slide-link {
   font-size: 1.8em;
   padding: 117px 0 180px; }
 
@@ -271,8 +270,10 @@ embed, iframe, object {
     font-size: 1.5em; }
 
 .reveal .page09 .page-item {
-  padding-top: 50px;
-  margin-bottom: 163px; }
+  padding-top: 45px;
+  margin-bottom: 154px; }
+  .reveal .page09 .page-item p {
+    line-height: 1.4; }
 
 .reveal .page10 .page-item {
   margin-bottom: 139px; }
@@ -386,8 +387,10 @@ embed, iframe, object {
   margin-bottom: 50px; }
 
 .reveal .page32 .page-item {
-  padding-top: 25px;
-  margin-bottom: 90px; }
+  padding-top: 30px;
+  margin-bottom: 97px; }
+  .reveal .page32 .page-item li {
+    font-size: .95em; }
 
 .reveal .page33 .page-item {
   padding-top: 25px;
@@ -421,13 +424,13 @@ embed, iframe, object {
 ****************************************************/
 .reveal .last-page01 .appendix {
   display: inline-block;
-  width: 49%;
-  padding: 25px 10px 0;
+  width: 75%;
+  padding: 95px 10px 133px;
   margin: 0 0 50px; }
   .reveal .last-page01 .appendix h3 {
-    font-size: .5em; }
+    font-size: .75em; }
   .reveal .last-page01 .appendix li {
-    font-size: .5em; }
+    font-size: .75em; }
 
 .reveal .last-page02 .page-item {
   padding-top: 175px;
