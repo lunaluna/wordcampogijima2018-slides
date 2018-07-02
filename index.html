@@ -3,11 +3,10 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<title> もう後回しにしない！より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018 - WordCamp Ogijima 2018</title>
+	<title> より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018 - WordCamp Ogijima 2018</title>
 	<link rel="stylesheet" href="./css/reveal.css">
 	<link rel="stylesheet" href="./css/theme/white.css">
 	<link rel="stylesheet" href="./lib/css/zenburn.css">
-	<link rel="stylesheet" href="./css/theme/override.css">
 	<meta name="msapplication-TileColor" content="#2d88ef">
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
@@ -57,6 +56,7 @@
 		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
 		document.getElementsByTagName('head')[0].appendChild(link);
 	</script>
+	<link rel="stylesheet" href="./css/theme/override.css">
 </head>
 <body>
 	<main class="reveal" role="main">
@@ -77,28 +77,28 @@
 				<div class="page-item">
 					<nav role="navigation" aria-label="メインメニュー">
 						<ul>
-							<li><a href="#page03" class="in-page">今日お話しすること</a></li>
-							<li><a href="#page10" class="in-page">WordPressのアクセシビリティ対応</a></li>
-							<li><a href="#page14" class="in-page">コーディングのアクセシビリティ対応</a>
+							<li><a href="#page03" class="in-page">今日お話しすること</a>(p.3)</li>
+							<li><a href="#page11" class="in-page">WordPressのアクセシビリティ対応</a>(p.11)</li>
+							<li><a href="#page15" class="in-page">コーディングのアクセシビリティ対応</a>(p.15)
 								<ul>
-									<li><a href="#page15" class="in-page">セマンティックにコーディングする</a></li>
-									<li><a href="#page20" class="in-page">JIS X 8341-3:2016への準拠</a></li>
-									<li><a href="#page21" class="in-page">role属性、aria属性の活用</a></li>
-									<li><a href="#page25" class="in-page">アクセシビリティ対応しているプラグインの活用</a></li>
+									<li><a href="#page16" class="in-page">セマンティックにコーディングする</a>(p.16)</li>
+									<li><a href="#page21" class="in-page">JIS X 8341-3:2016への準拠</a>(p.21)</li>
+									<li><a href="#page22" class="in-page">role属性、aria属性の活用</a>(p.22)</li>
+									<li><a href="#page26" class="in-page">アクセシビリティ対応しているプラグインの活用</a>(p.26)</li>
 								</ul>
 							</li>
 						</ul>
 						<ul>
-							<li><a href="#page27" class="in-page">プロジェクトのアクセシビリティ対応</a>
+							<li><a href="#page28" class="in-page">プロジェクトのアクセシビリティ対応</a>(p.28)
 								<ul>
-									<li><a href="#page28" class="in-page">アクセシビリティは後回し？</a></li>
-									<li><a href="#page29" class="in-page">アクセシビリティは儲からない？</a></li>
-									<li><a href="#page30" class="in-page">どこまでを求めるのか</a>
+									<li><a href="#page29" class="in-page">アクセシビリティは後回し？</a>(p.29)</li>
+									<li><a href="#page30" class="in-page">アクセシビリティは儲からない？</a>(p.30)</li>
+									<li><a href="#page31" class="in-page">どこまでを求めるのか</a>(p.31)
 										<ul>
-											<li><a href="#page31" class="in-page">最初に方針を定めましょう</a></li>
-											<li><a href="#page32" class="in-page">デフォルトテーマを使うという選択肢</a></li>
-											<li><a href="#page33" class="in-page">まずは必要最低限から</a></li>
-											<li><a href="#page34" class="in-page">「基準を知る」</a></li>
+											<li><a href="#page32" class="in-page">最初に方針を定めましょう</a>(p.32)</li>
+											<li><a href="#page33" class="in-page">デフォルトテーマを使うという選択肢</a>(p.33)</li>
+											<li><a href="#page34" class="in-page">まずは必要最低限から</a>(p.34)</li>
+											<li><a href="#page35" class="in-page">「基準を知る」</a>(p.35)</li>
 										</ul>
 									</li>
 								</ul>
@@ -328,14 +328,14 @@
 						<li><a href="https://wordpress.slack.com/messages/C02RP4X03/" target="_blank" rel="noopener">Slackチャンネル #accessibility</a></li>
 					</ul>
 				</div>
-				<div class="nombre">【 10ページ 】</div>
+				<div class="nombre">【 11ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page11">
+			<section class="slidepage page12">
 				<header>
 					<h2 class="page-title">テーマのアクセシビリティ</h2>
 				</header>
@@ -347,14 +347,14 @@
 						<li>「アクセシビリティ対応」タグのあるテーマは<br>アクセシビリティチームがチェックしています</li>
 					</ul>
 				</div>
-				<div class="nombre">【 11ページ 】</div>
+				<div class="nombre">【 12ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page12" id="page12">
+			<section class="slidepage page13" id="page13">
 				<header>
 					<h2 class="page-title">アクセシビリティ対応のための<br>プラグイン</h2>
 				</header>
@@ -366,20 +366,6 @@
 					</ul>
 					<p class="text-right">など</p>
 				</div>
-				<div class="nombre">【 12ページ 】</div>
-				<footer class="pagecaption" aria-hidden="true">
-					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
-					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
-					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
-				</footer>
-			</section>
-			<section class="slidepage page13">
-				<header>
-					<h2 class="page-title">また疑問が</h2>
-				</header>
-				<div class="page-item">
-					<p class="ib-left">それならば、<strong>自作テーマ</strong>をアクセシビリティ対応<br>させたいときに必要なのは？</p>
-				</div>
 				<div class="nombre">【 13ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
@@ -387,17 +373,12 @@
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page14" id="page14">
+			<section class="slidepage page14">
 				<header>
-					<h2 class="page-title">自作テーマ作成時の注意点</h2>
+					<h2 class="page-title">また疑問が</h2>
 				</header>
 				<div class="page-item">
-					<ol class="inline-block">
-						<li><a href="#page15" class="in-page">セマンティックにコーディングする</a></li>
-						<li><a href="#page20" class="in-page">JIS X 8341-3:2016への準拠</a></li>
-						<li><a href="#page21" class="in-page">role属性、aria属性の活用</a></li>
-						<li><a href="#page25" class="in-page">アクセシビリティ対応しているプラグインの活用</a></li>
-					</ol>
+					<p class="ib-left">それならば、<strong>自作テーマ</strong>をアクセシビリティ対応<br>させたいときに必要なのは？</p>
 				</div>
 				<div class="nombre">【 14ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
@@ -407,6 +388,25 @@
 				</footer>
 			</section>
 			<section class="slidepage page15" id="page15">
+				<header>
+					<h2 class="page-title">自作テーマ作成時の注意点</h2>
+				</header>
+				<div class="page-item">
+					<ol class="inline-block">
+						<li><a href="#page16" class="in-page">セマンティックにコーディングする</a></li>
+						<li><a href="#page21" class="in-page">JIS X 8341-3:2016への準拠</a></li>
+						<li><a href="#page22" class="in-page">role属性、aria属性の活用</a></li>
+						<li><a href="#page26" class="in-page">アクセシビリティ対応しているプラグインの活用</a></li>
+					</ol>
+				</div>
+				<div class="nombre">【 15ページ 】</div>
+				<footer class="pagecaption" aria-hidden="true">
+					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
+					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
+					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
+				</footer>
+			</section>
+			<section class="slidepage page16" id="page16">
 				<header>
 					<h2 class="page-title">セマンティックにコーディングする</h2>
 				</header>
@@ -420,14 +420,14 @@
 					</ul>
 					<p class="text-right">など</p>
 				</div>
-				<div class="nombre">【 15ページ 】</div>
+				<div class="nombre">【 16ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page16" id="page16">
+			<section class="slidepage page17" id="page17">
 				<header>
 					<h2 class="page-title">代替テキスト</h2>
 				</header>
@@ -438,22 +438,6 @@
 						</figure>
 					</a>
 				</div>
-				<div class="nombre">【 16ページ 】</div>
-				<footer class="pagecaption" aria-hidden="true">
-					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
-					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
-					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
-				</footer>
-			</section>
-			<section class="slidepage page17">
-				<header>
-					<h2 class="page-title">代替テキスト</h2>
-				</header>
-				<div class="page-item">
-					<figure class="screen-shot">
-						<img src="./img/ss-dashboard.png" alt="WordPressの投稿画面の『アイキャッチ画像』を登録した際の『代替テキスト』を入力する画面">
-					</figure>
-				</div>
 				<div class="nombre">【 17ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
@@ -462,6 +446,22 @@
 				</footer>
 			</section>
 			<section class="slidepage page18">
+				<header>
+					<h2 class="page-title">代替テキスト</h2>
+				</header>
+				<div class="page-item">
+					<figure class="screen-shot">
+						<img src="./img/ss-dashboard.png" alt="WordPressの投稿画面の『アイキャッチ画像』を登録した際の『代替テキスト』を入力する画面">
+					</figure>
+				</div>
+				<div class="nombre">【 18ページ 】</div>
+				<footer class="pagecaption" aria-hidden="true">
+					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
+					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
+					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
+				</footer>
+			</section>
+			<section class="slidepage page19">
 				<header>
 					<h2 class="page-title">代替テキスト</h2>
 				</header>
@@ -478,14 +478,14 @@
 </pre>
 					</div>
 				</div>
-				<div class="nombre">【 18ページ 】</div>
+				<div class="nombre">【 19ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page19">
+			<section class="slidepage page20">
 				<header>
 					<h2 class="page-title">代替テキスト</h2>
 				</header>
@@ -494,14 +494,14 @@
 						<img src="./img/ss-alt-text.png" alt="画像が読み込まれずに、代替テキストとして『両手を大きく広げて満面の笑みを浮かべるWordCamp男木島実行委員長の西川さんと男木島の青空』と表示されているスクリーンショット">
 					</figure>
 				</div>
-				<div class="nombre">【 19ページ 】</div>
+				<div class="nombre">【 20ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page20" id="page20">
+			<section class="slidepage page21" id="page21">
 				<header>
 					<h2 class="page-title">JIS X 8341-3:2016への準拠</h2>
 				</header>
@@ -517,14 +517,14 @@
 						</li>
 					</ul>
 				</div>
-				<div class="nombre">【 20ページ 】</div>
+				<div class="nombre">【 21ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page21" id="page21">
+			<section class="slidepage page22" id="page22">
 				<header>
 					<h2 class="page-title">role属性、aria属性の活用</h2>
 				</header>
@@ -535,16 +535,17 @@
 					</dl>
 					<ul>
 						<li class="link-list"><a href="https://momdo.github.io/wai-aria/roles.html" target="_blank" rel="noopener">ロールモデル</a></li>
+						<li class="link-list"><a href="https://momdo.github.io/wai-aria-1.1/#roles_categorization" target="_blank" rel="noopener">ロールの分類</a></li>
 					</ul>
 				</div>
-				<div class="nombre">【 21ページ 】</div>
+				<div class="nombre">【 22ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page22">
+			<section class="slidepage page23">
 				<header>
 					<h2 class="page-title">role属性、aria属性の活用</h2>
 				</header>
@@ -571,14 +572,14 @@
 					</ul>
 					<p class="text-right">など</p>
 				</div>
-				<div class="nombre">【 22ページ 】</div>
+				<div class="nombre">【 23ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page23">
+			<section class="slidepage page24">
 				<header>
 					<h2 class="page-title">role属性、aria属性の活用</h2>
 				</header>
@@ -591,14 +592,14 @@
 						<li class="link-list"><a href="http://www.webcreativepark.net/html/wai-aria/" target="_blank" rel="noopener">WAI-ARIA</a></li>
 					</ul>
 				</div>
-				<div class="nombre">【 23ページ 】</div>
+				<div class="nombre">【 24ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page24">
+			<section class="slidepage page25">
 				<header>
 					<h2 class="page-title">role属性、aria属性の活用</h2>
 				</header>
@@ -625,14 +626,14 @@
 					</ul>
 					<p class="text-right">など</p>
 				</div>
-				<div class="nombre">【 24ページ 】</div>
+				<div class="nombre">【 25ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page25" id="page25">
+			<section class="slidepage page26" id="page26">
 				<header>
 					<h2 class="page-title">アクセシビリティ対応している<br>プラグインの活用</h2>
 				</header>
@@ -643,14 +644,14 @@
 					</ul>
 					<p class="text-right">など</p>
 				</div>
-				<div class="nombre">【 25ページ 】</div>
+				<div class="nombre">【 26ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page26">
+			<section class="slidepage page27">
 				<header>
 					<h2 class="page-title">【参考】コーディングスタンダード</h2>
 				</header>
@@ -662,24 +663,6 @@
 					</ul>
 					<p class="text-right">など</p>
 				</div>
-				<div class="nombre">【 26ページ 】</div>
-				<footer class="pagecaption" aria-hidden="true">
-					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
-					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
-					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
-				</footer>
-			</section>
-			<section class="slidepage page27" id="page27">
-				<header>
-					<h2 class="page-title">プロジェクトのアクセシビリティ対応</h2>
-				</header>
-				<div class="page-item">
-					<ol>
-						<li><a href="#page28" class="in-page">アクセシビリティは後回し？</a></li>
-						<li><a href="#page29" class="in-page">アクセシビリティは儲からない？</a></li>
-						<li><a href="#page30" class="in-page">どこまでを求めるのか</a></li>
-					</ol>
-				</div>
 				<div class="nombre">【 27ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
@@ -688,6 +671,24 @@
 				</footer>
 			</section>
 			<section class="slidepage page28" id="page28">
+				<header>
+					<h2 class="page-title">プロジェクトのアクセシビリティ対応</h2>
+				</header>
+				<div class="page-item">
+					<ol>
+						<li><a href="#page29" class="in-page">アクセシビリティは後回し？</a></li>
+						<li><a href="#page30" class="in-page">アクセシビリティは儲からない？</a></li>
+						<li><a href="#page31" class="in-page">どこまでを求めるのか</a></li>
+					</ol>
+				</div>
+				<div class="nombre">【 28ページ 】</div>
+				<footer class="pagecaption" aria-hidden="true">
+					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
+					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
+					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
+				</footer>
+			</section>
+			<section class="slidepage page29" id="page29">
 				<header>
 					<h2 class="page-title">アクセシビリティは後回し？</h2>
 				</header>
@@ -699,14 +700,14 @@
 						<li>必要ないから？</li>
 					</ul>
 				</div>
-				<div class="nombre">【 28ページ 】</div>
+				<div class="nombre">【 29ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page29" id="page29">
+			<section class="slidepage page30" id="page30">
 				<header>
 					<h2 class="page-title">アクセシビリティは儲からない？</h2>
 				</header>
@@ -718,25 +719,6 @@
 						<li>売り上げを逃しているのでは？</li>
 					</ul>
 				</div>
-				<div class="nombre">【 29ページ 】</div>
-				<footer class="pagecaption" aria-hidden="true">
-					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
-					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
-					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
-				</footer>
-			</section>
-			<section class="slidepage page30" id="page30">
-				<header>
-					<h2 class="page-title">では、どこまでを求めるのか</h2>
-				</header>
-				<div class="page-item">
-					<ul class="inline-block">
-						<li><a href="#page31" class="in-page">最初に方針を定めましょう</a></li>
-						<li><a href="#page32" class="in-page">デフォルトテーマを使うという選択肢</a></li>
-						<li><a href="#page33" class="in-page">まずは必要最低限から</a></li>
-						<li><a href="#page34" class="in-page">「基準を知る」</a></li>
-					</ul>
-				</div>
 				<div class="nombre">【 30ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
@@ -746,14 +728,14 @@
 			</section>
 			<section class="slidepage page31" id="page31">
 				<header>
-					<h2 class="page-title">最初に方針を定めましょう</h2>
+					<h2 class="page-title">では、どこまでを求めるのか</h2>
 				</header>
 				<div class="page-item">
 					<ul class="inline-block">
-						<li><strong>必ず</strong>プロジェクト全体で方針を決めること</li>
-						<li>デザイン「だけ」ではアクセシビリティ対応はできない</li>
-						<li>プログラミング「だけ」でもアクセシビリティ対応はできない</li>
-						<li>クライアントも含めた方針の決定が先決</li>
+						<li><a href="#page32" class="in-page">最初に方針を定めましょう</a></li>
+						<li><a href="#page33" class="in-page">デフォルトテーマを使うという選択肢</a></li>
+						<li><a href="#page34" class="in-page">まずは必要最低限から</a></li>
+						<li><a href="#page35" class="in-page">「基準を知る」</a></li>
 					</ul>
 				</div>
 				<div class="nombre">【 31ページ 】</div>
@@ -765,13 +747,14 @@
 			</section>
 			<section class="slidepage page32" id="page32">
 				<header>
-					<h2 class="page-title">デフォルトテーマを使うという選択肢</h2>
+					<h2 class="page-title">最初に方針を定めましょう</h2>
 				</header>
 				<div class="page-item">
 					<ul class="inline-block">
-						<li><a href="https://ja.wordpress.org/themes/tags/accessibility-ready/" target="_blank" rel="noopener">「アクセシビリティ」対応テーマ</a>を利用する</li>
-						<li>現時点のテーマディレクトリの「アクセシビリティ」タグ登録数は123件（デフォルトテーマ含む・2018年7月1日現在）</li>
-						<li>本当にサイトの訪問者が必要な情報はなにか？</li>
+						<li><strong>必ず</strong>プロジェクト全体で方針を決めること</li>
+						<li>デザイン「だけ」ではアクセシビリティ対応はできない</li>
+						<li>プログラミング「だけ」でもアクセシビリティ対応はできない</li>
+						<li>クライアントも含めた方針の決定が先決</li>
 					</ul>
 				</div>
 				<div class="nombre">【 32ページ 】</div>
@@ -783,10 +766,28 @@
 			</section>
 			<section class="slidepage page33" id="page33">
 				<header>
+					<h2 class="page-title">デフォルトテーマを使うという選択肢</h2>
+				</header>
+				<div class="page-item">
+					<ul class="inline-block">
+						<li><a href="https://ja.wordpress.org/themes/tags/accessibility-ready/" target="_blank" rel="noopener">「アクセシビリティ」対応テーマ</a>を利用する</li>
+						<li>現時点のテーマディレクトリの「アクセシビリティ」タグ登録数は123件（デフォルトテーマ含む・2018年7月1日現在）</li>
+						<li>本当にサイトの訪問者が必要な情報はなにか？</li>
+					</ul>
+				</div>
+				<div class="nombre">【 33ページ 】</div>
+				<footer class="pagecaption" aria-hidden="true">
+					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
+					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
+					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
+				</footer>
+			</section>
+			<section class="slidepage page34" id="page34">
+				<header>
 					<h2 class="page-title">まずは必要最低限から</h2>
 				</header>
 				<div class="page-item">
-					<div class="item-page33">
+					<div class="item-page34">
 						<h3>デザインのアクセシビリティ</h3>
 						<ul class="inline-block">
 							<li>文字サイズ</li>
@@ -795,7 +796,7 @@
 							<li>......</li>
 						</ul>
 					</div>
-					<div class="item-page33">
+					<div class="item-page34">
 						<h3>コーディングのアクセシビリティ</h3>
 						<ul>
 							<li>セマンティックな文書構造</li>
@@ -806,14 +807,14 @@
 					</div>
 					<p>なにより<strong>継続できることが大事</strong></p>
 				</div>
-				<div class="nombre">【 33ページ 】</div>
+				<div class="nombre">【 34ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page34" id="page34">
+			<section class="slidepage page35" id="page35">
 				<header>
 					<h2 class="page-title">「基準を知る」</h2>
 				</header>
@@ -825,18 +826,18 @@
 						<li>（可能なら）方針策定・達成期限を設ける</li>
 					</ul>
 				</div>
-				<div class="nombre">【 34ページ 】</div>
+				<div class="nombre">【 35ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page35">
+			<section class="slidepage page36">
 				<header>
 					<h2 class="pagetitile">アクセシビリティは<br />『品質』です。</h2>
 				</header>
-				<div class="nombre">【 35ページ 】</div>
+				<div class="nombre">【 36ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー"></picture>
 					<p class="left">より多くの人に届けるために／明日からできる自作テーマ・受託プロジェクトのアクセシビリティ入門2018</p>

@@ -186,8 +186,8 @@ embed, iframe, object {
 
 .reveal .start-page02 .page-item nav {
   display: flex;
-  padding-top: 50px;
-  margin-bottom: 94px; }
+  padding-top: 40px;
+  margin-bottom: 82px; }
   .reveal .start-page02 .page-item nav > ul {
     width: 50%;
     font-size: .5em; }
@@ -275,147 +275,155 @@ embed, iframe, object {
   .reveal .page09 .page-item p {
     line-height: 1.4; }
 
+.reveal .page10 .page-title {
+  font-size: 1.05em; }
+
 .reveal .page10 .page-item {
-  margin-bottom: 139px; }
+  font-size: .9em;
+  padding-top: 15px;
+  margin-bottom: 105px; }
 
 .reveal .page11 .page-item {
-  margin-bottom: 105px; }
-  .reveal .page11 .page-item .ib-left {
-    margin-top: 0; }
-
-.reveal .page12 .page-title {
-  margin-bottom: 0; }
+  margin-bottom: 139px; }
 
 .reveal .page12 .page-item {
+  margin-bottom: 105px; }
+  .reveal .page12 .page-item .ib-left {
+    margin-top: 0; }
+
+.reveal .page13 .page-title {
+  margin-bottom: 0; }
+
+.reveal .page13 .page-item {
   margin-bottom: 61px; }
 
 .reveal .page07 .page-item,
-.reveal .page13 .page-item {
+.reveal .page14 .page-item {
   padding-top: 60px;
   margin-bottom: 207px; }
 
-.reveal .page14 .page-item {
+.reveal .page15 .page-item {
   padding-top: 25px;
   margin-bottom: 134px; }
-  .reveal .page14 .page-item li {
+  .reveal .page15 .page-item li {
     font-size: .99em; }
-
-.reveal .page15 .page-title {
-  margin-bottom: 0; }
-
-.reveal .page15 .page-item {
-  margin-bottom: 52px; }
 
 .reveal .page16 .page-title {
   margin-bottom: 0; }
 
 .reveal .page16 .page-item {
   margin-bottom: 52px; }
-  .reveal .page16 .page-item a .screen-shot img {
-    width: 68%; }
 
 .reveal .page17 .page-title {
   margin-bottom: 0; }
 
 .reveal .page17 .page-item {
   margin-bottom: 52px; }
-  .reveal .page17 .page-item .screen-shot img {
-    width: 59.25%; }
+  .reveal .page17 .page-item a .screen-shot img {
+    width: 68%; }
 
 .reveal .page18 .page-title {
   margin-bottom: 0; }
 
 .reveal .page18 .page-item {
-  margin-bottom: 158px; }
+  margin-bottom: 52px; }
+  .reveal .page18 .page-item .screen-shot img {
+    width: 59.25%; }
 
 .reveal .page19 .page-title {
   margin-bottom: 0; }
 
 .reveal .page19 .page-item {
-  margin-bottom: 52px; }
-  .reveal .page19 .page-item .screen-shot img {
-    width: 69.6%; }
+  margin-bottom: 158px; }
+
+.reveal .page20 .page-title {
+  margin-bottom: 0; }
 
 .reveal .page20 .page-item {
-  font-size: .8em;
-  margin-bottom: 91px; }
-  .reveal .page20 .page-item li {
-    font-size: .8em; }
-    .reveal .page20 .page-item li ul {
-      margin-top: 10px; }
+  margin-bottom: 52px; }
+  .reveal .page20 .page-item .screen-shot img {
+    width: 69.6%; }
 
 .reveal .page21 .page-item {
-  margin-bottom: 253px; }
-  .reveal .page21 .page-item .definition-list,
-  .reveal .page21 .page-item ul {
+  font-size: .8em;
+  margin-bottom: 91px; }
+  .reveal .page21 .page-item li {
+    font-size: .8em; }
+    .reveal .page21 .page-item li ul {
+      margin-top: 10px; }
+
+.reveal .page22 .page-item {
+  margin-bottom: 189px; }
+  .reveal .page22 .page-item .definition-list,
+  .reveal .page22 .page-item ul {
     margin: 0 200px; }
 
-.reveal .page22 .page-item,
-.reveal .page24 .page-item {
+.reveal .page23 .page-item,
+.reveal .page25 .page-item {
   margin-bottom: 43px; }
-  .reveal .page22 .page-item .definition-list,
-  .reveal .page22 .page-item ul,
-  .reveal .page24 .page-item .definition-list,
-  .reveal .page24 .page-item ul {
+  .reveal .page23 .page-item .definition-list,
+  .reveal .page23 .page-item ul,
+  .reveal .page25 .page-item .definition-list,
+  .reveal .page25 .page-item ul {
     font-size: .95em; }
 
-.reveal .page23 .page-item {
+.reveal .page24 .page-item {
   margin-bottom: 199px; }
-  .reveal .page23 .page-item .definition-list,
-  .reveal .page23 .page-item ul {
+  .reveal .page24 .page-item .definition-list,
+  .reveal .page24 .page-item ul {
     margin: 0 40px; }
-
-.reveal .page25 .page-item {
-  margin-bottom: 106px; }
 
 .reveal .page26 .page-item {
   margin-bottom: 106px; }
 
 .reveal .page27 .page-item {
+  margin-bottom: 106px; }
+
+.reveal .page28 .page-item {
   padding-top: 25px;
   margin-bottom: 208px; }
-  .reveal .page27 .page-item ol {
+  .reveal .page28 .page-item ol {
     margin: 0 120px; }
 
-.reveal .page28 .page-item,
 .reveal .page29 .page-item,
-.reveal .page30 .page-item {
+.reveal .page30 .page-item,
+.reveal .page31 .page-item {
   padding-top: 25px;
   margin-bottom: 134px; }
 
-.reveal .page31 .page-item {
+.reveal .page32 .page-item {
   margin-bottom: 50px; }
 
-.reveal .page32 .page-item {
+.reveal .page33 .page-item {
   padding-top: 30px;
   margin-bottom: 97px; }
-  .reveal .page32 .page-item li {
+  .reveal .page33 .page-item li {
     font-size: .95em; }
-
-.reveal .page33 .page-item {
-  padding-top: 25px;
-  margin-bottom: 80px; }
-  .reveal .page33 .page-item .item-page33 {
-    display: inline-block;
-    width: calc(49% - 60px);
-    padding: 0 10px; }
-    .reveal .page33 .page-item .item-page33 + .item-page33 {
-      width: 49%;
-      border-left: 1px solid; }
-  .reveal .page33 .page-item h3 {
-    font-size: .7em;
-    text-align: left; }
-  .reveal .page33 .page-item ul {
-    width: 100%;
-    margin: 0 70px 10px; }
-    .reveal .page33 .page-item ul li {
-      font-size: .6em; }
 
 .reveal .page34 .page-item {
   padding-top: 25px;
   margin-bottom: 80px; }
+  .reveal .page34 .page-item .item-page34 {
+    display: inline-block;
+    width: calc(49% - 60px);
+    padding: 0 10px; }
+    .reveal .page34 .page-item .item-page34 + .item-page34 {
+      width: 49%;
+      border-left: 1px solid; }
+  .reveal .page34 .page-item h3 {
+    font-size: .7em;
+    text-align: left; }
+  .reveal .page34 .page-item ul {
+    width: 100%;
+    margin: 0 70px 10px; }
+    .reveal .page34 .page-item ul li {
+      font-size: .6em; }
 
-.reveal .page35 header {
+.reveal .page35 .page-item {
+  padding-top: 25px;
+  margin-bottom: 80px; }
+
+.reveal .page36 header {
   font-size: 2em;
   padding-top: 50px;
   margin-bottom: 189px; }
