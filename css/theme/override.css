@@ -186,8 +186,7 @@ embed, iframe, object {
 
 .reveal .start-page02 .page-item nav {
   display: flex;
-  padding-top: 40px;
-  margin-bottom: 82px; }
+  padding: 40px 0 82px; }
   .reveal .start-page02 .page-item nav > ul {
     width: 50%;
     font-size: .5em; }
@@ -202,15 +201,28 @@ embed, iframe, object {
   font-size: 1.8em;
   padding: 145px 0 146px; }
 
+.reveal .start-page04 .page-item {
+  padding: 0; }
+
 .reveal .start-page04 .slide-link {
-  font-size: 1.8em;
-  padding: 117px 0 180px; }
+  font-size: 1.68em; }
+
+.reveal .start-page04 .flex {
+  display: flex;
+  justify-content: center; }
+  .reveal .start-page04 .flex div {
+    width: 28.9%;
+    padding: 5px; }
+  .reveal .start-page04 .flex .hashtag {
+    font-size: 1.25em;
+    padding-top: 80px;
+    margin-left: 40px; }
 
 .reveal .front-page .front-WCOtitle {
   font-size: 1em;
   font-weight: normal;
   text-transform: capitalize;
-  margin-bottom: 97px; }
+  padding-bottom: 75px; }
 
 /* slide page -contentpage
 ****************************************************/
@@ -223,55 +235,63 @@ embed, iframe, object {
 .reveal .page02 a {
   display: block; }
 
-.reveal .page01 .page-item {
-  margin-bottom: 57px; }
-
 .reveal .page01 .artist-image {
-  display: block;
-  width: 52%;
-  margin: 0 auto 10px; }
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3px; }
+  .reveal .page01 .artist-image img {
+    width: 67%;
+    height: 41.081%; }
   .reveal .page01 .artist-image figcaption {
-    font-size: .75em; }
+    font-size: .75em;
+    margin-top: 200px;
+    margin-left: 20px; }
+
+.reveal .page01 .pagecaption {
+  background: rgba(255, 255, 255, 0.8); }
 
 .reveal .page02 .page-item {
   margin-bottom: 54px; }
 
 .reveal .page02 .screen-shot {
-  display: block;
-  width: 60%;
-  margin: 0 auto 10px; }
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4px; }
+  .reveal .page02 .screen-shot img {
+    width: 66%;
+    height: 40.468%; }
   .reveal .page02 .screen-shot figcaption {
-    font-size: .75em; }
+    font-size: .75em;
+    margin-top: 200px;
+    margin-left: 20px; }
 
 .reveal .page03 .page-item {
-  padding-top: 45px;
-  margin-bottom: 178px; }
+  padding: 45px 0 178px; }
 
 .reveal .page04 .page-item {
-  padding-top: 74px;
-  margin-bottom: 245px; }
+  padding: 74px 0 245px; }
   .reveal .page04 .page-item strong {
     font-size: 1.4em; }
 
 .reveal .page05 .page-item {
-  padding-top: 50px;
-  margin-bottom: 163px; }
+  padding: 50px 0 163px; }
 
 .reveal .page06 .page-item {
-  padding-top: 35px;
-  margin-bottom: 188px; }
+  padding: 35px 0 188px; }
   .reveal .page06 .page-item strong {
     font-size: 1.8em; }
 
+.reveal .page07 .page-item,
+.reveal .page14 .page-item {
+  padding: 60px 0 207px; }
+
 .reveal .page08 .page-item {
-  padding-top: 25px;
-  margin-bottom: 160px; }
+  padding: 25px 0 160px; }
   .reveal .page08 .page-item strong {
     font-size: 1.5em; }
 
 .reveal .page09 .page-item {
-  padding-top: 45px;
-  margin-bottom: 154px; }
+  padding: 45px 0 154px; }
   .reveal .page09 .page-item p {
     line-height: 1.4; }
 
@@ -280,14 +300,13 @@ embed, iframe, object {
 
 .reveal .page10 .page-item {
   font-size: .9em;
-  padding-top: 15px;
-  margin-bottom: 105px; }
+  padding: 15px 0 105px; }
 
 .reveal .page11 .page-item {
-  margin-bottom: 139px; }
+  padding-bottom: 139px; }
 
 .reveal .page12 .page-item {
-  margin-bottom: 105px; }
+  padding-bottom: 105px; }
   .reveal .page12 .page-item .ib-left {
     margin-top: 0; }
 
@@ -295,16 +314,10 @@ embed, iframe, object {
   margin-bottom: 0; }
 
 .reveal .page13 .page-item {
-  margin-bottom: 61px; }
-
-.reveal .page07 .page-item,
-.reveal .page14 .page-item {
-  padding-top: 60px;
-  margin-bottom: 207px; }
+  padding-bottom: 61px; }
 
 .reveal .page15 .page-item {
-  padding-top: 25px;
-  margin-bottom: 134px; }
+  padding: 25px 0 134px; }
   .reveal .page15 .page-item li {
     font-size: .99em; }
 
@@ -312,13 +325,13 @@ embed, iframe, object {
   margin-bottom: 0; }
 
 .reveal .page16 .page-item {
-  margin-bottom: 52px; }
+  padding-bottom: 52px; }
 
 .reveal .page17 .page-title {
   margin-bottom: 0; }
 
 .reveal .page17 .page-item {
-  margin-bottom: 52px; }
+  padding-bottom: 52px; }
   .reveal .page17 .page-item a .screen-shot img {
     width: 68%; }
 
@@ -326,7 +339,7 @@ embed, iframe, object {
   margin-bottom: 0; }
 
 .reveal .page18 .page-item {
-  margin-bottom: 52px; }
+  padding-bottom: 52px; }
   .reveal .page18 .page-item .screen-shot img {
     width: 59.25%; }
 
@@ -334,33 +347,33 @@ embed, iframe, object {
   margin-bottom: 0; }
 
 .reveal .page19 .page-item {
-  margin-bottom: 158px; }
+  padding-bottom: 158px; }
 
 .reveal .page20 .page-title {
   margin-bottom: 0; }
 
 .reveal .page20 .page-item {
-  margin-bottom: 52px; }
+  padding-bottom: 52px; }
   .reveal .page20 .page-item .screen-shot img {
     width: 69.6%; }
 
 .reveal .page21 .page-item {
   font-size: .8em;
-  margin-bottom: 91px; }
+  padding-bottom: 91px; }
   .reveal .page21 .page-item li {
     font-size: .8em; }
     .reveal .page21 .page-item li ul {
       margin-top: 10px; }
 
 .reveal .page22 .page-item {
-  margin-bottom: 189px; }
+  padding-bottom: 189px; }
   .reveal .page22 .page-item .definition-list,
   .reveal .page22 .page-item ul {
     margin: 0 200px; }
 
 .reveal .page23 .page-item,
 .reveal .page25 .page-item {
-  margin-bottom: 43px; }
+  padding-bottom: 43px; }
   .reveal .page23 .page-item .definition-list,
   .reveal .page23 .page-item ul,
   .reveal .page25 .page-item .definition-list,
@@ -368,41 +381,37 @@ embed, iframe, object {
     font-size: .95em; }
 
 .reveal .page24 .page-item {
-  margin-bottom: 199px; }
+  padding-bottom: 199px; }
   .reveal .page24 .page-item .definition-list,
   .reveal .page24 .page-item ul {
     margin: 0 40px; }
 
 .reveal .page26 .page-item {
-  margin-bottom: 106px; }
+  padding-bottom: 106px; }
 
 .reveal .page27 .page-item {
-  margin-bottom: 106px; }
+  padding-bottom: 106px; }
 
 .reveal .page28 .page-item {
-  padding-top: 25px;
-  margin-bottom: 208px; }
+  padding: 25px 0 208px; }
   .reveal .page28 .page-item ol {
     margin: 0 120px; }
 
 .reveal .page29 .page-item,
 .reveal .page30 .page-item,
 .reveal .page31 .page-item {
-  padding-top: 25px;
-  margin-bottom: 134px; }
+  padding: 25px 0 134px; }
 
 .reveal .page32 .page-item {
-  margin-bottom: 50px; }
+  padding-bottom: 50px; }
 
 .reveal .page33 .page-item {
-  padding-top: 30px;
-  margin-bottom: 97px; }
+  padding: 30px 0 97px; }
   .reveal .page33 .page-item li {
     font-size: .95em; }
 
 .reveal .page34 .page-item {
-  padding-top: 25px;
-  margin-bottom: 80px; }
+  padding: 25px 0 80px; }
   .reveal .page34 .page-item .item-page34 {
     display: inline-block;
     width: calc(49% - 60px);
@@ -420,28 +429,24 @@ embed, iframe, object {
       font-size: .6em; }
 
 .reveal .page35 .page-item {
-  padding-top: 25px;
-  margin-bottom: 80px; }
+  padding: 25px 0 80px; }
 
 .reveal .page36 header {
   font-size: 2em;
-  padding-top: 50px;
-  margin-bottom: 189px; }
+  padding: 50px 0 189px; }
 
 /* slide page - lastpage
 ****************************************************/
 .reveal .last-page01 .appendix {
   display: inline-block;
   width: 75%;
-  padding: 95px 10px 133px;
-  margin: 0 0 50px; }
+  padding: 95px 10px 183px; }
   .reveal .last-page01 .appendix h3 {
     font-size: .75em; }
   .reveal .last-page01 .appendix li {
     font-size: .75em; }
 
 .reveal .last-page02 .page-item {
-  padding-top: 175px;
-  margin-bottom: 240px; }
+  padding: 175px 0 240px; }
   .reveal .last-page02 .page-item .gratitude {
     font-size: 1.2em; }

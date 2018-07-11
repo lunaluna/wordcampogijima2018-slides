@@ -250,8 +250,7 @@ embed, iframe, object {
     .page-item {
       nav {
         display: flex;
-        padding-top: 40px;
-        margin-bottom: 82px;
+        padding: 40px 0 82px;
         > ul {
           width: 50%;
           font-size: .5em;
@@ -274,9 +273,24 @@ embed, iframe, object {
     }
   }
   .start-page04 {
+    .page-item {
+      padding: 0;
+    }
     .slide-link {
-      font-size: 1.8em;
-      padding: 117px 0 180px;
+      font-size: 1.68em;
+    }
+    .flex {
+      display: flex;
+      justify-content: center;
+      div {
+        width: 28.9%;
+        padding: 5px;
+      }
+      .hashtag {
+        font-size: 1.25em;
+        padding-top: 80px;
+        margin-left: 40px;
+      }
     }
   }
   .front-page {
@@ -284,7 +298,7 @@ embed, iframe, object {
       font-size: 1em;
       font-weight: normal;
       text-transform: capitalize;
-      margin-bottom: 97px;
+      padding-bottom: 75px;
     }
   }
 }
@@ -303,16 +317,24 @@ embed, iframe, object {
     }
   }
   .page01 {
-    .page-item {
-      margin-bottom: 57px;
-    }
     .artist-image {
-      display: block;
-      width: 52%;
-      margin: 0 auto 10px;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 3px;
+      img {
+        // width: 100%;
+        // height: 61.315%;
+        width: 67%;
+        height: 41.081%;
+      }
       figcaption {
         font-size: .75em;
+        margin-top: 200px;
+        margin-left: 20px;
       }
+    }
+    .pagecaption {
+      background: rgba(255,255,255,.8);
     }
   }
   .page02 {
@@ -320,24 +342,28 @@ embed, iframe, object {
       margin-bottom: 54px;
     }
     .screen-shot {
-      display: block;
-      width: 60%;
-      margin: 0 auto 10px;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 4px;
+      img {
+        width: 66%;
+        height: 40.468%;
+      }
       figcaption {
         font-size: .75em;
+        margin-top: 200px;
+        margin-left: 20px;
       }
     }
   }
   .page03 {
     .page-item {
-      padding-top: 45px;
-      margin-bottom: 178px;
+      padding: 45px 0 178px;
     }
   }
   .page04 {
     .page-item {
-      padding-top: 74px;
-      margin-bottom: 245px;
+      padding: 74px 0 245px;
       strong {
         font-size: 1.4em;
       }
@@ -345,23 +371,26 @@ embed, iframe, object {
   }
   .page05 {
     .page-item {
-      padding-top: 50px;
-      margin-bottom: 163px;
+      padding: 50px 0 163px;
     }
   }
   .page06 {
     .page-item {
-      padding-top: 35px;
-      margin-bottom: 188px;
+      padding: 35px 0 188px;
       strong {
         font-size: 1.8em;
       }
     }
   }
+  .page07,
+  .page14 {
+    .page-item {
+      padding: 60px 0 207px;
+    }
+  }
   .page08 {
     .page-item {
-      padding-top: 25px;
-      margin-bottom: 160px;
+      padding: 25px 0 160px;
       strong {
         font-size: 1.5em;
       }
@@ -369,8 +398,7 @@ embed, iframe, object {
   }
   .page09 {
     .page-item {
-      padding-top: 45px;
-      margin-bottom: 154px;
+      padding: 45px 0 154px;
       p {
         line-height: 1.4;
       }
@@ -382,18 +410,17 @@ embed, iframe, object {
     }
     .page-item {
       font-size: .9em;
-      padding-top: 15px;
-      margin-bottom: 105px;
+      padding: 15px 0 105px;
     }
   }
   .page11 {
     .page-item {
-      margin-bottom: 139px;
+      padding-bottom: 139px;
     }
   }
   .page12 {
     .page-item {
-      margin-bottom: 105px;
+      padding-bottom: 105px;
       .ib-left {
         margin-top: 0;
       }
@@ -404,20 +431,12 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 61px;
-    }
-  }
-  .page07,
-  .page14 {
-    .page-item {
-      padding-top: 60px;
-      margin-bottom: 207px;
+      padding-bottom: 61px;
     }
   }
   .page15 {
     .page-item {
-      padding-top: 25px;
-      margin-bottom: 134px;
+      padding: 25px 0 134px;
       li {
         font-size: .99em;
       }
@@ -428,7 +447,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 52px;
+      padding-bottom: 52px;
     }
   }
   .page17 {
@@ -436,7 +455,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 52px;
+      padding-bottom: 52px;
       a {
         .screen-shot {
           img {
@@ -451,7 +470,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 52px;
+      padding-bottom: 52px;
       .screen-shot {
         img {
           width: 59.25%;
@@ -464,7 +483,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 158px;
+      padding-bottom: 158px;
     }
   }
   .page20 {
@@ -472,7 +491,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      margin-bottom: 52px;
+      padding-bottom: 52px;
       .screen-shot {
         img {
           width: 69.6%;
@@ -483,7 +502,7 @@ embed, iframe, object {
   .page21 {
     .page-item {
       font-size: .8em;
-      margin-bottom: 91px;
+      padding-bottom: 91px;
       li {
         font-size: .8em;
         ul {
@@ -494,7 +513,7 @@ embed, iframe, object {
   }
   .page22 {
     .page-item {
-      margin-bottom: 189px;
+      padding-bottom: 189px;
       .definition-list,
       ul {
         margin: 0 200px;
@@ -504,7 +523,7 @@ embed, iframe, object {
   .page23,
   .page25 {
     .page-item {
-      margin-bottom: 43px;
+      padding-bottom: 43px;
       .definition-list,
       ul {
         font-size: .95em;
@@ -514,7 +533,7 @@ embed, iframe, object {
   }
   .page24 {
     .page-item {
-      margin-bottom: 199px;
+      padding-bottom: 199px;
       .definition-list,
       ul {
         margin: 0 40px;
@@ -523,18 +542,17 @@ embed, iframe, object {
   }
   .page26 {
     .page-item {
-      margin-bottom: 106px;
+      padding-bottom: 106px;
     }
   }
   .page27 {
     .page-item {
-      margin-bottom: 106px;
+      padding-bottom: 106px;
     }
   }
   .page28 {
     .page-item {
-      padding-top: 25px;
-      margin-bottom: 208px;
+      padding: 25px 0 208px;
       ol {
         margin: 0 120px;
       }
@@ -544,19 +562,17 @@ embed, iframe, object {
   .page30,
   .page31 {
     .page-item {
-      padding-top: 25px;
-      margin-bottom: 134px;
+      padding: 25px 0 134px;
     }
   }
   .page32 {
     .page-item {
-      margin-bottom: 50px;
+      padding-bottom: 50px;
     }
   }
   .page33 {
     .page-item {
-      padding-top: 30px;
-      margin-bottom: 97px;
+      padding: 30px 0 97px;
       li {
         font-size: .95em;
       }
@@ -564,8 +580,7 @@ embed, iframe, object {
   }
   .page34 {
     .page-item {
-      padding-top: 25px;
-      margin-bottom: 80px;
+      padding: 25px 0 80px;
       .item-page34 {
         display: inline-block;
         width: calc(49% - 60px);
@@ -590,15 +605,13 @@ embed, iframe, object {
   }
   .page35 {
     .page-item {
-      padding-top: 25px;
-      margin-bottom: 80px;
+      padding: 25px 0 80px;
     }
   }
   .page36 {
     header {
       font-size: 2em;
-      padding-top: 50px;
-      margin-bottom: 189px;
+      padding: 50px 0 189px;
     }
   }
 }
@@ -610,8 +623,7 @@ embed, iframe, object {
     .appendix {
       display: inline-block;
       width: 75%;
-      padding: 95px 10px 133px;
-      margin: 0 0 50px;
+      padding: 95px 10px 183px;
       h3 {
         font-size: .75em;
       }
@@ -622,8 +634,7 @@ embed, iframe, object {
   }
   .last-page02 {
     .page-item {
-      padding-top: 175px;
-      margin-bottom: 240px;
+      padding: 175px 0 240px;
       .gratitude {
         font-size: 1.2em;
       }
