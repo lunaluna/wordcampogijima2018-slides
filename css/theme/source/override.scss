@@ -88,6 +88,7 @@ embed, iframe, object {
   section {
     img {
       border: none;
+      margin: 0;
     }
   }
   a {
@@ -118,6 +119,13 @@ embed, iframe, object {
   }
   ul, ol, dl {
     display: block;
+  }
+  pre {
+    width: 100%;
+    margin: 0;
+  }
+  code {
+    max-height: 100%;
   }
 }
 
@@ -202,6 +210,12 @@ embed, iframe, object {
       .slide-wapuu {
         img {
           width: 43%;
+          &.ogi-wapuu {
+            width: 13%;
+          }
+          &.ogi-logo {
+            padding-bottom: 14px;
+          }
         }
       }
       .slide-logo {
@@ -230,21 +244,18 @@ embed, iframe, object {
       }
     }
   }
-  .start-page01,
-  .start-page03 {
+  .start-page01 {
     .pagetitle {
-      text-align: left;
-      padding: 10px 220px 280px;
+      margin: 0;
       img {
-        width: 50%;
+        width: 100%;
+        max-width: 100%;
+        background: none;
       }
     }
   }
-  section.start-page01  {
-    background-image: url(../../img/cropped-main-visual2.png);
-    background-position: center center;
-    background-repeat: none;
-    background-size: cover;
+  .slides > .start-page01 {
+    padding: 0;
   }
   .start-page02 {
     .page-item {
@@ -269,7 +280,7 @@ embed, iframe, object {
   .start-page03 {
     .pagetitile {
       font-size: 1.8em;
-      padding: 145px 0 146px;
+      padding: 146px 0;
     }
   }
   .start-page04 {
@@ -283,8 +294,11 @@ embed, iframe, object {
       display: flex;
       justify-content: center;
       div {
-        width: 28.9%;
+        width: 32.2%;
         padding: 5px;
+        img {
+          margin: 0;
+        }
       }
       .hashtag {
         font-size: 1.25em;
@@ -311,6 +325,7 @@ embed, iframe, object {
     h2 {
       font-size: 1em;
       text-align: left;
+      margin: 0;
     }
     a {
       display: block;
@@ -320,11 +335,9 @@ embed, iframe, object {
     .artist-image {
       display: flex;
       justify-content: center;
-      padding-bottom: 3px;
+      padding-bottom: 2px;
       img {
-        // width: 100%;
-        // height: 61.315%;
-        width: 67%;
+        width: 75.7%;
         height: 41.081%;
       }
       figcaption {
@@ -339,14 +352,14 @@ embed, iframe, object {
   }
   .page02 {
     .page-item {
-      margin-bottom: 54px;
+      margin-bottom: 53px;
     }
     .screen-shot {
       display: flex;
       justify-content: center;
       padding-bottom: 4px;
       img {
-        width: 66%;
+        width: 75.9%;
         height: 40.468%;
       }
       figcaption {
@@ -363,7 +376,7 @@ embed, iframe, object {
   }
   .page04 {
     .page-item {
-      padding: 74px 0 245px;
+      padding: 74px 0 225px;
       strong {
         font-size: 1.4em;
       }
@@ -376,21 +389,27 @@ embed, iframe, object {
   }
   .page06 {
     .page-item {
-      padding: 35px 0 188px;
+      padding: 35px 0 168px;
       strong {
         font-size: 1.8em;
       }
     }
   }
   .page07,
-  .page14 {
+  .page15 {
     .page-item {
-      padding: 60px 0 207px;
+      padding: 56px 0 203px;
+      p {
+        line-height: 1.4;
+      }
     }
   }
   .page08 {
     .page-item {
-      padding: 25px 0 160px;
+      padding: 96px 0 190px;
+      p {
+        line-height: 1.4;
+      }
       strong {
         font-size: 1.5em;
       }
@@ -398,9 +417,9 @@ embed, iframe, object {
   }
   .page09 {
     .page-item {
-      padding: 45px 0 154px;
+      padding: 134px 0 200px;
       p {
-        line-height: 1.4;
+        line-height: 1.5;
       }
     }
   }
@@ -410,23 +429,23 @@ embed, iframe, object {
     }
     .page-item {
       font-size: .9em;
-      padding: 15px 0 105px;
-    }
-  }
-  .page11 {
-    .page-item {
-      padding-bottom: 139px;
+      padding: 12px 0 102px;
     }
   }
   .page12 {
     .page-item {
-      padding-bottom: 105px;
+      padding-bottom: 139px;
+    }
+  }
+  .page13 {
+    .page-item {
+      padding-bottom: 95px;
       .ib-left {
         margin-top: 0;
       }
     }
   }
-  .page13 {
+  .page14 {
     .page-title {
       margin-bottom: 0;
     }
@@ -434,7 +453,7 @@ embed, iframe, object {
       padding-bottom: 61px;
     }
   }
-  .page15 {
+  .page16 {
     .page-item {
       padding: 25px 0 134px;
       li {
@@ -442,7 +461,7 @@ embed, iframe, object {
       }
     }
   }
-  .page16 {
+  .page17 {
     .page-title {
       margin-bottom: 0;
     }
@@ -450,7 +469,7 @@ embed, iframe, object {
       padding-bottom: 52px;
     }
   }
-  .page17 {
+  .page18 {
     .page-title {
       margin-bottom: 0;
     }
@@ -465,7 +484,7 @@ embed, iframe, object {
       }
     }
   }
-  .page18 {
+  .page19 {
     .page-title {
       margin-bottom: 0;
     }
@@ -478,7 +497,7 @@ embed, iframe, object {
       }
     }
   }
-  .page19 {
+  .page20 {
     .page-title {
       margin-bottom: 0;
     }
@@ -486,7 +505,7 @@ embed, iframe, object {
       padding-bottom: 158px;
     }
   }
-  .page20 {
+  .page21 {
     .page-title {
       margin-bottom: 0;
     }
@@ -499,7 +518,7 @@ embed, iframe, object {
       }
     }
   }
-  .page21 {
+  .page22 {
     .page-item {
       font-size: .8em;
       padding-bottom: 91px;
@@ -511,7 +530,7 @@ embed, iframe, object {
       }
     }
   }
-  .page22 {
+  .page23 {
     .page-item {
       padding-bottom: 189px;
       .definition-list,
@@ -520,8 +539,9 @@ embed, iframe, object {
       }
     }
   }
-  .page23,
-  .page25 {
+  // .page23,
+  // .page25 {
+  .page24 {
     .page-item {
       padding-bottom: 43px;
       .definition-list,
@@ -531,13 +551,18 @@ embed, iframe, object {
 
     }
   }
-  .page24 {
+  // .page24 {
+  //   .page-item {
+  //     padding-bottom: 199px;
+  //     .definition-list,
+  //     ul {
+  //       margin: 0 40px;
+  //     }
+  //   }
+  // }
+  .page25 {
     .page-item {
-      padding-bottom: 199px;
-      .definition-list,
-      ul {
-        margin: 0 40px;
-      }
+      padding-bottom: 106px;
     }
   }
   .page26 {
@@ -547,27 +572,27 @@ embed, iframe, object {
   }
   .page27 {
     .page-item {
-      padding-bottom: 106px;
-    }
-  }
-  .page28 {
-    .page-item {
       padding: 25px 0 208px;
       ol {
         margin: 0 120px;
       }
     }
   }
+  .page28,
   .page29,
-  .page30,
-  .page31 {
+  .page30 {
     .page-item {
       padding: 25px 0 134px;
     }
   }
-  .page32 {
+  .page31 {
     .page-item {
       padding-bottom: 50px;
+    }
+  }
+  .page32 {
+    .page-item {
+      padding: 25px 0 80px;
     }
   }
   .page33 {
@@ -578,14 +603,16 @@ embed, iframe, object {
       }
     }
   }
-  .page34 {
+  .page34 {}
+  .page35 {}
+  .page36 {
     .page-item {
       padding: 25px 0 80px;
-      .item-page34 {
+      .item-page36 {
         display: inline-block;
         width: calc(49% - 60px);
         padding: 0 10px;
-        + .item-page34 {
+        + .item-page36 {
           width: 49%;
           border-left: 1px solid;
         }
@@ -603,12 +630,7 @@ embed, iframe, object {
       }
     }
   }
-  .page35 {
-    .page-item {
-      padding: 25px 0 80px;
-    }
-  }
-  .page36 {
+  .page37 {
     header {
       font-size: 2em;
       padding: 50px 0 189px;
@@ -634,9 +656,14 @@ embed, iframe, object {
   }
   .last-page02 {
     .page-item {
+      background-image: url(../../img/illust.png);
+      background-repeat: none;
+      background-position: center center;
+      background-size: cover;
       padding: 175px 0 240px;
       .gratitude {
         font-size: 1.2em;
+        color: #fff;
       }
     }
   }

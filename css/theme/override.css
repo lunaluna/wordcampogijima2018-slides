@@ -72,7 +72,8 @@ embed, iframe, object {
     font-size: 1.25em;
     font-weight: 500; }
   .reveal section img {
-    border: none; }
+    border: none;
+    margin: 0; }
   .reveal a {
     text-decoration: underline; }
     .reveal a:hover {
@@ -92,6 +93,11 @@ embed, iframe, object {
     color: #3eb746; }
   .reveal ul, .reveal ol, .reveal dl {
     display: block; }
+  .reveal pre {
+    width: 100%;
+    margin: 0; }
+  .reveal code {
+    max-height: 100%; }
 
 /* slide common content
 ****************************************************/
@@ -157,6 +163,10 @@ embed, iframe, object {
       width: 10%; }
     .reveal .slidepage .pagecaption .slide-wapuu img {
       width: 43%; }
+      .reveal .slidepage .pagecaption .slide-wapuu img.ogi-wapuu {
+        width: 13%; }
+      .reveal .slidepage .pagecaption .slide-wapuu img.ogi-logo {
+        padding-bottom: 14px; }
     .reveal .slidepage .pagecaption .slide-logo img {
       width: 15%; }
 
@@ -170,19 +180,15 @@ embed, iframe, object {
 .reveal .front-page .pagecaption .slide-wapuu img {
   width: 25%; }
 
-.reveal .start-page01 .pagetitle,
-.reveal .start-page03 .pagetitle {
-  text-align: left;
-  padding: 10px 220px 280px; }
-  .reveal .start-page01 .pagetitle img,
-  .reveal .start-page03 .pagetitle img {
-    width: 50%; }
+.reveal .start-page01 .pagetitle {
+  margin: 0; }
+  .reveal .start-page01 .pagetitle img {
+    width: 100%;
+    max-width: 100%;
+    background: none; }
 
-.reveal section.start-page01 {
-  background-image: url(../../img/cropped-main-visual2.png);
-  background-position: center center;
-  background-repeat: none;
-  background-size: cover; }
+.reveal .slides > .start-page01 {
+  padding: 0; }
 
 .reveal .start-page02 .page-item nav {
   display: flex;
@@ -199,7 +205,7 @@ embed, iframe, object {
 
 .reveal .start-page03 .pagetitile {
   font-size: 1.8em;
-  padding: 145px 0 146px; }
+  padding: 146px 0; }
 
 .reveal .start-page04 .page-item {
   padding: 0; }
@@ -211,8 +217,10 @@ embed, iframe, object {
   display: flex;
   justify-content: center; }
   .reveal .start-page04 .flex div {
-    width: 28.9%;
+    width: 32.2%;
     padding: 5px; }
+    .reveal .start-page04 .flex div img {
+      margin: 0; }
   .reveal .start-page04 .flex .hashtag {
     font-size: 1.25em;
     padding-top: 80px;
@@ -229,7 +237,8 @@ embed, iframe, object {
 .reveal .page01 h2,
 .reveal .page02 h2 {
   font-size: 1em;
-  text-align: left; }
+  text-align: left;
+  margin: 0; }
 
 .reveal .page01 a,
 .reveal .page02 a {
@@ -238,9 +247,9 @@ embed, iframe, object {
 .reveal .page01 .artist-image {
   display: flex;
   justify-content: center;
-  padding-bottom: 3px; }
+  padding-bottom: 2px; }
   .reveal .page01 .artist-image img {
-    width: 67%;
+    width: 75.7%;
     height: 41.081%; }
   .reveal .page01 .artist-image figcaption {
     font-size: .75em;
@@ -251,14 +260,14 @@ embed, iframe, object {
   background: rgba(255, 255, 255, 0.8); }
 
 .reveal .page02 .page-item {
-  margin-bottom: 54px; }
+  margin-bottom: 53px; }
 
 .reveal .page02 .screen-shot {
   display: flex;
   justify-content: center;
   padding-bottom: 4px; }
   .reveal .page02 .screen-shot img {
-    width: 66%;
+    width: 75.9%;
     height: 40.468%; }
   .reveal .page02 .screen-shot figcaption {
     font-size: .75em;
@@ -269,7 +278,7 @@ embed, iframe, object {
   padding: 45px 0 178px; }
 
 .reveal .page04 .page-item {
-  padding: 74px 0 245px; }
+  padding: 74px 0 225px; }
   .reveal .page04 .page-item strong {
     font-size: 1.4em; }
 
@@ -277,161 +286,157 @@ embed, iframe, object {
   padding: 50px 0 163px; }
 
 .reveal .page06 .page-item {
-  padding: 35px 0 188px; }
+  padding: 35px 0 168px; }
   .reveal .page06 .page-item strong {
     font-size: 1.8em; }
 
 .reveal .page07 .page-item,
-.reveal .page14 .page-item {
-  padding: 60px 0 207px; }
+.reveal .page15 .page-item {
+  padding: 56px 0 203px; }
+  .reveal .page07 .page-item p,
+  .reveal .page15 .page-item p {
+    line-height: 1.4; }
 
 .reveal .page08 .page-item {
-  padding: 25px 0 160px; }
+  padding: 96px 0 190px; }
+  .reveal .page08 .page-item p {
+    line-height: 1.4; }
   .reveal .page08 .page-item strong {
     font-size: 1.5em; }
 
 .reveal .page09 .page-item {
-  padding: 45px 0 154px; }
+  padding: 134px 0 200px; }
   .reveal .page09 .page-item p {
-    line-height: 1.4; }
+    line-height: 1.5; }
 
 .reveal .page10 .page-title {
   font-size: 1.05em; }
 
 .reveal .page10 .page-item {
   font-size: .9em;
-  padding: 15px 0 105px; }
-
-.reveal .page11 .page-item {
-  padding-bottom: 139px; }
+  padding: 12px 0 102px; }
 
 .reveal .page12 .page-item {
-  padding-bottom: 105px; }
-  .reveal .page12 .page-item .ib-left {
-    margin-top: 0; }
-
-.reveal .page13 .page-title {
-  margin-bottom: 0; }
+  padding-bottom: 139px; }
 
 .reveal .page13 .page-item {
-  padding-bottom: 61px; }
+  padding-bottom: 95px; }
+  .reveal .page13 .page-item .ib-left {
+    margin-top: 0; }
 
-.reveal .page15 .page-item {
-  padding: 25px 0 134px; }
-  .reveal .page15 .page-item li {
-    font-size: .99em; }
-
-.reveal .page16 .page-title {
+.reveal .page14 .page-title {
   margin-bottom: 0; }
 
+.reveal .page14 .page-item {
+  padding-bottom: 61px; }
+
 .reveal .page16 .page-item {
-  padding-bottom: 52px; }
+  padding: 25px 0 134px; }
+  .reveal .page16 .page-item li {
+    font-size: .99em; }
 
 .reveal .page17 .page-title {
   margin-bottom: 0; }
 
 .reveal .page17 .page-item {
   padding-bottom: 52px; }
-  .reveal .page17 .page-item a .screen-shot img {
-    width: 68%; }
 
 .reveal .page18 .page-title {
   margin-bottom: 0; }
 
 .reveal .page18 .page-item {
   padding-bottom: 52px; }
-  .reveal .page18 .page-item .screen-shot img {
-    width: 59.25%; }
+  .reveal .page18 .page-item a .screen-shot img {
+    width: 68%; }
 
 .reveal .page19 .page-title {
   margin-bottom: 0; }
 
 .reveal .page19 .page-item {
-  padding-bottom: 158px; }
+  padding-bottom: 52px; }
+  .reveal .page19 .page-item .screen-shot img {
+    width: 59.25%; }
 
 .reveal .page20 .page-title {
   margin-bottom: 0; }
 
 .reveal .page20 .page-item {
-  padding-bottom: 52px; }
-  .reveal .page20 .page-item .screen-shot img {
-    width: 69.6%; }
+  padding-bottom: 158px; }
+
+.reveal .page21 .page-title {
+  margin-bottom: 0; }
 
 .reveal .page21 .page-item {
-  font-size: .8em;
-  padding-bottom: 91px; }
-  .reveal .page21 .page-item li {
-    font-size: .8em; }
-    .reveal .page21 .page-item li ul {
-      margin-top: 10px; }
+  padding-bottom: 52px; }
+  .reveal .page21 .page-item .screen-shot img {
+    width: 69.6%; }
 
 .reveal .page22 .page-item {
+  font-size: .8em;
+  padding-bottom: 91px; }
+  .reveal .page22 .page-item li {
+    font-size: .8em; }
+    .reveal .page22 .page-item li ul {
+      margin-top: 10px; }
+
+.reveal .page23 .page-item {
   padding-bottom: 189px; }
-  .reveal .page22 .page-item .definition-list,
-  .reveal .page22 .page-item ul {
+  .reveal .page23 .page-item .definition-list,
+  .reveal .page23 .page-item ul {
     margin: 0 200px; }
 
-.reveal .page23 .page-item,
-.reveal .page25 .page-item {
-  padding-bottom: 43px; }
-  .reveal .page23 .page-item .definition-list,
-  .reveal .page23 .page-item ul,
-  .reveal .page25 .page-item .definition-list,
-  .reveal .page25 .page-item ul {
-    font-size: .95em; }
-
 .reveal .page24 .page-item {
-  padding-bottom: 199px; }
+  padding-bottom: 43px; }
   .reveal .page24 .page-item .definition-list,
   .reveal .page24 .page-item ul {
-    margin: 0 40px; }
+    font-size: .95em; }
+
+.reveal .page25 .page-item {
+  padding-bottom: 106px; }
 
 .reveal .page26 .page-item {
   padding-bottom: 106px; }
 
 .reveal .page27 .page-item {
-  padding-bottom: 106px; }
-
-.reveal .page28 .page-item {
   padding: 25px 0 208px; }
-  .reveal .page28 .page-item ol {
+  .reveal .page27 .page-item ol {
     margin: 0 120px; }
 
+.reveal .page28 .page-item,
 .reveal .page29 .page-item,
-.reveal .page30 .page-item,
-.reveal .page31 .page-item {
+.reveal .page30 .page-item {
   padding: 25px 0 134px; }
 
-.reveal .page32 .page-item {
+.reveal .page31 .page-item {
   padding-bottom: 50px; }
+
+.reveal .page32 .page-item {
+  padding: 25px 0 80px; }
 
 .reveal .page33 .page-item {
   padding: 30px 0 97px; }
   .reveal .page33 .page-item li {
     font-size: .95em; }
 
-.reveal .page34 .page-item {
+.reveal .page36 .page-item {
   padding: 25px 0 80px; }
-  .reveal .page34 .page-item .item-page34 {
+  .reveal .page36 .page-item .item-page36 {
     display: inline-block;
     width: calc(49% - 60px);
     padding: 0 10px; }
-    .reveal .page34 .page-item .item-page34 + .item-page34 {
+    .reveal .page36 .page-item .item-page36 + .item-page36 {
       width: 49%;
       border-left: 1px solid; }
-  .reveal .page34 .page-item h3 {
+  .reveal .page36 .page-item h3 {
     font-size: .7em;
     text-align: left; }
-  .reveal .page34 .page-item ul {
+  .reveal .page36 .page-item ul {
     width: 100%;
     margin: 0 70px 10px; }
-    .reveal .page34 .page-item ul li {
+    .reveal .page36 .page-item ul li {
       font-size: .6em; }
 
-.reveal .page35 .page-item {
-  padding: 25px 0 80px; }
-
-.reveal .page36 header {
+.reveal .page37 header {
   font-size: 2em;
   padding: 50px 0 189px; }
 
@@ -447,6 +452,11 @@ embed, iframe, object {
     font-size: .75em; }
 
 .reveal .last-page02 .page-item {
+  background-image: url(../../img/illust.png);
+  background-repeat: none;
+  background-position: center center;
+  background-size: cover;
   padding: 175px 0 240px; }
   .reveal .last-page02 .page-item .gratitude {
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    color: #fff; }
