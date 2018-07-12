@@ -94,8 +94,8 @@ embed, iframe, object {
   .reveal ul, .reveal ol, .reveal dl {
     display: block; }
   .reveal pre {
-    width: 100%;
-    margin: 0; }
+    width: 96%;
+    margin: 0 auto; }
   .reveal code {
     max-height: 100%; }
 
@@ -316,6 +316,15 @@ embed, iframe, object {
   font-size: .9em;
   padding: 12px 0 102px; }
 
+.reveal .page11 .page-title {
+  font-size: 1.05em; }
+
+.reveal .page11 .page-item {
+  font-size: .75em;
+  padding: 12px 0 12px; }
+  .reveal .page11 .page-item figure img {
+    width: 68.7%; }
+
 .reveal .page12 .page-item {
   padding-bottom: 139px; }
 
@@ -341,85 +350,131 @@ embed, iframe, object {
 .reveal .page17 .page-item {
   padding-bottom: 52px; }
 
-.reveal .page18 .page-title {
-  margin-bottom: 0; }
-
-.reveal .page18 .page-item {
-  padding-bottom: 52px; }
-  .reveal .page18 .page-item a .screen-shot img {
-    width: 68%; }
-
+.reveal .page18 .page-title,
 .reveal .page19 .page-title {
   margin-bottom: 0; }
 
+.reveal .page18 .page-item,
 .reveal .page19 .page-item {
   padding-bottom: 52px; }
+  .reveal .page18 .page-item .screen-shot img,
   .reveal .page19 .page-item .screen-shot img {
-    width: 59.25%; }
+    width: 9.1%; }
+  .reveal .page18 .page-item p,
+  .reveal .page19 .page-item p {
+    font-size: .8em; }
 
 .reveal .page20 .page-title {
   margin-bottom: 0; }
 
 .reveal .page20 .page-item {
-  padding-bottom: 158px; }
+  padding: 5px 0 62px; }
 
 .reveal .page21 .page-title {
   margin-bottom: 0; }
 
 .reveal .page21 .page-item {
-  padding-bottom: 52px; }
+  padding: 52px 0 65px; }
   .reveal .page21 .page-item .screen-shot img {
     width: 69.6%; }
+  .reveal .page21 .page-item p {
+    font-size: .8em; }
 
 .reveal .page22 .page-item {
   font-size: .8em;
-  padding-bottom: 91px; }
+  padding-bottom: 82px; }
   .reveal .page22 .page-item li {
     font-size: .8em; }
     .reveal .page22 .page-item li ul {
       margin-top: 10px; }
 
 .reveal .page23 .page-item {
-  padding-bottom: 189px; }
-  .reveal .page23 .page-item .definition-list,
+  padding-bottom: 50px; }
+  .reveal .page23 .page-item .definition-list {
+    margin: 0 100px; }
+    .reveal .page23 .page-item .definition-list dd {
+      font-size: 0.8em; }
   .reveal .page23 .page-item ul {
-    margin: 0 200px; }
+    margin-left: 50px; }
+  .reveal .page23 .page-item li {
+    font-size: .75em; }
 
 .reveal .page24 .page-item {
-  padding-bottom: 43px; }
-  .reveal .page24 .page-item .definition-list,
+  padding: 17px 0 67px; }
+  .reveal .page24 .page-item .item-page24 {
+    display: inline-block;
+    width: calc(49% - 60px);
+    padding: 0 10px;
+    vertical-align: top; }
+    .reveal .page24 .page-item .item-page24 + .item-page24 {
+      width: 49%;
+      border-left: 1px solid; }
+  .reveal .page24 .page-item h3 {
+    font-size: .7em;
+    text-align: left; }
   .reveal .page24 .page-item ul {
-    font-size: .95em; }
+    width: 100%;
+    margin: 0 0 10px 30px; }
+    .reveal .page24 .page-item ul li {
+      font-size: .6em; }
+      .reveal .page24 .page-item ul li dl {
+        margin: 0; }
+      .reveal .page24 .page-item ul li dd {
+        font-size: .9em; }
 
 .reveal .page25 .page-item {
-  padding-bottom: 106px; }
+  padding-bottom: 41px; }
 
 .reveal .page26 .page-item {
   padding-bottom: 106px; }
 
 .reveal .page27 .page-item {
-  padding: 25px 0 208px; }
+  padding: 25px 0 198px; }
   .reveal .page27 .page-item ol {
     margin: 0 120px; }
 
 .reveal .page28 .page-item,
-.reveal .page29 .page-item,
-.reveal .page30 .page-item {
+.reveal .page29 .page-item {
   padding: 25px 0 134px; }
 
+.reveal .page30 .page-item {
+  padding: 40px 0 141px; }
+  .reveal .page30 .page-item li {
+    font-size: .89em; }
+
 .reveal .page31 .page-item {
-  padding-bottom: 50px; }
+  padding-bottom: 51px; }
 
 .reveal .page32 .page-item {
   padding: 25px 0 80px; }
 
+.reveal .page33 .page-title {
+  font-size: 1.03em; }
+
 .reveal .page33 .page-item {
-  padding: 30px 0 97px; }
+  padding: 36px 0 102px; }
   .reveal .page33 .page-item li {
     font-size: .95em; }
 
+.reveal .page34 .page-title {
+  font-size: 1.03em; }
+
+.reveal .page34 .page-item {
+  padding: 25px 0 90px; }
+  .reveal .page34 .page-item .screen-shot img {
+    width: 50%; }
+  .reveal .page34 .page-item .screen-shot figcaption {
+    font-size: .8em; }
+
+.reveal .page35 .page-item {
+  padding: 25px 0 92px; }
+  .reveal .page35 .page-item a {
+    display: flex; }
+  .reveal .page35 .page-item .screen-shot figcaption {
+    font-size: .8em; }
+
 .reveal .page36 .page-item {
-  padding: 25px 0 80px; }
+  padding: 26px 0 60px; }
   .reveal .page36 .page-item .item-page36 {
     display: inline-block;
     width: calc(49% - 60px);
@@ -438,14 +493,14 @@ embed, iframe, object {
 
 .reveal .page37 header {
   font-size: 2em;
-  padding: 50px 0 189px; }
+  padding: 50px 0 169px; }
 
 /* slide page - lastpage
 ****************************************************/
 .reveal .last-page01 .appendix {
   display: inline-block;
   width: 75%;
-  padding: 95px 10px 183px; }
+  padding: 55px 10px 142px; }
   .reveal .last-page01 .appendix h3 {
     font-size: .75em; }
   .reveal .last-page01 .appendix li {
@@ -453,10 +508,14 @@ embed, iframe, object {
 
 .reveal .last-page02 .page-item {
   background-image: url(../../img/illust.png);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 175px 0 240px; }
+  padding: 20px 0 395px; }
   .reveal .last-page02 .page-item .gratitude {
     font-size: 1.2em;
-    color: #fff; }
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); }
+
+.reveal .slides > .last-page02 {
+  padding: 0; }

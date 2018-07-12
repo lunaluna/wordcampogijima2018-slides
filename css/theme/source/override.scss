@@ -121,8 +121,8 @@ embed, iframe, object {
     display: block;
   }
   pre {
-    width: 100%;
-    margin: 0;
+    width: 96%;
+    margin: 0 auto;
   }
   code {
     max-height: 100%;
@@ -432,6 +432,20 @@ embed, iframe, object {
       padding: 12px 0 102px;
     }
   }
+  .page11 {
+    .page-title {
+      font-size: 1.05em;
+    }
+    .page-item {
+      font-size: .75em;
+      padding: 12px 0 12px;
+      figure {
+        img {
+          width: 68.7%;
+        }
+      }
+    }
+  }
   .page12 {
     .page-item {
       padding-bottom: 139px;
@@ -469,21 +483,7 @@ embed, iframe, object {
       padding-bottom: 52px;
     }
   }
-  .page18 {
-    .page-title {
-      margin-bottom: 0;
-    }
-    .page-item {
-      padding-bottom: 52px;
-      a {
-        .screen-shot {
-          img {
-            width: 68%;
-          }
-        }
-      }
-    }
-  }
+  .page18,
   .page19 {
     .page-title {
       margin-bottom: 0;
@@ -492,8 +492,11 @@ embed, iframe, object {
       padding-bottom: 52px;
       .screen-shot {
         img {
-          width: 59.25%;
+          width: 9.1%;
         }
+      }
+      p {
+        font-size: .8em;
       }
     }
   }
@@ -502,7 +505,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      padding-bottom: 158px;
+      padding: 5px 0 62px;
     }
   }
   .page21 {
@@ -510,18 +513,21 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      padding-bottom: 52px;
+      padding: 52px 0 65px;
       .screen-shot {
         img {
           width: 69.6%;
         }
+      }
+      p {
+        font-size: .8em;
       }
     }
   }
   .page22 {
     .page-item {
       font-size: .8em;
-      padding-bottom: 91px;
+      padding-bottom: 82px;
       li {
         font-size: .8em;
         ul {
@@ -532,37 +538,56 @@ embed, iframe, object {
   }
   .page23 {
     .page-item {
-      padding-bottom: 189px;
-      .definition-list,
+      padding-bottom: 50px;
+      .definition-list {
+        margin: 0 100px;
+        dd {
+          font-size: 0.8em;
+        }
+      }
       ul {
-        margin: 0 200px;
+        margin-left: 50px;
+      }
+      li {
+        font-size: .75em;
       }
     }
   }
-  // .page23,
-  // .page25 {
   .page24 {
     .page-item {
-      padding-bottom: 43px;
-      .definition-list,
-      ul {
-        font-size: .95em;
+      padding: 17px 0 67px;
+      .item-page24 {
+        display: inline-block;
+        width: calc(49% - 60px);
+        padding: 0 10px;
+        vertical-align: top;
+        + .item-page24 {
+          width: 49%;
+          border-left: 1px solid;
+        }
       }
-
+      h3 {
+        font-size: .7em;
+        text-align: left;
+      }
+      ul {
+        width: 100%;
+        margin: 0 0 10px 30px;
+        li {
+          font-size: .6em;
+          dl {
+            margin: 0;
+          }
+          dd {
+            font-size: .9em;
+          }
+        }
+      }
     }
   }
-  // .page24 {
-  //   .page-item {
-  //     padding-bottom: 199px;
-  //     .definition-list,
-  //     ul {
-  //       margin: 0 40px;
-  //     }
-  //   }
-  // }
   .page25 {
     .page-item {
-      padding-bottom: 106px;
+      padding-bottom: 41px;
     }
   }
   .page26 {
@@ -572,22 +597,29 @@ embed, iframe, object {
   }
   .page27 {
     .page-item {
-      padding: 25px 0 208px;
+      padding: 25px 0 198px;
       ol {
         margin: 0 120px;
       }
     }
   }
   .page28,
-  .page29,
-  .page30 {
+  .page29 {
     .page-item {
       padding: 25px 0 134px;
     }
   }
+  .page30 {
+    .page-item {
+      padding: 40px 0 141px;
+      li {
+        font-size: .89em;
+      }
+    }
+  }
   .page31 {
     .page-item {
-      padding-bottom: 50px;
+      padding-bottom: 51px;
     }
   }
   .page32 {
@@ -596,18 +628,48 @@ embed, iframe, object {
     }
   }
   .page33 {
+    .page-title {
+      font-size: 1.03em;
+    }
     .page-item {
-      padding: 30px 0 97px;
+      padding: 36px 0 102px;
       li {
         font-size: .95em;
       }
     }
   }
-  .page34 {}
-  .page35 {}
+  .page34 {
+    .page-title {
+      font-size: 1.03em;
+    }
+    .page-item {
+      padding: 25px 0 90px;
+      .screen-shot {
+        img {
+          width: 50%;
+        }
+        figcaption {
+          font-size: .8em;
+        }
+      }
+    }
+  }
+  .page35 {
+    .page-item {
+      padding: 25px 0 92px;
+      a {
+        display: flex;
+      }
+      .screen-shot {
+        figcaption {
+          font-size: .8em;
+        }
+      }
+    }
+  }
   .page36 {
     .page-item {
-      padding: 25px 0 80px;
+      padding: 26px 0 60px;
       .item-page36 {
         display: inline-block;
         width: calc(49% - 60px);
@@ -633,7 +695,7 @@ embed, iframe, object {
   .page37 {
     header {
       font-size: 2em;
-      padding: 50px 0 189px;
+      padding: 50px 0 169px;
     }
   }
 }
@@ -645,7 +707,7 @@ embed, iframe, object {
     .appendix {
       display: inline-block;
       width: 75%;
-      padding: 95px 10px 183px;
+      padding: 55px 10px 142px;
       h3 {
         font-size: .75em;
       }
@@ -657,14 +719,18 @@ embed, iframe, object {
   .last-page02 {
     .page-item {
       background-image: url(../../img/illust.png);
-      background-repeat: none;
+      background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
-      padding: 175px 0 240px;
+      padding: 20px 0 395px;
       .gratitude {
         font-size: 1.2em;
         color: #fff;
+        text-shadow: 2px 2px 3px rgba(0,0,0,.5);
       }
     }
+  }
+  .slides > .last-page02 {
+    padding: 0;
   }
 }
