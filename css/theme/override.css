@@ -400,7 +400,7 @@ embed, iframe, object {
     font-size: .75em; }
 
 .reveal .page24 .page-item {
-  padding: 17px 0 67px; }
+  padding: 25px 0 76px; }
   .reveal .page24 .page-item .item-page24 {
     display: inline-block;
     width: calc(49% - 60px);
@@ -412,15 +412,13 @@ embed, iframe, object {
   .reveal .page24 .page-item h3 {
     font-size: .7em;
     text-align: left; }
-  .reveal .page24 .page-item ul {
-    width: 100%;
-    margin: 0 0 10px 30px; }
-    .reveal .page24 .page-item ul li {
-      font-size: .6em; }
-      .reveal .page24 .page-item ul li dl {
-        margin: 0; }
-      .reveal .page24 .page-item ul li dd {
-        font-size: .9em; }
+  .reveal .page24 .page-item div {
+    width: 100%; }
+    .reveal .page24 .page-item div dl {
+      font-size: .55em;
+      margin: 0 0 10px 30px; }
+    .reveal .page24 .page-item div dd {
+      font-size: .9em; }
 
 .reveal .page25 .page-item {
   padding-bottom: 41px; }

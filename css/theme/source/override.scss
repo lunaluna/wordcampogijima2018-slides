@@ -553,7 +553,7 @@ embed, iframe, object {
   }
   .page24 {
     .page-item {
-      padding: 17px 0 67px;
+      padding: 25px 0 76px;
       .item-page24 {
         display: inline-block;
         width: calc(49% - 60px);
@@ -568,17 +568,14 @@ embed, iframe, object {
         font-size: .7em;
         text-align: left;
       }
-      ul {
+      div {
         width: 100%;
-        margin: 0 0 10px 30px;
-        li {
-          font-size: .6em;
-          dl {
-            margin: 0;
-          }
-          dd {
-            font-size: .9em;
-          }
+        dl {
+          font-size: .55em;
+          margin: 0 0 10px 30px;
+        }
+        dd {
+          font-size: .9em;
         }
       }
     }
