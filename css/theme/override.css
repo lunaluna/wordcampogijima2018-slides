@@ -400,7 +400,7 @@ embed, iframe, object {
     font-size: .75em; }
 
 .reveal .page24 .page-item {
-  padding: 25px 0 76px; }
+  padding: 26px 0 78px; }
   .reveal .page24 .page-item .item-page24 {
     display: inline-block;
     width: calc(49% - 60px);
@@ -418,7 +418,7 @@ embed, iframe, object {
       font-size: .55em;
       margin: 0 0 10px 30px; }
     .reveal .page24 .page-item div dd {
-      font-size: .9em; }
+      font-size: .86em; }
 
 .reveal .page25 .page-item {
   padding-bottom: 41px; }
