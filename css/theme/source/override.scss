@@ -131,6 +131,17 @@ embed, iframe, object {
   }
 }
 
+.reveal.cube .slides section {
+  min-height: 540px;
+}
+.reveal.page .slides section {
+  min-height: 540px;
+}
+
+.reveal.overview {
+  perspective: 540px;
+}
+
 /* slide common content
 ****************************************************/
 .reveal {
