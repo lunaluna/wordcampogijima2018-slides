@@ -115,6 +115,7 @@ embed, iframe, object {
     margin: 0;
   }
   em {
+    font-style: normal;
     color: #3eb746;
   }
   ul, ol, dl {
@@ -487,15 +488,24 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      padding-bottom: 52px;
       .screen-shot {
         img {
-          width: 9.1%;
+          width: 15.5%;
         }
       }
       p {
         font-size: .8em;
       }
+    }
+  }
+  .page18 {
+    .page-item {
+      padding-bottom: 52px;
+    }
+  }
+  .page19 {
+    .page-item {
+      padding-bottom: 80px;
     }
   }
   .page20 {

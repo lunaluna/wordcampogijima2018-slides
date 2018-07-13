@@ -90,6 +90,7 @@ embed, iframe, object {
     padding: 0 150px;
     margin: 0; }
   .reveal em {
+    font-style: normal;
     color: #3eb746; }
   .reveal ul, .reveal ol, .reveal dl {
     display: block; }
@@ -354,15 +355,19 @@ embed, iframe, object {
 .reveal .page19 .page-title {
   margin-bottom: 0; }
 
-.reveal .page18 .page-item,
-.reveal .page19 .page-item {
+.reveal .page18 .page-item .screen-shot img,
+.reveal .page19 .page-item .screen-shot img {
+  width: 15.5%; }
+
+.reveal .page18 .page-item p,
+.reveal .page19 .page-item p {
+  font-size: .8em; }
+
+.reveal .page18 .page-item {
   padding-bottom: 52px; }
-  .reveal .page18 .page-item .screen-shot img,
-  .reveal .page19 .page-item .screen-shot img {
-    width: 9.1%; }
-  .reveal .page18 .page-item p,
-  .reveal .page19 .page-item p {
-    font-size: .8em; }
+
+.reveal .page19 .page-item {
+  padding-bottom: 80px; }
 
 .reveal .page20 .page-title {
   margin-bottom: 0; }

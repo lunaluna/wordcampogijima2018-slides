@@ -409,14 +409,15 @@
 				</header>
 				<div class="page-item">
 					<figure class="screen-shot">
-						<img src="./img/ss-glyphicon-search.png" alt="「glyphicon-search」で表示されるアイコンの画像">
+						<img src="./img/ss-glyphicon-search.png" alt="「icon-search」で表示されるアイコンと「検索」のテキストあるボタンの画像">
 					</figure>
 					<div class="sourcecode-box">
 <pre>
 	<code>
-		<span class="icon-search" area-hidden="true">
-			<img src="./img/icon-search.png" alt="" />
-		</span>
+	<button type="button" class="btn">
+		<i class="icon-search" aria-hidden="true"></i>
+		検索
+	</button>
 	</code>
 </pre>
 					</div>
@@ -434,14 +435,14 @@
 				</header>
 				<div class="page-item">
 					<figure class="screen-shot">
-						<img src="./img/ss-glyphicon-search.png" alt="「glyphicon-search」で表示されるアイコンの画像">
+						<img src="./img/ss-glyphicon-search.png" alt="「icon-search」で表示されるアイコンと「検索」のテキストあるボタンの画像">
 					</figure>
 					<div class="sourcecode-box">
 <pre>
   <code>
-    .search::before {
-        speak: none;
-    }
+	.btn::before {
+		speak: none;
+	}
   </code>
 </pre>
 					</div>
