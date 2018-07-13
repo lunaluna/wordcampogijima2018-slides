@@ -91,6 +91,7 @@ embed, iframe, object {
     margin: 0; }
   .reveal em {
     font-style: normal;
+    font-weight: bold;
     color: #3eb746; }
   .reveal ul, .reveal ol, .reveal dl {
     display: block; }
