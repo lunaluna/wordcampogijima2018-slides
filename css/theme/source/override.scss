@@ -259,21 +259,19 @@ embed, iframe, object {
   }
   .start-page02 {
     .page-item {
-      nav {
-        display: flex;
-        padding: 40px 0 82px;
-        > ul {
-          width: 50%;
-          font-size: .5em;
-          ul {
-            font-size: 1em;
-            line-height: 1.25;
-            margin-top: 15px;
-          }
+      display: flex;
+      padding: 40px 0 82px;
+      > ul {
+        width: 50%;
+        font-size: .5em;
+        ul {
+          font-size: 1em;
+          line-height: 1.25;
+          margin-top: 15px;
         }
-        li {
-          line-height: 1.1;
-        }
+      }
+      li {
+        line-height: 1.1;
       }
     }
   }

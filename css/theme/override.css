@@ -190,17 +190,17 @@ embed, iframe, object {
 .reveal .slides > .start-page01 {
   padding: 0; }
 
-.reveal .start-page02 .page-item nav {
+.reveal .start-page02 .page-item {
   display: flex;
   padding: 40px 0 82px; }
-  .reveal .start-page02 .page-item nav > ul {
+  .reveal .start-page02 .page-item > ul {
     width: 50%;
     font-size: .5em; }
-    .reveal .start-page02 .page-item nav > ul ul {
+    .reveal .start-page02 .page-item > ul ul {
       font-size: 1em;
       line-height: 1.25;
       margin-top: 15px; }
-  .reveal .start-page02 .page-item nav li {
+  .reveal .start-page02 .page-item li {
     line-height: 1.1; }
 
 .reveal .start-page03 .pagetitile {
