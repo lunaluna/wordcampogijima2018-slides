@@ -494,12 +494,12 @@ embed, iframe, object {
       padding-bottom: 52px;
     }
   }
-  .page18,
-  .page19 {
+  .page18 {
     .page-title {
       margin-bottom: 0;
     }
     .page-item {
+      padding-bottom: 52px;
       .screen-shot {
         img {
           width: 15.5%;
@@ -510,14 +510,27 @@ embed, iframe, object {
       }
     }
   }
-  .page18 {
+  .page19 {
+    .page-title {
+      margin-bottom: 0;
+    }
     .page-item {
       padding-bottom: 52px;
-    }
-  }
-  .page19 {
-    .page-item {
-      padding-bottom: 80px;
+      .screen-shot {
+        img {
+          width: 15.5%;
+        }
+      }
+      .caution {
+        font-size: 1em;
+        margin: 0 0 20px;
+      }
+      h3 {
+        font-size: .75em;
+      }
+      li {
+        font-size: .6em;
+      }
     }
   }
   .page20 {

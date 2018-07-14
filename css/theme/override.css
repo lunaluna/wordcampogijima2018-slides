@@ -361,23 +361,30 @@ embed, iframe, object {
 .reveal .page17 .page-item {
   padding-bottom: 52px; }
 
-.reveal .page18 .page-title,
-.reveal .page19 .page-title {
+.reveal .page18 .page-title {
   margin-bottom: 0; }
-
-.reveal .page18 .page-item .screen-shot img,
-.reveal .page19 .page-item .screen-shot img {
-  width: 15.5%; }
-
-.reveal .page18 .page-item p,
-.reveal .page19 .page-item p {
-  font-size: .8em; }
 
 .reveal .page18 .page-item {
   padding-bottom: 52px; }
+  .reveal .page18 .page-item .screen-shot img {
+    width: 15.5%; }
+  .reveal .page18 .page-item p {
+    font-size: .8em; }
+
+.reveal .page19 .page-title {
+  margin-bottom: 0; }
 
 .reveal .page19 .page-item {
-  padding-bottom: 80px; }
+  padding-bottom: 52px; }
+  .reveal .page19 .page-item .screen-shot img {
+    width: 15.5%; }
+  .reveal .page19 .page-item .caution {
+    font-size: 1em;
+    margin: 0 0 20px; }
+  .reveal .page19 .page-item h3 {
+    font-size: .75em; }
+  .reveal .page19 .page-item li {
+    font-size: .6em; }
 
 .reveal .page20 .page-title {
   margin-bottom: 0; }

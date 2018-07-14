@@ -437,16 +437,13 @@
 					<figure class="screen-shot">
 						<img src="./img/ss-glyphicon-search.png" alt="「icon-search」で表示されるアイコンと「検索」のテキストあるボタンの画像">
 					</figure>
-					<div class="sourcecode-box">
-<pre>
-  <code>
-	.btn::before {
-		speak: none;
-	}
-  </code>
-</pre>
-					</div>
-					<p>疑似要素で表示している時は「speak: none;」を！</p>
+					<p class="caution"><em>アイコンの表示に擬似要素（::before、::after）の利用はおすすめしません！</em></p>
+					<h3>【その理由】</h3>
+					<ul>
+						<li>CSSが効かない状況ではコンテンツが無いものになってしまう</li>
+						<li>疑似要素は音声ブラウザで読み上げられてしまう</li>
+						<li>プロパティ「speak」の実装が進んでいない</li>
+					</ul>
 				</div>
 				<div class="nombre">【 19ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
