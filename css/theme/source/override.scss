@@ -273,7 +273,7 @@ embed, iframe, object {
   .start-page02 {
     .page-item {
       display: flex;
-      padding: 40px 0 82px;
+      padding: 40px 0 84px;
       > ul {
         width: 50%;
         font-size: .5em;
@@ -382,7 +382,7 @@ embed, iframe, object {
   }
   .page03 {
     .page-item {
-      padding: 45px 0 178px;
+      padding: 45px 0 177px;
     }
   }
   .page04 {
@@ -395,7 +395,7 @@ embed, iframe, object {
   }
   .page05 {
     .page-item {
-      padding: 50px 0 163px;
+      padding: 50px 0 162px;
     }
   }
   .page06 {
@@ -417,7 +417,7 @@ embed, iframe, object {
   }
   .page08 {
     .page-item {
-      padding: 96px 0 190px;
+      padding: 95px 0 190px;
       p {
         line-height: 1.4;
       }
@@ -428,7 +428,7 @@ embed, iframe, object {
   }
   .page09 {
     .page-item {
-      padding: 134px 0 200px;
+      padding: 135px 0 200px;
       p {
         line-height: 1.5;
       }
@@ -440,7 +440,7 @@ embed, iframe, object {
     }
     .page-item {
       font-size: .9em;
-      padding: 12px 0 102px;
+      padding: 12px 0 101px;
     }
   }
   .page11 {
@@ -459,12 +459,12 @@ embed, iframe, object {
   }
   .page12 {
     .page-item {
-      padding-bottom: 139px;
+      padding-bottom: 137px;
     }
   }
   .page13 {
     .page-item {
-      padding-bottom: 95px;
+      padding-bottom: 93px;
       .ib-left {
         margin-top: 0;
       }
@@ -475,12 +475,12 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      padding-bottom: 61px;
+      padding-bottom: 60px;
     }
   }
   .page16 {
     .page-item {
-      padding: 25px 0 134px;
+      padding: 25px 0 135px;
       li {
         font-size: .99em;
       }
@@ -491,7 +491,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      padding-bottom: 52px;
+      padding-bottom: 51px;
     }
   }
   .page18,
@@ -500,7 +500,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      padding-bottom: 52px;
+      padding-bottom: 51px;
       .screen-shot {
         img {
           width: 15.5%;
@@ -513,15 +513,16 @@ embed, iframe, object {
   }
   .page19 {
     .page-item {
-      padding-top: 14px;
+      padding-top: 15px;
     }
   }
   .page20 {
     .page-title {
-      margin-bottom: 0;
+      padding-top: 20px;
+      margin-bottom: 20px;
     }
     .page-item {
-      padding-bottom: 52px;
+      padding-bottom: 58px;
       .screen-shot {
         img {
           width: 15.5%;
@@ -532,10 +533,10 @@ embed, iframe, object {
         margin: 0 0 20px;
       }
       h3 {
-        font-size: .75em;
+        font-size: .85em;
       }
       li {
-        font-size: .6em;
+        font-size: .7em;
       }
     }
   }
@@ -566,7 +567,7 @@ embed, iframe, object {
   .page23 {
     .page-item {
       font-size: .8em;
-      padding-bottom: 82px;
+      padding-bottom: 84px;
       li {
         font-size: .8em;
         ul {
@@ -594,7 +595,7 @@ embed, iframe, object {
   }
   .page25 {
     .page-item {
-      padding: 26px 0 78px;
+      padding: 26px 0 79px;
       .item-page25 {
         display: inline-block;
         width: calc(49% - 60px);
@@ -623,17 +624,17 @@ embed, iframe, object {
   }
   .page26 {
     .page-item {
-      padding-bottom: 41px;
+      padding: 20px 0 85px;
     }
   }
   .page27 {
     .page-item {
-      padding-bottom: 106px;
+      padding-bottom: 105px;
     }
   }
   .page28 {
     .page-item {
-      padding: 25px 0 198px;
+      padding: 24px 0 198px;
       ol {
         margin: 0 120px;
       }
@@ -642,7 +643,7 @@ embed, iframe, object {
   .page29,
   .page30 {
     .page-item {
-      padding: 25px 0 134px;
+      padding: 24px 0 133px;
     }
   }
   .page31 {
@@ -660,7 +661,7 @@ embed, iframe, object {
   }
   .page33 {
     .page-item {
-      padding: 25px 0 80px;
+      padding: 23px 0 80px;
     }
   }
   .page34 {
@@ -668,7 +669,7 @@ embed, iframe, object {
       font-size: 1.03em;
     }
     .page-item {
-      padding: 36px 0 102px;
+      padding: 36px 0 103px;
       li {
         font-size: .95em;
       }
@@ -692,7 +693,7 @@ embed, iframe, object {
   }
   .page36 {
     .page-item {
-      padding: 25px 0 92px;
+      padding: 20px 0 90px;
       a {
         display: flex;
       }
@@ -730,7 +731,7 @@ embed, iframe, object {
   }
   .page38 {
     .page-item {
-      padding: 70px 0 154px;
+      padding: 50px 0 134px;
       p {
         font-size: .95em;
         line-height: 1.4;
@@ -767,7 +768,7 @@ embed, iframe, object {
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
-      padding: 20px 0 395px;
+      padding: 30px 0 405px;
       .gratitude {
         font-size: 1.2em;
         color: #fff;
