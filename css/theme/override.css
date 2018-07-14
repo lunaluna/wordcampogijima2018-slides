@@ -361,157 +361,164 @@ embed, iframe, object {
 .reveal .page17 .page-item {
   padding-bottom: 52px; }
 
-.reveal .page18 .page-title {
-  margin-bottom: 0; }
-
-.reveal .page18 .page-item {
-  padding-bottom: 52px; }
-  .reveal .page18 .page-item .screen-shot img {
-    width: 15.5%; }
-  .reveal .page18 .page-item p {
-    font-size: .8em; }
-
+.reveal .page18 .page-title,
 .reveal .page19 .page-title {
   margin-bottom: 0; }
 
+.reveal .page18 .page-item,
 .reveal .page19 .page-item {
   padding-bottom: 52px; }
+  .reveal .page18 .page-item .screen-shot img,
   .reveal .page19 .page-item .screen-shot img {
     width: 15.5%; }
-  .reveal .page19 .page-item .caution {
-    font-size: 1em;
-    margin: 0 0 20px; }
-  .reveal .page19 .page-item h3 {
-    font-size: .75em; }
-  .reveal .page19 .page-item li {
-    font-size: .6em; }
+  .reveal .page18 .page-item p,
+  .reveal .page19 .page-item p {
+    font-size: .8em; }
+
+.reveal .page19 .page-item {
+  padding-top: 14px; }
 
 .reveal .page20 .page-title {
   margin-bottom: 0; }
 
 .reveal .page20 .page-item {
-  padding: 66px 0 123px; }
+  padding-bottom: 52px; }
+  .reveal .page20 .page-item .screen-shot img {
+    width: 15.5%; }
+  .reveal .page20 .page-item .caution {
+    font-size: 1em;
+    margin: 0 0 20px; }
+  .reveal .page20 .page-item h3 {
+    font-size: .75em; }
+  .reveal .page20 .page-item li {
+    font-size: .6em; }
 
 .reveal .page21 .page-title {
   margin-bottom: 0; }
 
 .reveal .page21 .page-item {
-  padding: 52px 0 65px; }
-  .reveal .page21 .page-item .screen-shot img {
-    width: 69.6%; }
-  .reveal .page21 .page-item p {
-    font-size: .8em; }
+  padding: 66px 0 123px; }
+
+.reveal .page22 .page-title {
+  margin-bottom: 0; }
 
 .reveal .page22 .page-item {
-  font-size: .8em;
-  padding-bottom: 82px; }
-  .reveal .page22 .page-item li {
+  padding: 52px 0 65px; }
+  .reveal .page22 .page-item .screen-shot img {
+    width: 69.6%; }
+  .reveal .page22 .page-item p {
     font-size: .8em; }
-    .reveal .page22 .page-item li ul {
-      margin-top: 10px; }
 
 .reveal .page23 .page-item {
-  padding-bottom: 50px; }
-  .reveal .page23 .page-item .definition-list {
-    margin: 0 100px; }
-    .reveal .page23 .page-item .definition-list dd {
-      font-size: 0.8em; }
-  .reveal .page23 .page-item ul {
-    margin-left: 50px; }
+  font-size: .8em;
+  padding-bottom: 82px; }
   .reveal .page23 .page-item li {
-    font-size: .75em; }
+    font-size: .8em; }
+    .reveal .page23 .page-item li ul {
+      margin-top: 10px; }
 
 .reveal .page24 .page-item {
+  padding-bottom: 50px; }
+  .reveal .page24 .page-item .definition-list {
+    margin: 0 100px; }
+    .reveal .page24 .page-item .definition-list dd {
+      font-size: 0.8em; }
+  .reveal .page24 .page-item ul {
+    margin-left: 50px; }
+  .reveal .page24 .page-item li {
+    font-size: .75em; }
+
+.reveal .page25 .page-item {
   padding: 26px 0 78px; }
-  .reveal .page24 .page-item .item-page24 {
+  .reveal .page25 .page-item .item-page24 {
     display: inline-block;
     width: calc(49% - 60px);
     padding: 0 10px;
     vertical-align: top; }
-    .reveal .page24 .page-item .item-page24 + .item-page24 {
+    .reveal .page25 .page-item .item-page24 + .item-page24 {
       width: 49%;
       border-left: 1px solid; }
-  .reveal .page24 .page-item h3 {
+  .reveal .page25 .page-item h3 {
     font-size: .7em;
     text-align: left; }
-  .reveal .page24 .page-item div {
+  .reveal .page25 .page-item div {
     width: 100%; }
-    .reveal .page24 .page-item div dl {
+    .reveal .page25 .page-item div dl {
       font-size: .55em;
       margin: 0 0 10px 30px; }
-    .reveal .page24 .page-item div dd {
+    .reveal .page25 .page-item div dd {
       font-size: .86em; }
 
-.reveal .page25 .page-item {
+.reveal .page26 .page-item {
   padding-bottom: 41px; }
 
-.reveal .page26 .page-item {
+.reveal .page27 .page-item {
   padding-bottom: 106px; }
 
-.reveal .page27 .page-item {
+.reveal .page28 .page-item {
   padding: 25px 0 198px; }
-  .reveal .page27 .page-item ol {
+  .reveal .page28 .page-item ol {
     margin: 0 120px; }
 
-.reveal .page28 .page-item,
-.reveal .page29 .page-item {
+.reveal .page29 .page-item,
+.reveal .page30 .page-item {
   padding: 25px 0 134px; }
 
-.reveal .page30 .page-item {
+.reveal .page31 .page-item {
   padding: 40px 0 141px; }
-  .reveal .page30 .page-item li {
+  .reveal .page31 .page-item li {
     font-size: .89em; }
 
-.reveal .page31 .page-item {
+.reveal .page32 .page-item {
   padding-bottom: 51px; }
 
-.reveal .page32 .page-item {
-  padding: 25px 0 80px; }
-
-.reveal .page33 .page-title {
-  font-size: 1.03em; }
-
 .reveal .page33 .page-item {
-  padding: 36px 0 102px; }
-  .reveal .page33 .page-item li {
-    font-size: .95em; }
+  padding: 25px 0 80px; }
 
 .reveal .page34 .page-title {
   font-size: 1.03em; }
 
 .reveal .page34 .page-item {
-  padding: 25px 0 90px; }
-  .reveal .page34 .page-item .screen-shot img {
-    width: 50%; }
-  .reveal .page34 .page-item .screen-shot figcaption {
-    font-size: .8em; }
+  padding: 36px 0 102px; }
+  .reveal .page34 .page-item li {
+    font-size: .95em; }
+
+.reveal .page35 .page-title {
+  font-size: 1.03em; }
 
 .reveal .page35 .page-item {
-  padding: 25px 0 92px; }
-  .reveal .page35 .page-item a {
-    display: flex; }
+  padding: 25px 0 90px; }
+  .reveal .page35 .page-item .screen-shot img {
+    width: 50%; }
   .reveal .page35 .page-item .screen-shot figcaption {
     font-size: .8em; }
 
 .reveal .page36 .page-item {
+  padding: 25px 0 92px; }
+  .reveal .page36 .page-item a {
+    display: flex; }
+  .reveal .page36 .page-item .screen-shot figcaption {
+    font-size: .8em; }
+
+.reveal .page37 .page-item {
   padding: 26px 0 60px; }
-  .reveal .page36 .page-item .item-page36 {
+  .reveal .page37 .page-item .item-page36 {
     display: inline-block;
     width: calc(49% - 60px);
     padding: 0 10px; }
-    .reveal .page36 .page-item .item-page36 + .item-page36 {
+    .reveal .page37 .page-item .item-page36 + .item-page36 {
       width: 49%;
       border-left: 1px solid; }
-  .reveal .page36 .page-item h3 {
+  .reveal .page37 .page-item h3 {
     font-size: .7em;
     text-align: left; }
-  .reveal .page36 .page-item ul {
+  .reveal .page37 .page-item ul {
     width: 100%;
     margin: 0 70px 10px; }
-    .reveal .page36 .page-item ul li {
+    .reveal .page37 .page-item ul li {
       font-size: .6em; }
 
-.reveal .page37 header {
+.reveal .page38 header {
   font-size: 2em;
   padding: 50px 0 169px; }
 

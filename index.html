@@ -84,23 +84,23 @@
 						<li><a href="#page16" class="in-page">自作テーマ作成時の注意点</a>(p.16)
 							<ul>
 								<li><a href="#page17" class="in-page">セマンティックにコーディングする</a>(p.17)</li>
-								<li><a href="#page22" class="in-page">JIS X 8341-3:2016への準拠</a>(p.22)</li>
-								<li><a href="#page23" class="in-page">role属性、aria属性の活用</a>(p.23)</li>
-								<li><a href="#page25" class="in-page">アクセシビリティ対応しているプラグインの活用</a>(p.25)</li>
+								<li><a href="#page23" class="in-page">JIS X 8341-3:2016への準拠</a>(p.23)</li>
+								<li><a href="#page24" class="in-page">role属性、aria属性の活用</a>(p.24)</li>
+								<li><a href="#page26" class="in-page">アクセシビリティ対応しているプラグインの活用</a>(p.26)</li>
 							</ul>
 						</li>
 					</ul>
 					<ul role="directory">
-						<li><a href="#page27" class="in-page">プロジェクトのアクセシビリティ対応</a>(p.27)
+						<li><a href="#page28" class="in-page">プロジェクトのアクセシビリティ対応</a>(p.28)
 							<ul>
-								<li><a href="#page28" class="in-page">アクセシビリティは後回し？</a>(p.28)</li>
-								<li><a href="#page29" class="in-page">アクセシビリティは儲からない？</a>(p.29)</li>
-								<li><a href="#page30" class="in-page">どこまでを求めるのか</a>(p.30)
+								<li><a href="#page29" class="in-page">アクセシビリティは後回し？</a>(p.29)</li>
+								<li><a href="#page30" class="in-page">アクセシビリティは儲からない？</a>(p.30)</li>
+								<li><a href="#page31" class="in-page">どこまでを求めるのか</a>(p.31)
 									<ul>
-										<li><a href="#page31" class="in-page">最初に方針を定めましょう</a>(p.31)</li>
-										<li><a href="#page32" class="in-page">「基準を知る」</a>(p.32)</li>
-										<li><a href="#page33" class="in-page">公式ディレクトリ掲載テーマを使うという選択肢</a>(p.33)</li>
-										<li><a href="#page36" class="in-page">まずは必要最低限から</a>(p.36)</li>
+										<li><a href="#page32" class="in-page">最初に方針を定めましょう</a>(p.32)</li>
+										<li><a href="#page33" class="in-page">「基準を知る」</a>(p.33)</li>
+										<li><a href="#page34" class="in-page">公式ディレクトリ掲載テーマを使うという選択肢</a>(p.34)</li>
+										<li><a href="#page37" class="in-page">まずは必要最低限から</a>(p.37)</li>
 									</ul>
 								</li>
 							</ul>
@@ -404,7 +404,30 @@
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page19">
+			<section class="slidepage page19" id="page19">
+				<h2 class="page-title">装飾画像の扱い</h2>
+				<div class="page-item">
+					<div class="sourcecode-box">
+<pre>
+	<code>
+	<button type="button" class="btn">
+		<span class="icon-search">
+			<img src="./img/ss-glyphicon-search.png" alt="">
+		</span>
+		検索
+	</button>
+	</code>
+</pre>
+					</div>
+					<p>こういう組み方でもOK。『alt=""』は必要！</p>
+				</div>
+				<div class="nombre">【 19ページ 】</div>
+				<footer class="pagecaption" aria-hidden="true">
+					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
+					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
+				</footer>
+			</section>
+			<section class="slidepage page20">
 				<h2 class="page-title">装飾画像の扱い</h2>
 				<div class="page-item">
 					<figure class="screen-shot">
@@ -418,19 +441,6 @@
 						<li>プロパティ「speak」の実装が進んでいない</li>
 					</ul>
 				</div>
-				<div class="nombre">【 19ページ 】</div>
-				<footer class="pagecaption" aria-hidden="true">
-					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
-					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
-				</footer>
-			</section>
-			<section class="slidepage page20">
-				<h2 class="page-title">じゃあ、こういうのは？</h2>
-				<div class="page-item">
-					<figure class="screen-shot">
-						<img src="./img/ss-form.png" alt="フォームの入力画面で、入力項目のタイトルの横に「必須」の表示がある画像">
-					</figure>
-				</div>
 				<div class="nombre">【 20ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
@@ -438,6 +448,19 @@
 				</footer>
 			</section>
 			<section class="slidepage page21">
+				<h2 class="page-title">じゃあ、こういうのは？</h2>
+				<div class="page-item">
+					<figure class="screen-shot">
+						<img src="./img/ss-form.png" alt="フォームの入力画面で、入力項目のタイトルの横に「必須」の表示がある画像">
+					</figure>
+				</div>
+				<div class="nombre">【 21ページ 】</div>
+				<footer class="pagecaption" aria-hidden="true">
+					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
+					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
+				</footer>
+			</section>
+			<section class="slidepage page22">
 				<h2 class="page-title">これは装飾じゃないですね！！</h2>
 				<div class="page-item">
 					<div class="sourcecode-box">
@@ -449,13 +472,13 @@
 					</div>
 					<p>CSSが読み込めないことも起こりえます。<br>意味のあるアイコンは「HTMLで正しくコーディング」を！<br>CSSに頼らず、HTMLだけで意味を伝えられるように</p>
 				</div>
-				<div class="nombre">【 21ページ 】</div>
+				<div class="nombre">【 22ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page22" id="page22">
+			<section class="slidepage page23" id="page23">
 				<h2 class="page-title">JIS X 8341-3:2016への準拠</h2>
 				<div class="page-item">
 					<p class="ib-left">『高齢者・障害者等配慮設計指針 － 情報通信における機器、<br>ソフトウェア及びサービス － 第3部：ウェブコンテンツ』</p>
@@ -469,13 +492,13 @@
 						</li>
 					</ul>
 				</div>
-				<div class="nombre">【 22ページ 】</div>
+				<div class="nombre">【 23ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page23" id="page23">
+			<section class="slidepage page24" id="page24">
 				<h2 class="page-title">role属性、aria属性の活用</h2>
 				<div class="page-item">
 					<dl class="definition-list">
@@ -498,16 +521,16 @@
 						</dd>
 					</dl>
 				</div>
-				<div class="nombre">【 23ページ 】</div>
+				<div class="nombre">【 24ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page24">
+			<section class="slidepage page25">
 				<h2 class="page-title">role属性、aria属性の活用</h2>
 				<div class="page-item">
-					<div class="item-page24">
+					<div class="item-page25">
 						<h3>role属性の例</h3>
 						<div class="inline-block">
 							<dl>
@@ -524,7 +547,7 @@
 							</dl>
 						</div>
 					</div>
-					<div class="item-page24">
+					<div class="item-page25">
 						<h3>aria属性の例</h3>
 						<div>
 							<dl>
@@ -543,13 +566,13 @@
 					</div>
 					<p class="text-right">など</p>
 				</div>
-				<div class="nombre">【 24ページ 】</div>
+				<div class="nombre">【 25ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page25" id="page25">
+			<section class="slidepage page26" id="page26">
 				<h2 class="page-title">アクセシビリティ対応している<br>プラグインの活用</h2>
 				<div class="page-item">
 					<p class="ib-left">アクセシビリティ対応している<br>プラグインを使ってラクをしましょう。</p>
@@ -559,13 +582,13 @@
 					</ul>
 					<p class="text-right">など</p>
 				</div>
-				<div class="nombre">【 25ページ 】</div>
+				<div class="nombre">【 26ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page26">
+			<section class="slidepage page27">
 				<h2 class="page-title">【参考】コーディングスタンダード</h2>
 				<div class="page-item">
 					<p class="ib-left">WordPressには<em>アクセシビリティ<br>コーディングスタンダード</em>があります。</p>
@@ -575,21 +598,6 @@
 					</ul>
 					<p class="text-right">など</p>
 				</div>
-				<div class="nombre">【 26ページ 】</div>
-				<footer class="pagecaption" aria-hidden="true">
-					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
-					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
-				</footer>
-			</section>
-			<section class="slidepage page27" id="page27">
-				<h2 class="page-title">プロジェクトのアクセシビリティ対応</h2>
-				<div class="page-item">
-					<ol>
-						<li><a href="#page28" class="in-page">アクセシビリティは後回し？</a></li>
-						<li><a href="#page29" class="in-page">アクセシビリティは儲からない？</a></li>
-						<li><a href="#page30" class="in-page">どこまでを求めるのか</a></li>
-					</ol>
-				</div>
 				<div class="nombre">【 27ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
@@ -597,6 +605,21 @@
 				</footer>
 			</section>
 			<section class="slidepage page28" id="page28">
+				<h2 class="page-title">プロジェクトのアクセシビリティ対応</h2>
+				<div class="page-item">
+					<ol>
+						<li><a href="#page29" class="in-page">アクセシビリティは後回し？</a></li>
+						<li><a href="#page30" class="in-page">アクセシビリティは儲からない？</a></li>
+						<li><a href="#page31" class="in-page">どこまでを求めるのか</a></li>
+					</ol>
+				</div>
+				<div class="nombre">【 28ページ 】</div>
+				<footer class="pagecaption" aria-hidden="true">
+					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
+					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
+				</footer>
+			</section>
+			<section class="slidepage page29" id="page29">
 				<h2 class="page-title">アクセシビリティは後回し？</h2>
 				<div class="page-item">
 					<ul class="inline-block">
@@ -606,13 +629,13 @@
 						<li>必要ないから？</li>
 					</ul>
 				</div>
-				<div class="nombre">【 28ページ 】</div>
+				<div class="nombre">【 29ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page29" id="page29">
+			<section class="slidepage page30" id="page30">
 				<h2 class="page-title">アクセシビリティは儲からない？</h2>
 				<div class="page-item">
 					<ul class="inline-block">
@@ -622,22 +645,6 @@
 						<li>売り上げを逃しているのでは？</li>
 					</ul>
 				</div>
-				<div class="nombre">【 29ページ 】</div>
-				<footer class="pagecaption" aria-hidden="true">
-					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
-					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
-				</footer>
-			</section>
-			<section class="slidepage page30" id="page30">
-				<h2 class="page-title">では、どこまでを求めるのか</h2>
-				<div class="page-item">
-					<ul class="inline-block">
-						<li><a href="#page31" class="in-page">最初に方針を定めましょう</a></li>
-						<li><a href="#page32" class="in-page">「基準を知る」</a></li>
-						<li><a href="#page33" class="in-page">公式ディレクトリ掲載テーマを使うという選択肢</a></li>
-						<li><a href="#page36" class="in-page">まずは必要最低限から</a></li>
-					</ul>
-				</div>
 				<div class="nombre">【 30ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
@@ -645,13 +652,13 @@
 				</footer>
 			</section>
 			<section class="slidepage page31" id="page31">
-				<h2 class="page-title">最初に方針を定めましょう</h2>
+				<h2 class="page-title">では、どこまでを求めるのか</h2>
 				<div class="page-item">
 					<ul class="inline-block">
-						<li><em>必ず</em>プロジェクト全体で方針を決めること</li>
-						<li>デザイン「だけ」ではアクセシビリティ対応はできない</li>
-						<li>プログラミング「だけ」でもアクセシビリティ対応はできない</li>
-						<li>クライアントも含めた方針の決定が先決</li>
+						<li><a href="#page32" class="in-page">最初に方針を定めましょう</a></li>
+						<li><a href="#page33" class="in-page">「基準を知る」</a></li>
+						<li><a href="#page34" class="in-page">公式ディレクトリ掲載テーマを使うという選択肢</a></li>
+						<li><a href="#page37" class="in-page">まずは必要最低限から</a></li>
 					</ul>
 				</div>
 				<div class="nombre">【 31ページ 】</div>
@@ -661,13 +668,13 @@
 				</footer>
 			</section>
 			<section class="slidepage page32" id="page32">
-				<h2 class="page-title">「基準を知る」</h2>
+				<h2 class="page-title">最初に方針を定めましょう</h2>
 				<div class="page-item">
 					<ul class="inline-block">
-						<li><a href="https://waic.jp/docs/jis2016/accessibility-plan-guidelines/201604/" target="_blank" rel="noopener">ウェブアクセシビリティ方針策定ガイドライン</a></li>
-						<li>まず理解を深める</li>
-						<li>三つの適合レベル（レベルA、レベルAA、<br>レベルAAA）</li>
-						<li>（可能なら）方針策定・達成期限を設ける</li>
+						<li><em>必ず</em>プロジェクト全体で方針を決めること</li>
+						<li>デザイン「だけ」ではアクセシビリティ対応はできない</li>
+						<li>プログラミング「だけ」でもアクセシビリティ対応はできない</li>
+						<li>クライアントも含めた方針の決定が先決</li>
 					</ul>
 				</div>
 				<div class="nombre">【 32ページ 】</div>
@@ -677,12 +684,13 @@
 				</footer>
 			</section>
 			<section class="slidepage page33" id="page33">
-				<h2 class="page-title">公式ディレクトリ掲載テーマを使うという選択肢</h2>
+				<h2 class="page-title">「基準を知る」</h2>
 				<div class="page-item">
 					<ul class="inline-block">
-						<li><a href="https://ja.wordpress.org/themes/tags/accessibility-ready/" target="_blank" rel="noopener">「アクセシビリティ」対応テーマ</a>を利用する</li>
-						<li>現時点のテーマディレクトリの「アクセシビリティ」タグ登録数は123件（デフォルトテーマ含む・2018年7月13日現在）</li>
-						<li>本当にサイトの訪問者が必要な情報はなにか？</li>
+						<li><a href="https://waic.jp/docs/jis2016/accessibility-plan-guidelines/201604/" target="_blank" rel="noopener">ウェブアクセシビリティ方針策定ガイドライン</a></li>
+						<li>まず理解を深める</li>
+						<li>三つの適合レベル（レベルA、レベルAA、<br>レベルAAA）</li>
+						<li>（可能なら）方針策定・達成期限を設ける</li>
 					</ul>
 				</div>
 				<div class="nombre">【 33ページ 】</div>
@@ -691,7 +699,22 @@
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page34">
+			<section class="slidepage page34" id="page34">
+				<h2 class="page-title">公式ディレクトリ掲載テーマを使うという選択肢</h2>
+				<div class="page-item">
+					<ul class="inline-block">
+						<li><a href="https://ja.wordpress.org/themes/tags/accessibility-ready/" target="_blank" rel="noopener">「アクセシビリティ」対応テーマ</a>を利用する</li>
+						<li>現時点のテーマディレクトリの「アクセシビリティ」タグ登録数は123件（デフォルトテーマ含む・2018年7月13日現在）</li>
+						<li>本当にサイトの訪問者が必要な情報はなにか？</li>
+					</ul>
+				</div>
+				<div class="nombre">【 34ページ 】</div>
+				<footer class="pagecaption" aria-hidden="true">
+					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
+					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
+				</footer>
+			</section>
+			<section class="slidepage page35">
 				<h2 class="page-title">公式ディレクトリ掲載テーマを使うという選択肢</h2>
 				<div class="page-item">
 					<a href="https://ja.wordpress.org/themes/coldbox/" target="_blank" rel="noopener">
@@ -701,13 +724,13 @@
 						</figure>
 					</a>
 				</div>
-				<div class="nombre">【 34ページ 】</div>
+				<div class="nombre">【 35ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page35">
+			<section class="slidepage page36">
 				<h2 class="page-title">Accessibility Ready!!</h2>
 				<div class="page-item">
 					<a href="https://github.com/mirucon/coldbox" target="_blank" rel="noopener">
@@ -721,16 +744,16 @@
 						</figure>
 					</a>
 				</div>
-				<div class="nombre">【 35ページ 】</div>
+				<div class="nombre">【 36ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page36" id="page36">
+			<section class="slidepage page37" id="page37">
 				<h2 class="page-title">まずは必要最低限から</h2>
 				<div class="page-item">
-					<div class="item-page36">
+					<div class="item-page37">
 						<h3>デザインのアクセシビリティ</h3>
 						<ul class="inline-block">
 							<li>文字サイズ</li>
@@ -739,7 +762,7 @@
 							<li>......</li>
 						</ul>
 					</div>
-					<div class="item-page36">
+					<div class="item-page37">
 						<h3>コーディングのアクセシビリティ</h3>
 						<ul>
 							<li>セマンティックな文書構造</li>
@@ -750,17 +773,17 @@
 					</div>
 					<p>なにより<em>継続できることが大事</em></p>
 				</div>
-				<div class="nombre">【 36ページ 】</div>
+				<div class="nombre">【 37ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
 				</footer>
 			</section>
-			<section class="slidepage page37">
+			<section class="slidepage page38">
 				<header>
 					<h2 class="pagetitile">アクセシビリティは<br />『品質』です。</h2>
 				</header>
-				<div class="nombre">【 37ページ 】</div>
+				<div class="nombre">【 38ページ 】</div>
 				<footer class="pagecaption" aria-hidden="true">
 					<picture class="left slide-wapuu"><img src="./img/ogiwapuu.png" alt="男木島わぷー" class="ogi-wapuu"><img src="./img/wco-logo.svg" alt="WordCamp Ogijima Logotype" class="ogi-logo"></picture>
 					<picture class="right slide-logo"><img src="./img/mgnLogo.svg" alt="mgnロゴマーク"></picture>
