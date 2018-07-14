@@ -430,12 +430,12 @@ embed, iframe, object {
 
 .reveal .page25 .page-item {
   padding: 26px 0 78px; }
-  .reveal .page25 .page-item .item-page24 {
+  .reveal .page25 .page-item .item-page25 {
     display: inline-block;
     width: calc(49% - 60px);
     padding: 0 10px;
     vertical-align: top; }
-    .reveal .page25 .page-item .item-page24 + .item-page24 {
+    .reveal .page25 .page-item .item-page25 + .item-page25 {
       width: 49%;
       border-left: 1px solid; }
   .reveal .page25 .page-item h3 {
@@ -470,7 +470,7 @@ embed, iframe, object {
     font-size: .89em; }
 
 .reveal .page32 .page-item {
-  padding-bottom: 51px; }
+  padding-bottom: 48px; }
 
 .reveal .page33 .page-item {
   padding: 25px 0 80px; }
@@ -502,11 +502,11 @@ embed, iframe, object {
 
 .reveal .page37 .page-item {
   padding: 26px 0 60px; }
-  .reveal .page37 .page-item .item-page36 {
+  .reveal .page37 .page-item .item-page37 {
     display: inline-block;
     width: calc(49% - 60px);
     padding: 0 10px; }
-    .reveal .page37 .page-item .item-page36 + .item-page36 {
+    .reveal .page37 .page-item .item-page37 + .item-page37 {
       width: 49%;
       border-left: 1px solid; }
   .reveal .page37 .page-item h3 {
@@ -518,7 +518,13 @@ embed, iframe, object {
     .reveal .page37 .page-item ul li {
       font-size: .6em; }
 
-.reveal .page38 header {
+.reveal .page38 .page-item {
+  padding: 70px 0 154px; }
+  .reveal .page38 .page-item p {
+    font-size: .95em;
+    line-height: 1.4; }
+
+.reveal .page39 header {
   font-size: 2em;
   padding: 50px 0 169px; }
 
