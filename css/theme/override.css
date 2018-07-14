@@ -75,7 +75,7 @@ embed, iframe, object {
     border: none;
     margin: 0; }
   .reveal a {
-    text-decoration: underline; }
+    text-decoration: none; }
     .reveal a:hover {
       text-decoration: none; }
     .reveal a img {
