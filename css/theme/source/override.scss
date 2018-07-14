@@ -129,6 +129,8 @@ embed, iframe, object {
   }
   code {
     max-height: 100%;
+    font-size: 1.5em;
+    line-height: 1.3;
   }
 }
 
@@ -306,9 +308,10 @@ embed, iframe, object {
       display: flex;
       justify-content: center;
       div {
-        width: 32.2%;
+        width: 40%;
         padding: 5px;
         img {
+          width: 140%;
           margin: 0;
         }
       }
@@ -796,7 +799,8 @@ embed, iframe, object {
 .hljs-selector-tag,
 .hljs-tag {
   // color: #e3ceab;
-  color: #fc0;
+  // color: #fc0;
+  color: #fff;
 }
 
 .hljs-template-tag {
@@ -828,7 +832,8 @@ embed, iframe, object {
 .hljs-section,
 .hljs-type {
   // color: #efef8f;
-  color: #8dd929;
+  // color: #8dd929;
+  color: #fff;
 }
 
 .hljs-symbol,
@@ -842,7 +847,8 @@ embed, iframe, object {
 .hljs-built_in,
 .hljs-builtin-name {
   // color: #cc9393;
-  color: #ee4949;
+  // color: #ee4949;
+  color: #fff;
 }
 
 .hljs-addition,

@@ -99,7 +99,9 @@ embed, iframe, object {
     width: 96%;
     margin: 0 auto; }
   .reveal code {
-    max-height: 100%; }
+    max-height: 100%;
+    font-size: 1.5em;
+    line-height: 1.3; }
 
 .reveal.cube .slides section {
   min-height: 650px; }
@@ -228,9 +230,10 @@ embed, iframe, object {
   display: flex;
   justify-content: center; }
   .reveal .start-page04 .flex div {
-    width: 32.2%;
+    width: 40%;
     padding: 5px; }
     .reveal .start-page04 .flex div img {
+      width: 140%;
       margin: 0; }
   .reveal .start-page04 .flex .hashtag {
     font-size: 1.25em;
@@ -564,7 +567,7 @@ embed, iframe, object {
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-tag {
-  color: #fc0; }
+  color: #fff; }
 
 .hljs-template-tag {
   color: #dcdcdc; }
@@ -589,7 +592,7 @@ embed, iframe, object {
 .hljs-selector-class,
 .hljs-section,
 .hljs-type {
-  color: #8dd929; }
+  color: #fff; }
 
 .hljs-symbol,
 .hljs-bullet,
@@ -600,7 +603,7 @@ embed, iframe, object {
 .hljs-string,
 .hljs-built_in,
 .hljs-builtin-name {
-  color: #ee4949; }
+  color: #fff; }
 
 .hljs-addition,
 .hljs-comment,
