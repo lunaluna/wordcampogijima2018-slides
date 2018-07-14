@@ -41,7 +41,7 @@
       // when the presentation is scaled to fit different resolutions
       width: 960,
       // height: 700,
-      height: 540,
+      height: 650,
 
       // Factor of the display size that should remain empty around the content
       margin: 0.04,
