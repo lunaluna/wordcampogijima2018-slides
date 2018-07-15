@@ -554,10 +554,11 @@ embed, iframe, object {
 .reveal .slides > .last-page02 {
   padding: 0; }
 
+/* pull request #3
+****************************************************/
 .footer {
-	position: absolute;
-	bottom: 3%;
-	height: 44px;
-	width: 50%;
-	left: 2%;
-}
+  position: absolute;
+  bottom: 3%;
+  height: 44px;
+  width: 50%;
+  left: 2%; }
