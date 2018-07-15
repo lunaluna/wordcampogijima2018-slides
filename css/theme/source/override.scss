@@ -526,7 +526,7 @@ embed, iframe, object {
       margin-bottom: 20px;
     }
     .page-item {
-      padding-bottom: 58px;
+      padding-bottom: 28px;
       .screen-shot {
         img {
           width: 15.5%;
@@ -537,10 +537,13 @@ embed, iframe, object {
         margin: 0 0 20px;
       }
       h3 {
-        font-size: .85em;
+        font-size: .75em;
       }
       li {
-        font-size: .7em;
+        font-size: .55em;
+      }
+      .additional {
+        font-size: .55em;
       }
     }
   }
