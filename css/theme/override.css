@@ -383,16 +383,18 @@ embed, iframe, object {
   margin-bottom: 20px; }
 
 .reveal .page20 .page-item {
-  padding-bottom: 58px; }
+  padding-bottom: 28px; }
   .reveal .page20 .page-item .screen-shot img {
     width: 15.5%; }
   .reveal .page20 .page-item .caution {
     font-size: 1em;
     margin: 0 0 20px; }
   .reveal .page20 .page-item h3 {
-    font-size: .85em; }
+    font-size: .75em; }
   .reveal .page20 .page-item li {
-    font-size: .7em; }
+    font-size: .55em; }
+  .reveal .page20 .page-item .additional {
+    font-size: .55em; }
 
 .reveal .page21 .page-title {
   margin-bottom: 0; }
