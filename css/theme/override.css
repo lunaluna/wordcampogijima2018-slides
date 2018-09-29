@@ -359,7 +359,7 @@ embed, iframe, object {
   margin-bottom: 0; }
 
 .reveal .page17 .page-item {
-  padding-bottom: 51px; }
+  padding-bottom: 52px; }
 
 .reveal .page18 .page-title,
 .reveal .page19 .page-title {
@@ -367,7 +367,7 @@ embed, iframe, object {
 
 .reveal .page18 .page-item,
 .reveal .page19 .page-item {
-  padding-bottom: 51px; }
+  padding-bottom: 52px; }
   .reveal .page18 .page-item .screen-shot img,
   .reveal .page19 .page-item .screen-shot img {
     width: 15.5%; }
@@ -376,158 +376,166 @@ embed, iframe, object {
     font-size: .8em; }
 
 .reveal .page19 .page-item {
-  padding-top: 15px; }
+  padding-top: 16px; }
 
 .reveal .page20 .page-title {
   padding-top: 20px;
   margin-bottom: 20px; }
 
 .reveal .page20 .page-item {
-  padding-bottom: 28px; }
+  padding-top: 50px;
+  padding-bottom: 197px; }
   .reveal .page20 .page-item .screen-shot img {
     width: 15.5%; }
-  .reveal .page20 .page-item .caution {
-    font-size: 1em;
-    margin: 0 0 20px; }
-  .reveal .page20 .page-item h3 {
-    font-size: .75em; }
-  .reveal .page20 .page-item li {
-    font-size: .55em; }
-  .reveal .page20 .page-item .additional {
-    font-size: .55em; }
 
 .reveal .page21 .page-title {
-  margin-bottom: 0; }
+  padding-top: 20px;
+  margin-bottom: 20px; }
 
 .reveal .page21 .page-item {
-  padding: 66px 0 123px; }
+  padding-bottom: 93px; }
+  .reveal .page21 .page-item .caution {
+    font-size: 1em;
+    margin: 0 0 20px; }
+  .reveal .page21 .page-item h3 {
+    font-size: 1em; }
+  .reveal .page21 .page-item li {
+    font-size: .75em; }
+  .reveal .page21 .page-item .additional {
+    font-size: .9em; }
 
 .reveal .page22 .page-title {
   margin-bottom: 0; }
 
 .reveal .page22 .page-item {
-  padding: 52px 0 65px; }
-  .reveal .page22 .page-item .screen-shot img {
-    width: 69.6%; }
-  .reveal .page22 .page-item p {
-    font-size: .8em; }
+  padding: 66px 0 123px; }
+
+.reveal .page23 .page-title {
+  margin-bottom: 0; }
 
 .reveal .page23 .page-item {
-  font-size: .8em;
-  padding-bottom: 84px; }
-  .reveal .page23 .page-item li {
+  padding: 52px 0 65px; }
+  .reveal .page23 .page-item .screen-shot img {
+    width: 69.6%; }
+  .reveal .page23 .page-item p {
     font-size: .8em; }
-    .reveal .page23 .page-item li ul {
-      margin-top: 10px; }
 
 .reveal .page24 .page-item {
-  padding-bottom: 50px; }
-  .reveal .page24 .page-item .definition-list {
-    margin: 0 100px; }
-    .reveal .page24 .page-item .definition-list dd {
-      font-size: 0.8em; }
-  .reveal .page24 .page-item ul {
-    margin-left: 50px; }
+  font-size: .8em;
+  padding-bottom: 84px; }
   .reveal .page24 .page-item li {
-    font-size: .75em; }
+    font-size: .8em; }
+    .reveal .page24 .page-item li ul {
+      margin-top: 10px; }
 
 .reveal .page25 .page-item {
+  padding-bottom: 50px; }
+  .reveal .page25 .page-item .definition-list {
+    margin: 0 100px; }
+    .reveal .page25 .page-item .definition-list dd {
+      font-size: 0.8em; }
+  .reveal .page25 .page-item ul {
+    margin-left: 50px; }
+  .reveal .page25 .page-item li {
+    font-size: .75em; }
+
+.reveal .page26 .page-item {
   padding: 26px 0 79px; }
-  .reveal .page25 .page-item .item-page25 {
+  .reveal .page26 .page-item .item-page26 {
     display: inline-block;
     width: calc(49% - 60px);
     padding: 0 10px;
     vertical-align: top; }
-    .reveal .page25 .page-item .item-page25 + .item-page25 {
+    .reveal .page26 .page-item .item-page26 + .item-page26 {
       width: 49%;
       border-left: 1px solid; }
-  .reveal .page25 .page-item h3 {
+  .reveal .page26 .page-item h3 {
     font-size: .7em;
     text-align: left; }
-  .reveal .page25 .page-item div {
+  .reveal .page26 .page-item div {
     width: 100%; }
-    .reveal .page25 .page-item div dl {
+    .reveal .page26 .page-item div dl {
       font-size: .55em;
       margin: 0 0 10px 30px; }
-    .reveal .page25 .page-item div dd {
+    .reveal .page26 .page-item div dd {
       font-size: .86em; }
 
-.reveal .page26 .page-item {
+.reveal .page27 .page-item {
   padding: 20px 0 85px; }
 
-.reveal .page27 .page-item {
+.reveal .page28 .page-item {
   padding-bottom: 105px; }
 
-.reveal .page28 .page-item {
+.reveal .page29 .page-item {
   padding: 24px 0 198px; }
-  .reveal .page28 .page-item ol {
+  .reveal .page29 .page-item ol {
     margin: 0 120px; }
 
-.reveal .page29 .page-item,
-.reveal .page30 .page-item {
+.reveal .page30 .page-item,
+.reveal .page31 .page-item {
   padding: 24px 0 133px; }
 
-.reveal .page31 .page-item {
+.reveal .page32 .page-item {
   padding: 40px 0 141px; }
-  .reveal .page31 .page-item li {
+  .reveal .page32 .page-item li {
     font-size: .89em; }
 
-.reveal .page32 .page-item {
+.reveal .page33 .page-item {
   padding-bottom: 48px; }
 
-.reveal .page33 .page-item {
-  padding: 23px 0 80px; }
-
-.reveal .page34 .page-title {
-  font-size: 1.03em; }
-
 .reveal .page34 .page-item {
-  padding: 41px 0 113px; }
-  .reveal .page34 .page-item li {
-    font-size: .9em; }
+  padding: 23px 0 80px; }
 
 .reveal .page35 .page-title {
   font-size: 1.03em; }
 
 .reveal .page35 .page-item {
-  padding: 25px 0 90px; }
-  .reveal .page35 .page-item .screen-shot img {
-    width: 50%; }
-  .reveal .page35 .page-item .screen-shot figcaption {
-    font-size: .8em; }
+  padding: 41px 0 113px; }
+  .reveal .page35 .page-item li {
+    font-size: .9em; }
+
+.reveal .page36 .page-title {
+  font-size: 1.03em; }
 
 .reveal .page36 .page-item {
-  padding: 20px 0 90px; }
-  .reveal .page36 .page-item a {
-    display: flex; }
+  padding: 25px 0 90px; }
+  .reveal .page36 .page-item .screen-shot img {
+    width: 50%; }
   .reveal .page36 .page-item .screen-shot figcaption {
     font-size: .8em; }
 
 .reveal .page37 .page-item {
+  padding: 20px 0 90px; }
+  .reveal .page37 .page-item a {
+    display: flex; }
+  .reveal .page37 .page-item .screen-shot figcaption {
+    font-size: .8em; }
+
+.reveal .page38 .page-item {
   padding: 26px 0 60px; }
-  .reveal .page37 .page-item .item-page37 {
+  .reveal .page38 .page-item .item-page38 {
     display: inline-block;
     width: calc(49% - 60px);
     padding: 0 10px; }
-    .reveal .page37 .page-item .item-page37 + .item-page37 {
+    .reveal .page38 .page-item .item-page38 + .item-page38 {
       width: 49%;
       border-left: 1px solid; }
-  .reveal .page37 .page-item h3 {
+  .reveal .page38 .page-item h3 {
     font-size: .7em;
     text-align: left; }
-  .reveal .page37 .page-item ul {
+  .reveal .page38 .page-item ul {
     width: 100%;
     margin: 0 70px 10px; }
-    .reveal .page37 .page-item ul li {
+    .reveal .page38 .page-item ul li {
       font-size: .6em; }
 
-.reveal .page38 .page-item {
+.reveal .page39 .page-item {
   padding: 50px 0 134px; }
-  .reveal .page38 .page-item p {
+  .reveal .page39 .page-item p {
     font-size: .95em;
     line-height: 1.4; }
 
-.reveal .page39 header {
+.reveal .page40 header {
   font-size: 2em;
   padding: 50px 0 169px; }
 

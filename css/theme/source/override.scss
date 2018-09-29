@@ -491,7 +491,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      padding-bottom: 51px;
+      padding-bottom: 52px;
     }
   }
   .page18,
@@ -500,7 +500,7 @@ embed, iframe, object {
       margin-bottom: 0;
     }
     .page-item {
-      padding-bottom: 51px;
+      padding-bottom: 52px;
       .screen-shot {
         img {
           width: 15.5%;
@@ -513,7 +513,7 @@ embed, iframe, object {
   }
   .page19 {
     .page-item {
-      padding-top: 15px;
+      padding-top: 16px;
     }
   }
   .page20 {
@@ -522,28 +522,38 @@ embed, iframe, object {
       margin-bottom: 20px;
     }
     .page-item {
-      padding-bottom: 28px;
+      padding-top: 50px;
+      padding-bottom: 197px;
       .screen-shot {
         img {
           width: 15.5%;
         }
       }
+    }
+  }
+  .page21 {
+    .page-title {
+      padding-top: 20px;
+      margin-bottom: 20px;
+    }
+    .page-item {
+      padding-bottom: 93px;
       .caution {
         font-size: 1em;
         margin: 0 0 20px;
       }
       h3 {
-        font-size: .75em;
+        font-size: 1em;
       }
       li {
-        font-size: .55em;
+        font-size: .75em;
       }
       .additional {
-        font-size: .55em;
+        font-size: .9em;
       }
     }
   }
-  .page21 {
+  .page22 {
     .page-title {
       margin-bottom: 0;
     }
@@ -551,7 +561,7 @@ embed, iframe, object {
       padding: 66px 0 123px;
     }
   }
-  .page22 {
+  .page23 {
     .page-title {
       margin-bottom: 0;
     }
@@ -567,7 +577,7 @@ embed, iframe, object {
       }
     }
   }
-  .page23 {
+  .page24 {
     .page-item {
       font-size: .8em;
       padding-bottom: 84px;
@@ -579,7 +589,7 @@ embed, iframe, object {
       }
     }
   }
-  .page24 {
+  .page25 {
     .page-item {
       padding-bottom: 50px;
       .definition-list {
@@ -596,15 +606,15 @@ embed, iframe, object {
       }
     }
   }
-  .page25 {
+  .page26 {
     .page-item {
       padding: 26px 0 79px;
-      .item-page25 {
+      .item-page26 {
         display: inline-block;
         width: calc(49% - 60px);
         padding: 0 10px;
         vertical-align: top;
-        + .item-page25 {
+        + .item-page26 {
           width: 49%;
           border-left: 1px solid;
         }
@@ -625,17 +635,17 @@ embed, iframe, object {
       }
     }
   }
-  .page26 {
+  .page27 {
     .page-item {
       padding: 20px 0 85px;
     }
   }
-  .page27 {
+  .page28 {
     .page-item {
       padding-bottom: 105px;
     }
   }
-  .page28 {
+  .page29 {
     .page-item {
       padding: 24px 0 198px;
       ol {
@@ -643,13 +653,13 @@ embed, iframe, object {
       }
     }
   }
-  .page29,
-  .page30 {
+  .page30,
+  .page31 {
     .page-item {
       padding: 24px 0 133px;
     }
   }
-  .page31 {
+  .page32 {
     .page-item {
       padding: 40px 0 141px;
       li {
@@ -657,17 +667,17 @@ embed, iframe, object {
       }
     }
   }
-  .page32 {
+  .page33 {
     .page-item {
       padding-bottom: 48px;
     }
   }
-  .page33 {
+  .page34 {
     .page-item {
       padding: 23px 0 80px;
     }
   }
-  .page34 {
+  .page35 {
     .page-title {
       font-size: 1.03em;
     }
@@ -678,7 +688,7 @@ embed, iframe, object {
       }
     }
   }
-  .page35 {
+  .page36 {
     .page-title {
       font-size: 1.03em;
     }
@@ -694,7 +704,7 @@ embed, iframe, object {
       }
     }
   }
-  .page36 {
+  .page37 {
     .page-item {
       padding: 20px 0 90px;
       a {
@@ -707,14 +717,14 @@ embed, iframe, object {
       }
     }
   }
-  .page37 {
+  .page38 {
     .page-item {
       padding: 26px 0 60px;
-      .item-page37 {
+      .item-page38 {
         display: inline-block;
         width: calc(49% - 60px);
         padding: 0 10px;
-        + .item-page37 {
+        + .item-page38 {
           width: 49%;
           border-left: 1px solid;
         }
@@ -732,7 +742,7 @@ embed, iframe, object {
       }
     }
   }
-  .page38 {
+  .page39 {
     .page-item {
       padding: 50px 0 134px;
       p {
@@ -741,7 +751,7 @@ embed, iframe, object {
       }
     }
   }
-  .page39 {
+  .page40 {
     header {
       font-size: 2em;
       padding: 50px 0 169px;
